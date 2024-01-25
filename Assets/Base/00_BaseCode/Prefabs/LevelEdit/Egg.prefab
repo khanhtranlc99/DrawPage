@@ -1,0 +1,2546 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &624796015217371205
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6038939789552745578}
+  - component: {fileID: 7311871213274787466}
+  - component: {fileID: 4733756616476343039}
+  - component: {fileID: 5188501245137593424}
+  m_Layer: 5
+  m_Name: Group 60
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6038939789552745578
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624796015217371205}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9084922897492288506}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 596.5625, y: -1130.584}
+  m_SizeDelta: {x: 1064, y: 884}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &7311871213274787466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624796015217371205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 342:375
+    formattedName: Group 60
+    spriteName: Group 60 0.5x 342569813.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 624796015217371205}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 0}
+    spriteSize: {x: 532, y: 442}
+    size: {x: 1064, y: 884}
+    position: {x: 12919.5625, y: -2460.584}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 342569813
+    hashDataTree: "\u2014\u2014\u2014\u2014Egg/Group 60\r\n    isVisible | True\r\n   
+      Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
+      StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent |
+      False\r\n    Size | (1063.6, 883.8)\r\n    isVisible | True\r\n    Type | GROUP\r\n   
+      GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n    Size | (1063.6,
+      883.8)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle | 0\r\n       
+      EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Egg/Group
+      60/Group\r\n    isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle
+      | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode |
+      PASS_THROUGH\r\n    ClipsContent | False\r\n    Size | (1063.6, 883.8)\r\n   
+      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | False\r\n    Size | (1063.6, 883.8)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Egg/Group
+      60/Group/Vector\r\n    isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle
+      | 0\r\n    FillGeometry | -979389654\r\n    StrokeWeight | 1\r\n    StrokeAlign
+      | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size | (1031.9, 852.1)\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | -979389654\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (1031.9, 852.1)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
+      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 1.000,
+      1.000, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
+      \u2014\u2014\u2014\u2014Egg/Group 60/Group/Vector\r\n        isVisible | True\r\n       
+      Type | VECTOR\r\n        GetFigmaRotationAngle | 0\r\n        FillGeometry
+      | -1281596001\r\n        StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n       
+      BlendMode | PASS_THROUGH\r\n        Size | (1063.6, 883.8)\r\n        isVisible
+      | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle | 0\r\n       
+      FillGeometry | -1281596001\r\n        StrokeWeight | 1\r\n        StrokeAlign
+      | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size | (1063.6, 883.8)\r\n       
+      \u2014\u2014\u2014\u2014Fills\r\n            IsVisible | True\r\n           
+      Type | SOLID\r\n            Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n           
+      BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n    \u2014\u2014\u2014\u2014Egg/Group 60/Vector\r\n        isVisible
+      | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle | 0\r\n       
+      FillGeometry | -1488197426\r\n        StrokeWeight | 1\r\n        StrokeAlign
+      | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size | (450.9, 407.4)\r\n       
+      isVisible | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle
+      | 0\r\n        FillGeometry | -1488197426\r\n        StrokeWeight | 1\r\n       
+      StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size |
+      (450.9, 407.4)\r\n        \u2014\u2014\u2014\u2014Fills\r\n            IsVisible
+      | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000, 0.808,
+      0.192, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014Egg/Group 60/Vector\r\n            isVisible
+      | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle |
+      0\r\n            FillGeometry | 1843288471\r\n            StrokeWeight | 1\r\n           
+      StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      Size | (1055.9, 876.1)\r\n            isVisible | True\r\n            Type
+      | VECTOR\r\n            GetFigmaRotationAngle | 0\r\n            FillGeometry
+      | 1843288471\r\n            StrokeWeight | 1\r\n            StrokeAlign | INSIDE\r\n           
+      BlendMode | PASS_THROUGH\r\n            Size | (1055.9, 876.1)\r\n           
+      \u2014\u2014\u2014\u2014Fills\r\n                IsVisible | True\r\n               
+      Type | SOLID\r\n                Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n               
+      BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n            \u2014\u2014\u2014\u2014Egg/Group 60/Vector\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | -505739638\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (506.6, 463.1)\r\n                isVisible
+      | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | -505739638\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (506.6, 463.1)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                    BlendMode |
+      NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014Egg/Group 60/Vector\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | -991154978\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (1000.1, 585.7)\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | -991154978\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (1000.1, 585.7)\r\n                   
+      \u2014\u2014\u2014\u2014Fills\r\n                        IsVisible | True\r\n                       
+      Type | SOLID\r\n                        Color | RGBA(0.827, 0.929, 0.875, 1.000)\r\n                       
+      BlendMode | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014Egg/Group 60/Vector\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | 560627954\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (445.6, 281.9)\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | 560627954\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (445.6, 281.9)\r\n                       
+      \u2014\u2014\u2014\u2014Fills\r\n                            IsVisible | True\r\n                           
+      Type | SOLID\r\n                            Color | RGBA(0.988, 0.627, 0.153,
+      1.000)\r\n                            BlendMode | NORMAL\r\n                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                            StartingAngle
+      | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014Egg/Group
+      60/Vector\r\n                            isVisible | True\r\n                           
+      Type | VECTOR\r\n                            GetFigmaRotationAngle | 0\r\n                           
+      FillGeometry | -739165\r\n                            StrokeWeight | 1\r\n                           
+      StrokeAlign | INSIDE\r\n                            BlendMode | PASS_THROUGH\r\n                           
+      Size | (142.3, 131.3)\r\n                            isVisible | True\r\n                           
+      Type | VECTOR\r\n                            GetFigmaRotationAngle | 0\r\n                           
+      FillGeometry | -739165\r\n                            StrokeWeight | 1\r\n                           
+      StrokeAlign | INSIDE\r\n                            BlendMode | PASS_THROUGH\r\n                           
+      Size | (142.3, 131.3)\r\n                            \u2014\u2014\u2014\u2014Fills\r\n                               
+      IsVisible | True\r\n                                Type | SOLID\r\n                               
+      Color | RGBA(1.000, 0.980, 0.631, 1.000)\r\n                               
+      BlendMode | NORMAL\r\n                            \u2014\u2014\u2014\u2014ArcData\r\n                               
+      StartingAngle | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                            \u2014\u2014\u2014\u2014Egg/Group
+      60/Vector\r\n                                isVisible | True\r\n                               
+      Type | VECTOR\r\n                                GetFigmaRotationAngle | 0\r\n                               
+      FillGeometry | -1481239695\r\n                                StrokeWeight
+      | 1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                Size | (40.9, 23.6)\r\n                               
+      isVisible | True\r\n                                Type | VECTOR\r\n                               
+      GetFigmaRotationAngle | 0\r\n                                FillGeometry |
+      -1481239695\r\n                                StrokeWeight | 1\r\n                               
+      StrokeAlign | INSIDE\r\n                                BlendMode | PASS_THROUGH\r\n                               
+      Size | (40.9, 23.6)\r\n                                \u2014\u2014\u2014\u2014Fills\r\n                                   
+      IsVisible | True\r\n                                    Type | SOLID\r\n                                   
+      Color | RGBA(1.000, 0.980, 0.631, 1.000)\r\n                                   
+      BlendMode | NORMAL\r\n                                \u2014\u2014\u2014\u2014ArcData\r\n                                   
+      StartingAngle | 0\r\n                                    EndingAngle | 0\r\n                                   
+      InnerRadius | 0\r\n                                \u2014\u2014\u2014\u2014Egg/Group
+      60/Vector\r\n                                    isVisible | True\r\n                                   
+      Type | VECTOR\r\n                                    GetFigmaRotationAngle
+      | 0\r\n                                    FillGeometry | -676816966\r\n                                   
+      StrokeWeight | 1\r\n                                    StrokeAlign | INSIDE\r\n                                   
+      BlendMode | PASS_THROUGH\r\n                                    Size | (149.2,
+      428.1)\r\n                                    isVisible | True\r\n                                   
+      Type | VECTOR\r\n                                    GetFigmaRotationAngle
+      | 0\r\n                                    FillGeometry | -676816966\r\n                                   
+      StrokeWeight | 1\r\n                                    StrokeAlign | INSIDE\r\n                                   
+      BlendMode | PASS_THROUGH\r\n                                    Size | (149.2,
+      428.1)\r\n                                    \u2014\u2014\u2014\u2014Fills\r\n                                       
+      IsVisible | True\r\n                                        Type | SOLID\r\n                                       
+      Color | RGBA(0.729, 0.867, 0.824, 1.000)\r\n                                       
+      BlendMode | NORMAL\r\n                                    \u2014\u2014\u2014\u2014ArcData\r\n                                       
+      StartingAngle | 0\r\n                                        EndingAngle |
+      0\r\n                                        InnerRadius | 0\r\n                                   
+      \u2014\u2014\u2014\u2014Egg/Group 60/Vector\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | -1330023021\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (529.6, 75.2)\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | -1330023021\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (529.6, 75.2)\r\n                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                           
+      IsVisible | True\r\n                                            Type | SOLID\r\n                                           
+      Color | RGBA(0.729, 0.867, 0.824, 1.000)\r\n                                           
+      BlendMode | NORMAL\r\n                                        \u2014\u2014\u2014\u2014ArcData\r\n                                           
+      StartingAngle | 0\r\n                                            EndingAngle
+      | 0\r\n                                            InnerRadius | 0\r\n                                       
+      \u2014\u2014\u2014\u2014Egg/Group 60/Vector\r\n                                           
+      isVisible | True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            FillGeometry
+      | -596004882\r\n                                            StrokeWeight |
+      1\r\n                                            StrokeAlign | INSIDE\r\n                                           
+      BlendMode | PASS_THROUGH\r\n                                            Size
+      | (24.7, 42.8)\r\n                                            isVisible | True\r\n                                           
+      Type | VECTOR\r\n                                            GetFigmaRotationAngle
+      | 0\r\n                                            FillGeometry | -596004882\r\n                                           
+      StrokeWeight | 1\r\n                                            StrokeAlign
+      | INSIDE\r\n                                            BlendMode | PASS_THROUGH\r\n                                           
+      Size | (24.7, 42.8)\r\n                                            \u2014\u2014\u2014\u2014Fills\r\n                                               
+      IsVisible | True\r\n                                                Type |
+      SOLID\r\n                                                Color | RGBA(0.592,
+      0.776, 0.678, 1.000)\r\n                                                BlendMode
+      | NORMAL\r\n                                            \u2014\u2014\u2014\u2014ArcData\r\n                                               
+      StartingAngle | 0\r\n                                                EndingAngle
+      | 0\r\n                                                InnerRadius | 0\r\n                                           
+      \u2014\u2014\u2014\u2014Egg/Group 60/Vector\r\n                                               
+      isVisible | True\r\n                                                Type |
+      VECTOR\r\n                                                GetFigmaRotationAngle
+      | 0\r\n                                                FillGeometry | -904645043\r\n                                               
+      StrokeWeight | 1\r\n                                                StrokeAlign
+      | INSIDE\r\n                                                BlendMode | PASS_THROUGH\r\n                                               
+      Size | (54.0, 38.4)\r\n                                                isVisible
+      | True\r\n                                                Type | VECTOR\r\n                                               
+      GetFigmaRotationAngle | 0\r\n                                               
+      FillGeometry | -904645043\r\n                                               
+      StrokeWeight | 1\r\n                                                StrokeAlign
+      | INSIDE\r\n                                                BlendMode | PASS_THROUGH\r\n                                               
+      Size | (54.0, 38.4)\r\n                                                \u2014\u2014\u2014\u2014Fills\r\n                                                   
+      IsVisible | True\r\n                                                    Type
+      | SOLID\r\n                                                    Color | RGBA(0.729,
+      0.867, 0.824, 1.000)\r\n                                                   
+      BlendMode | NORMAL\r\n                                                \u2014\u2014\u2014\u2014ArcData\r\n                                                   
+      StartingAngle | 0\r\n                                                    EndingAngle
+      | 0\r\n                                                    InnerRadius | 0\r\n                                               
+      \u2014\u2014\u2014\u2014Egg/Group 60/Group\r\n                                                   
+      isVisible | True\r\n                                                    Type
+      | GROUP\r\n                                                    GetFigmaRotationAngle
+      | 0\r\n                                                    StrokeWeight | 1\r\n                                                   
+      StrokeAlign | INSIDE\r\n                                                   
+      BlendMode | PASS_THROUGH\r\n                                                   
+      ClipsContent | False\r\n                                                   
+      Size | (320.6, 116.7)\r\n                                                   
+      isVisible | True\r\n                                                    Type
+      | GROUP\r\n                                                    GetFigmaRotationAngle
+      | 0\r\n                                                    StrokeWeight | 1\r\n                                                   
+      StrokeAlign | INSIDE\r\n                                                   
+      BlendMode | PASS_THROUGH\r\n                                                   
+      ClipsContent | False\r\n                                                   
+      Size | (320.6, 116.7)\r\n                                                   
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                       
+      StartingAngle | 0\r\n                                                       
+      EndingAngle | 0\r\n                                                       
+      InnerRadius | 0\r\n                                                \u2014\u2014\u2014\u2014Egg/Group
+      60/Group/Vector\r\n                                                    isVisible
+      | True\r\n                                                    Type | VECTOR\r\n                                                   
+      GetFigmaRotationAngle | 0\r\n                                                   
+      FillGeometry | -610663997\r\n                                                   
+      StrokeWeight | 1\r\n                                                    StrokeAlign
+      | INSIDE\r\n                                                    BlendMode |
+      PASS_THROUGH\r\n                                                    Size |
+      (49.6, 33.0)\r\n                                                    isVisible
+      | True\r\n                                                    Type | VECTOR\r\n                                                   
+      GetFigmaRotationAngle | 0\r\n                                                   
+      FillGeometry | -610663997\r\n                                                   
+      StrokeWeight | 1\r\n                                                    StrokeAlign
+      | INSIDE\r\n                                                    BlendMode |
+      PASS_THROUGH\r\n                                                    Size |
+      (49.6, 33.0)\r\n                                                    \u2014\u2014\u2014\u2014Fills\r\n                                                       
+      IsVisible | True\r\n                                                       
+      Type | SOLID\r\n                                                        Color
+      | RGBA(0.949, 0.502, 0.541, 1.000)\r\n                                                       
+      BlendMode | NORMAL\r\n                                                    \u2014\u2014\u2014\u2014ArcData\r\n                                                       
+      StartingAngle | 0\r\n                                                       
+      EndingAngle | 0\r\n                                                       
+      InnerRadius | 0\r\n                                                    \u2014\u2014\u2014\u2014Egg/Group
+      60/Group/Vector\r\n                                                       
+      isVisible | True\r\n                                                       
+      Type | VECTOR\r\n                                                        GetFigmaRotationAngle
+      | 0\r\n                                                        FillGeometry
+      | -1961252587\r\n                                                        StrokeWeight
+      | 1\r\n                                                        StrokeAlign
+      | INSIDE\r\n                                                        BlendMode
+      | PASS_THROUGH\r\n                                                        Size
+      | (49.6, 33.0)\r\n                                                        isVisible
+      | True\r\n                                                        Type | VECTOR\r\n                                                       
+      GetFigmaRotationAngle | 0\r\n                                                       
+      FillGeometry | -1961252587\r\n                                                       
+      StrokeWeight | 1\r\n                                                       
+      StrokeAlign | INSIDE\r\n                                                       
+      BlendMode | PASS_THROUGH\r\n                                                       
+      Size | (49.6, 33.0)\r\n                                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                                           
+      IsVisible | True\r\n                                                           
+      Type | SOLID\r\n                                                           
+      Color | RGBA(0.949, 0.502, 0.541, 1.000)\r\n                                                           
+      BlendMode | NORMAL\r\n                                                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                           
+      StartingAngle | 0\r\n                                                           
+      EndingAngle | 0\r\n                                                           
+      InnerRadius | 0\r\n                                                       
+      \u2014\u2014\u2014\u2014Egg/Group 60/Group/Vector\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | VECTOR\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      FillGeometry | 843622970\r\n                                                           
+      StrokeWeight | 1\r\n                                                           
+      StrokeAlign | INSIDE\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      Size | (64.9, 38.6)\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | VECTOR\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      FillGeometry | 843622970\r\n                                                           
+      StrokeWeight | 1\r\n                                                           
+      StrokeAlign | INSIDE\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      Size | (64.9, 38.6)\r\n                                                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                                               
+      IsVisible | True\r\n                                                               
+      Type | SOLID\r\n                                                               
+      Color | RGBA(0.176, 0.239, 0.122, 1.000)\r\n                                                               
+      BlendMode | NORMAL\r\n                                                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                               
+      StartingAngle | 0\r\n                                                               
+      EndingAngle | 0\r\n                                                               
+      InnerRadius | 0\r\n                                                           
+      \u2014\u2014\u2014\u2014Egg/Group 60/Group/Vector\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | VECTOR\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      FillGeometry | -1944587961\r\n                                                               
+      StrokeWeight | 1\r\n                                                               
+      StrokeAlign | INSIDE\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      Size | (64.9, 38.6)\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | VECTOR\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      FillGeometry | -1944587961\r\n                                                               
+      StrokeWeight | 1\r\n                                                               
+      StrokeAlign | INSIDE\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      Size | (64.9, 38.6)\r\n                                                               
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                   
+      IsVisible | True\r\n                                                                   
+      Type | SOLID\r\n                                                                   
+      Color | RGBA(0.176, 0.239, 0.122, 1.000)\r\n                                                                   
+      BlendMode | NORMAL\r\n                                                               
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                   
+      StartingAngle | 0\r\n                                                                   
+      EndingAngle | 0\r\n                                                                   
+      InnerRadius | 0\r\n                                                               
+      \u2014\u2014\u2014\u2014Egg/Group 60/Group/Vector\r\n                                                                   
+      isVisible | True\r\n                                                                   
+      Type | VECTOR\r\n                                                                   
+      GetFigmaRotationAngle | 0\r\n                                                                   
+      FillGeometry | -1586283861\r\n                                                                   
+      StrokeWeight | 1\r\n                                                                   
+      StrokeAlign | INSIDE\r\n                                                                   
+      BlendMode | PASS_THROUGH\r\n                                                                   
+      Size | (116.8, 79.2)\r\n                                                                   
+      isVisible | True\r\n                                                                   
+      Type | VECTOR\r\n                                                                   
+      GetFigmaRotationAngle | 0\r\n                                                                   
+      FillGeometry | -1586283861\r\n                                                                   
+      StrokeWeight | 1\r\n                                                                   
+      StrokeAlign | INSIDE\r\n                                                                   
+      BlendMode | PASS_THROUGH\r\n                                                                   
+      Size | (116.8, 79.2)\r\n                                                                   
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                       
+      IsVisible | True\r\n                                                                       
+      Type | SOLID\r\n                                                                       
+      Color | RGBA(0.380, 0.176, 0.176, 1.000)\r\n                                                                       
+      BlendMode | NORMAL\r\n                                                                   
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                       
+      StartingAngle | 0\r\n                                                                       
+      EndingAngle | 0\r\n                                                                       
+      InnerRadius | 0\r\n                                                                   
+      \u2014\u2014\u2014\u2014Egg/Group 60/Group/Vector\r\n                                                                       
+      isVisible | True\r\n                                                                       
+      Type | VECTOR\r\n                                                                       
+      GetFigmaRotationAngle | 0\r\n                                                                       
+      FillGeometry | 1331632334\r\n                                                                       
+      StrokeWeight | 1\r\n                                                                       
+      StrokeAlign | INSIDE\r\n                                                                       
+      BlendMode | PASS_THROUGH\r\n                                                                       
+      Size | (97.5, 48.0)\r\n                                                                       
+      isVisible | True\r\n                                                                       
+      Type | VECTOR\r\n                                                                       
+      GetFigmaRotationAngle | 0\r\n                                                                       
+      FillGeometry | 1331632334\r\n                                                                       
+      StrokeWeight | 1\r\n                                                                       
+      StrokeAlign | INSIDE\r\n                                                                       
+      BlendMode | PASS_THROUGH\r\n                                                                       
+      Size | (97.5, 48.0)\r\n                                                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                           
+      IsVisible | True\r\n                                                                           
+      Type | SOLID\r\n                                                                           
+      Color | RGBA(0.949, 0.502, 0.541, 1.000)\r\n                                                                           
+      BlendMode | NORMAL\r\n                                                                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                           
+      StartingAngle | 0\r\n                                                                           
+      EndingAngle | 0\r\n                                                                           
+      InnerRadius | 0\r\n"
+    parentIndex: 107
+    hierarchy: Egg/Group 60
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &4733756616476343039
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624796015217371205}
+  m_CullTransparentMesh: 1
+--- !u!114 &5188501245137593424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624796015217371205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3c12872dae30b4b44ae8aad7b465f57d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &2908915255337237508
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9084922897492288506}
+  - component: {fileID: 1769262574945130233}
+  - component: {fileID: 4809142579663254252}
+  - component: {fileID: 5334339843275665140}
+  - component: {fileID: 267413197836998570}
+  m_Layer: 5
+  m_Name: Egg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &9084922897492288506
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2908915255337237508}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6038939789552745578}
+  - {fileID: 3753327441232655901}
+  - {fileID: 638102726520434925}
+  - {fileID: 8860679558541367653}
+  - {fileID: 7443972993113742337}
+  - {fileID: 8476454362474949964}
+  - {fileID: 3709939665554497422}
+  - {fileID: 7833906329331600327}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 14050, y: -4760.5}
+  m_SizeDelta: {x: 2390, y: 2137}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1769262574945130233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2908915255337237508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 342:269
+    formattedName: Egg
+    spriteName: Egg 0.5x 605709681.png
+    tags: 02000000f6010000c900000001000000
+    childIndexes: 6c0000006d0000006e0000006f00000070000000710000007200000073000000
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 2908915255337237508}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 0}
+    spriteSize: {x: 1194, y: 1068}
+    size: {x: 2390, y: 2137}
+    position: {x: 12855, y: -1772}
+    fcuImageType: 3
+    buttonComponent: 0
+    hash: 605709681
+    hashDataTree: "\u2014\u2014\u2014\u2014Egg\r\n    isVisible | True\r\n    Type
+      | FRAME\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -1658732401\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | True\r\n    Size | (2390.0, 2137.0)\r\n    isVisible | True\r\n   
+      Type | FRAME\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -1658732401\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | True\r\n    Size | (2390.0, 2137.0)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
+      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(0.497, 0.321,
+      1.000, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Egg/Group
+      60\r\n    isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle
+      | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode |
+      PASS_THROUGH\r\n    ClipsContent | False\r\n    Size | (1063.6, 883.8)\r\n   
+      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | False\r\n    Size | (1063.6, 883.8)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Egg/Group
+      60/Group\r\n    isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle
+      | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode |
+      PASS_THROUGH\r\n    ClipsContent | False\r\n    Size | (1063.6, 883.8)\r\n   
+      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | False\r\n    Size | (1063.6, 883.8)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Egg/Group
+      60/Group/Vector\r\n    isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle
+      | 0\r\n    FillGeometry | -979389654\r\n    StrokeWeight | 1\r\n    StrokeAlign
+      | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size | (1031.9, 852.1)\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | -979389654\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (1031.9, 852.1)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
+      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 1.000,
+      1.000, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
+      \u2014\u2014\u2014\u2014Egg/Group 60/Group/Vector\r\n        isVisible | True\r\n       
+      Type | VECTOR\r\n        GetFigmaRotationAngle | 0\r\n        FillGeometry
+      | -1281596001\r\n        StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n       
+      BlendMode | PASS_THROUGH\r\n        Size | (1063.6, 883.8)\r\n        isVisible
+      | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle | 0\r\n       
+      FillGeometry | -1281596001\r\n        StrokeWeight | 1\r\n        StrokeAlign
+      | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size | (1063.6, 883.8)\r\n       
+      \u2014\u2014\u2014\u2014Fills\r\n            IsVisible | True\r\n           
+      Type | SOLID\r\n            Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n           
+      BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n    \u2014\u2014\u2014\u2014Egg/Group 60/Vector\r\n        isVisible
+      | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle | 0\r\n       
+      FillGeometry | -1488197426\r\n        StrokeWeight | 1\r\n        StrokeAlign
+      | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size | (450.9, 407.4)\r\n       
+      isVisible | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle
+      | 0\r\n        FillGeometry | -1488197426\r\n        StrokeWeight | 1\r\n       
+      StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size |
+      (450.9, 407.4)\r\n        \u2014\u2014\u2014\u2014Fills\r\n            IsVisible
+      | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000, 0.808,
+      0.192, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n    \u2014\u2014\u2014\u2014Egg/Egg_Shape_01_#FFFFFF\r\n        isVisible
+      | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle | 0\r\n       
+      FillGeometry | 2132794335\r\n        StrokeWeight | 1\r\n        StrokeAlign
+      | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size | (1031.9, 852.1)\r\n       
+      isVisible | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle
+      | 0\r\n        FillGeometry | 2132794335\r\n        StrokeWeight | 1\r\n       
+      StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size |
+      (1031.9, 852.1)\r\n        \u2014\u2014\u2014\u2014Fills\r\n            IsVisible
+      | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000, 1.000,
+      1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014Egg/Group 60/Vector\r\n            isVisible
+      | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle |
+      0\r\n            FillGeometry | 1843288471\r\n            StrokeWeight | 1\r\n           
+      StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      Size | (1055.9, 876.1)\r\n            isVisible | True\r\n            Type
+      | VECTOR\r\n            GetFigmaRotationAngle | 0\r\n            FillGeometry
+      | 1843288471\r\n            StrokeWeight | 1\r\n            StrokeAlign | INSIDE\r\n           
+      BlendMode | PASS_THROUGH\r\n            Size | (1055.9, 876.1)\r\n           
+      \u2014\u2014\u2014\u2014Fills\r\n                IsVisible | True\r\n               
+      Type | SOLID\r\n                Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n               
+      BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014Egg/Egg_Shape_02_#FFC714\r\n           
+      isVisible | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle
+      | 0\r\n            FillGeometry | -1676916697\r\n            StrokeWeight |
+      1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      Size | (450.9, 407.4)\r\n            isVisible | True\r\n            Type |
+      VECTOR\r\n            GetFigmaRotationAngle | 0\r\n            FillGeometry
+      | -1676916697\r\n            StrokeWeight | 1\r\n            StrokeAlign |
+      INSIDE\r\n            BlendMode | PASS_THROUGH\r\n            Size | (450.9,
+      407.4)\r\n            \u2014\u2014\u2014\u2014Fills\r\n                IsVisible
+      | True\r\n                Type | SOLID\r\n                Color | RGBA(1.000,
+      1.000, 1.000, 1.000)\r\n                BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n            \u2014\u2014\u2014\u2014Egg/Group 60/Vector\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | -505739638\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (506.6, 463.1)\r\n                isVisible
+      | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | -505739638\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (506.6, 463.1)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                    BlendMode |
+      NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014Egg/Egg_Plus\r\n               
+      isVisible | True\r\n                Type | GROUP\r\n                GetFigmaRotationAngle
+      | 0\r\n                StrokeWeight | 1\r\n                StrokeAlign | INSIDE\r\n               
+      BlendMode | PASS_THROUGH\r\n                ClipsContent | False\r\n               
+      Size | (1000.1, 615.7)\r\n                isVisible | True\r\n               
+      Type | GROUP\r\n                GetFigmaRotationAngle | 0\r\n               
+      StrokeWeight | 1\r\n                StrokeAlign | INSIDE\r\n               
+      BlendMode | PASS_THROUGH\r\n                ClipsContent | False\r\n               
+      Size | (1000.1, 615.7)\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group 62\r\n               
+      isVisible | True\r\n                Type | GROUP\r\n                GetFigmaRotationAngle
+      | 0\r\n                StrokeWeight | 1\r\n                StrokeAlign | INSIDE\r\n               
+      BlendMode | PASS_THROUGH\r\n                ClipsContent | False\r\n               
+      Size | (1000.1, 615.7)\r\n                isVisible | True\r\n               
+      Type | GROUP\r\n                GetFigmaRotationAngle | 0\r\n               
+      StrokeWeight | 1\r\n                StrokeAlign | INSIDE\r\n               
+      BlendMode | PASS_THROUGH\r\n                ClipsContent | False\r\n               
+      Size | (1000.1, 615.7)\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group 62/Vector\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | -199693029\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (149.2, 428.1)\r\n                isVisible
+      | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | -199693029\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (149.2, 428.1)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Opacity | 0.2\r\n                    Color | RGBA(0.200, 0.200, 0.200, 1.000)\r\n                   
+      BlendMode | NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014Egg/Group 60/Vector\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | -991154978\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (1000.1, 585.7)\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | -991154978\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (1000.1, 585.7)\r\n                   
+      \u2014\u2014\u2014\u2014Fills\r\n                        IsVisible | True\r\n                       
+      Type | SOLID\r\n                        Color | RGBA(0.827, 0.929, 0.875, 1.000)\r\n                       
+      BlendMode | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group
+      62/Vector\r\n                    isVisible | True\r\n                    Type
+      | VECTOR\r\n                    GetFigmaRotationAngle | 0\r\n                   
+      FillGeometry | -898536689\r\n                    StrokeWeight | 1\r\n                   
+      StrokeAlign | INSIDE\r\n                    BlendMode | PASS_THROUGH\r\n                   
+      Size | (529.6, 75.2)\r\n                    isVisible | True\r\n                   
+      Type | VECTOR\r\n                    GetFigmaRotationAngle | 0\r\n                   
+      FillGeometry | -898536689\r\n                    StrokeWeight | 1\r\n                   
+      StrokeAlign | INSIDE\r\n                    BlendMode | PASS_THROUGH\r\n                   
+      Size | (529.6, 75.2)\r\n                    \u2014\u2014\u2014\u2014Fills\r\n                       
+      IsVisible | True\r\n                        Type | SOLID\r\n                       
+      Opacity | 0.2\r\n                        Color | RGBA(0.200, 0.200, 0.200,
+      1.000)\r\n                        BlendMode | NORMAL\r\n                   
+      \u2014\u2014\u2014\u2014ArcData\r\n                        StartingAngle |
+      0\r\n                        EndingAngle | 0\r\n                        InnerRadius
+      | 0\r\n                \u2014\u2014\u2014\u2014Egg/Egg_Plus/Vector\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | 1395407397\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (445.6, 281.9)\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | 1395407397\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (445.6, 281.9)\r\n                   
+      \u2014\u2014\u2014\u2014Fills\r\n                        IsVisible | True\r\n                       
+      Type | SOLID\r\n                        Opacity | 0.2\r\n                       
+      Color | RGBA(0.200, 0.200, 0.200, 1.000)\r\n                        BlendMode
+      | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014Egg/Egg_Stroke_01\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | 1623598265\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (1063.7, 883.8)\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | 1623598265\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (1063.7, 883.8)\r\n                   
+      \u2014\u2014\u2014\u2014Fills\r\n                        IsVisible | True\r\n                       
+      Type | SOLID\r\n                        Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                       
+      BlendMode | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014Egg/Group 60/Vector\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | 560627954\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (445.6, 281.9)\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | 560627954\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (445.6, 281.9)\r\n                       
+      \u2014\u2014\u2014\u2014Fills\r\n                            IsVisible | True\r\n                           
+      Type | SOLID\r\n                            Color | RGBA(0.988, 0.627, 0.153,
+      1.000)\r\n                            BlendMode | NORMAL\r\n                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                            StartingAngle
+      | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group
+      62/Vector\r\n                        isVisible | True\r\n                       
+      Type | VECTOR\r\n                        GetFigmaRotationAngle | 0\r\n                       
+      FillGeometry | -221657978\r\n                        StrokeWeight | 1\r\n                       
+      StrokeAlign | INSIDE\r\n                        BlendMode | PASS_THROUGH\r\n                       
+      Size | (24.7, 42.8)\r\n                        isVisible | True\r\n                       
+      Type | VECTOR\r\n                        GetFigmaRotationAngle | 0\r\n                       
+      FillGeometry | -221657978\r\n                        StrokeWeight | 1\r\n                       
+      StrokeAlign | INSIDE\r\n                        BlendMode | PASS_THROUGH\r\n                       
+      Size | (24.7, 42.8)\r\n                        \u2014\u2014\u2014\u2014Fills\r\n                           
+      IsVisible | True\r\n                            Type | SOLID\r\n                           
+      Opacity | 0.3\r\n                            Color | RGBA(0.200, 0.200, 0.200,
+      1.000)\r\n                            BlendMode | NORMAL\r\n                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                            StartingAngle
+      | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group
+      61\r\n                        isVisible | True\r\n                        Type
+      | GROUP\r\n                        GetFigmaRotationAngle | 0\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        ClipsContent | False\r\n                       
+      Size | (214.0, 139.6)\r\n                        isVisible | True\r\n                       
+      Type | GROUP\r\n                        GetFigmaRotationAngle | 0\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        ClipsContent | False\r\n                       
+      Size | (214.0, 139.6)\r\n                        \u2014\u2014\u2014\u2014ArcData\r\n                           
+      StartingAngle | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group
+      61/Vector\r\n                        isVisible | True\r\n                       
+      Type | VECTOR\r\n                        GetFigmaRotationAngle | 0\r\n                       
+      FillGeometry | -535764219\r\n                        StrokeWeight | 1\r\n                       
+      StrokeAlign | INSIDE\r\n                        BlendMode | PASS_THROUGH\r\n                       
+      Size | (142.3, 131.3)\r\n                        isVisible | True\r\n                       
+      Type | VECTOR\r\n                        GetFigmaRotationAngle | 0\r\n                       
+      FillGeometry | -535764219\r\n                        StrokeWeight | 1\r\n                       
+      StrokeAlign | INSIDE\r\n                        BlendMode | PASS_THROUGH\r\n                       
+      Size | (142.3, 131.3)\r\n                        \u2014\u2014\u2014\u2014Fills\r\n                           
+      IsVisible | True\r\n                            Type | SOLID\r\n                           
+      Opacity | 0.7\r\n                            Color | RGBA(1.000, 1.000, 1.000,
+      1.000)\r\n                            BlendMode | NORMAL\r\n                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                            StartingAngle
+      | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014Egg/Egg_Stroke_02\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | 1386339944\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (514.4, 470.8)\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | 1386339944\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (514.4, 470.8)\r\n                       
+      \u2014\u2014\u2014\u2014Fills\r\n                            IsVisible | True\r\n                           
+      Type | SOLID\r\n                            Color | RGBA(0.000, 0.000, 0.000,
+      1.000)\r\n                            BlendMode | NORMAL\r\n                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                            StartingAngle
+      | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014Egg/Group
+      60/Vector\r\n                            isVisible | True\r\n                           
+      Type | VECTOR\r\n                            GetFigmaRotationAngle | 0\r\n                           
+      FillGeometry | -739165\r\n                            StrokeWeight | 1\r\n                           
+      StrokeAlign | INSIDE\r\n                            BlendMode | PASS_THROUGH\r\n                           
+      Size | (142.3, 131.3)\r\n                            isVisible | True\r\n                           
+      Type | VECTOR\r\n                            GetFigmaRotationAngle | 0\r\n                           
+      FillGeometry | -739165\r\n                            StrokeWeight | 1\r\n                           
+      StrokeAlign | INSIDE\r\n                            BlendMode | PASS_THROUGH\r\n                           
+      Size | (142.3, 131.3)\r\n                            \u2014\u2014\u2014\u2014Fills\r\n                               
+      IsVisible | True\r\n                                Type | SOLID\r\n                               
+      Color | RGBA(1.000, 0.980, 0.631, 1.000)\r\n                               
+      BlendMode | NORMAL\r\n                            \u2014\u2014\u2014\u2014ArcData\r\n                               
+      StartingAngle | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group
+      62/Vector\r\n                            isVisible | True\r\n                           
+      Type | VECTOR\r\n                            GetFigmaRotationAngle | 0\r\n                           
+      FillGeometry | -1665350707\r\n                            StrokeWeight | 1\r\n                           
+      StrokeAlign | INSIDE\r\n                            BlendMode | PASS_THROUGH\r\n                           
+      Size | (54.0, 38.4)\r\n                            isVisible | True\r\n                           
+      Type | VECTOR\r\n                            GetFigmaRotationAngle | 0\r\n                           
+      FillGeometry | -1665350707\r\n                            StrokeWeight | 1\r\n                           
+      StrokeAlign | INSIDE\r\n                            BlendMode | PASS_THROUGH\r\n                           
+      Size | (54.0, 38.4)\r\n                            \u2014\u2014\u2014\u2014Fills\r\n                               
+      IsVisible | True\r\n                                Type | SOLID\r\n                               
+      Opacity | 0.2\r\n                                Color | RGBA(0.200, 0.200,
+      0.200, 1.000)\r\n                                BlendMode | NORMAL\r\n                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                StartingAngle
+      | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group
+      61/Vector\r\n                            isVisible | True\r\n                           
+      Type | VECTOR\r\n                            GetFigmaRotationAngle | 0\r\n                           
+      FillGeometry | 2054831348\r\n                            StrokeWeight | 1\r\n                           
+      StrokeAlign | INSIDE\r\n                            BlendMode | PASS_THROUGH\r\n                           
+      Size | (40.9, 23.6)\r\n                            isVisible | True\r\n                           
+      Type | VECTOR\r\n                            GetFigmaRotationAngle | 0\r\n                           
+      FillGeometry | 2054831348\r\n                            StrokeWeight | 1\r\n                           
+      StrokeAlign | INSIDE\r\n                            BlendMode | PASS_THROUGH\r\n                           
+      Size | (40.9, 23.6)\r\n                            \u2014\u2014\u2014\u2014Fills\r\n                               
+      IsVisible | True\r\n                                Type | SOLID\r\n                               
+      Opacity | 0.7\r\n                                Color | RGBA(1.000, 1.000,
+      1.000, 1.000)\r\n                                BlendMode | NORMAL\r\n                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                StartingAngle
+      | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group\r\n                           
+      isVisible | True\r\n                            Type | GROUP\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            StrokeWeight | 1\r\n                           
+      StrokeAlign | INSIDE\r\n                            BlendMode | PASS_THROUGH\r\n                           
+      ClipsContent | False\r\n                            Size | (320.6, 116.7)\r\n                           
+      isVisible | True\r\n                            Type | GROUP\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            StrokeWeight | 1\r\n                           
+      StrokeAlign | INSIDE\r\n                            BlendMode | PASS_THROUGH\r\n                           
+      ClipsContent | False\r\n                            Size | (320.6, 116.7)\r\n                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                StartingAngle
+      | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group/Vector\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | 680431128\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (49.6, 33.0)\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | 680431128\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (49.6, 33.0)\r\n                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                IsVisible
+      | True\r\n                                Type | SOLID\r\n                               
+      Color | RGBA(0.949, 0.502, 0.541, 1.000)\r\n                               
+      BlendMode | NORMAL\r\n                            \u2014\u2014\u2014\u2014ArcData\r\n                               
+      StartingAngle | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014Egg/Egg_Dot_01\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | -1008273317\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (1047.4, 867.9)\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | -1008273317\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (1047.4, 867.9)\r\n                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                IsVisible
+      | True\r\n                                Type | SOLID\r\n                               
+      Color | RGBA(0.847, 0.847, 0.847, 1.000)\r\n                               
+      BlendMode | NORMAL\r\n                            \u2014\u2014\u2014\u2014ArcData\r\n                               
+      StartingAngle | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                            \u2014\u2014\u2014\u2014Egg/Group
+      60/Vector\r\n                                isVisible | True\r\n                               
+      Type | VECTOR\r\n                                GetFigmaRotationAngle | 0\r\n                               
+      FillGeometry | -1481239695\r\n                                StrokeWeight
+      | 1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                Size | (40.9, 23.6)\r\n                               
+      isVisible | True\r\n                                Type | VECTOR\r\n                               
+      GetFigmaRotationAngle | 0\r\n                                FillGeometry |
+      -1481239695\r\n                                StrokeWeight | 1\r\n                               
+      StrokeAlign | INSIDE\r\n                                BlendMode | PASS_THROUGH\r\n                               
+      Size | (40.9, 23.6)\r\n                                \u2014\u2014\u2014\u2014Fills\r\n                                   
+      IsVisible | True\r\n                                    Type | SOLID\r\n                                   
+      Color | RGBA(1.000, 0.980, 0.631, 1.000)\r\n                                   
+      BlendMode | NORMAL\r\n                                \u2014\u2014\u2014\u2014ArcData\r\n                                   
+      StartingAngle | 0\r\n                                    EndingAngle | 0\r\n                                   
+      InnerRadius | 0\r\n                            \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group
+      62/Vector\r\n                                isVisible | True\r\n                               
+      Type | VECTOR\r\n                                GetFigmaRotationAngle | 0\r\n                               
+      FillGeometry | -1620006749\r\n                                StrokeWeight
+      | 1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                Size | (1000.1,
+      585.7)\r\n                                isVisible | True\r\n                               
+      Type | VECTOR\r\n                                GetFigmaRotationAngle | 0\r\n                               
+      FillGeometry | -1620006749\r\n                                StrokeWeight
+      | 1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                Size | (1000.1,
+      585.7)\r\n                                \u2014\u2014\u2014\u2014Fills\r\n                                   
+      IsVisible | True\r\n                                    Type | SOLID\r\n                                   
+      Opacity | 0.3\r\n                                    Color | RGBA(0.200, 0.200,
+      0.200, 1.000)\r\n                                    BlendMode | NORMAL\r\n                               
+      \u2014\u2014\u2014\u2014ArcData\r\n                                    StartingAngle
+      | 0\r\n                                    EndingAngle | 0\r\n                                   
+      InnerRadius | 0\r\n                            \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group/Vector\r\n                               
+      isVisible | True\r\n                                Type | VECTOR\r\n                               
+      GetFigmaRotationAngle | 0\r\n                                FillGeometry |
+      2136147472\r\n                                StrokeWeight | 1\r\n                               
+      StrokeAlign | INSIDE\r\n                                BlendMode | PASS_THROUGH\r\n                               
+      Size | (49.6, 33.0)\r\n                                isVisible | True\r\n                               
+      Type | VECTOR\r\n                                GetFigmaRotationAngle | 0\r\n                               
+      FillGeometry | 2136147472\r\n                                StrokeWeight |
+      1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                Size | (49.6, 33.0)\r\n                               
+      \u2014\u2014\u2014\u2014Fills\r\n                                    IsVisible
+      | True\r\n                                    Type | SOLID\r\n                                   
+      Color | RGBA(0.949, 0.502, 0.541, 1.000)\r\n                                   
+      BlendMode | NORMAL\r\n                                \u2014\u2014\u2014\u2014ArcData\r\n                                   
+      StartingAngle | 0\r\n                                    EndingAngle | 0\r\n                                   
+      InnerRadius | 0\r\n                            \u2014\u2014\u2014\u2014Egg/Egg_Dot_02\r\n                               
+      isVisible | True\r\n                                Type | VECTOR\r\n                               
+      GetFigmaRotationAngle | 0\r\n                                FillGeometry |
+      775505914\r\n                                StrokeWeight | 1\r\n                               
+      StrokeAlign | INSIDE\r\n                                BlendMode | PASS_THROUGH\r\n                               
+      Size | (500.1, 455.5)\r\n                                isVisible | True\r\n                               
+      Type | VECTOR\r\n                                GetFigmaRotationAngle | 0\r\n                               
+      FillGeometry | 775505914\r\n                                StrokeWeight |
+      1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                Size | (500.1,
+      455.5)\r\n                                \u2014\u2014\u2014\u2014Fills\r\n                                   
+      IsVisible | True\r\n                                    Type | SOLID\r\n                                   
+      Color | RGBA(0.847, 0.847, 0.847, 1.000)\r\n                                   
+      BlendMode | NORMAL\r\n                                \u2014\u2014\u2014\u2014ArcData\r\n                                   
+      StartingAngle | 0\r\n                                    EndingAngle | 0\r\n                                   
+      InnerRadius | 0\r\n                                \u2014\u2014\u2014\u2014Egg/Group
+      60/Vector\r\n                                    isVisible | True\r\n                                   
+      Type | VECTOR\r\n                                    GetFigmaRotationAngle
+      | 0\r\n                                    FillGeometry | -676816966\r\n                                   
+      StrokeWeight | 1\r\n                                    StrokeAlign | INSIDE\r\n                                   
+      BlendMode | PASS_THROUGH\r\n                                    Size | (149.2,
+      428.1)\r\n                                    isVisible | True\r\n                                   
+      Type | VECTOR\r\n                                    GetFigmaRotationAngle
+      | 0\r\n                                    FillGeometry | -676816966\r\n                                   
+      StrokeWeight | 1\r\n                                    StrokeAlign | INSIDE\r\n                                   
+      BlendMode | PASS_THROUGH\r\n                                    Size | (149.2,
+      428.1)\r\n                                    \u2014\u2014\u2014\u2014Fills\r\n                                       
+      IsVisible | True\r\n                                        Type | SOLID\r\n                                       
+      Color | RGBA(0.729, 0.867, 0.824, 1.000)\r\n                                       
+      BlendMode | NORMAL\r\n                                    \u2014\u2014\u2014\u2014ArcData\r\n                                       
+      StartingAngle | 0\r\n                                        EndingAngle |
+      0\r\n                                        InnerRadius | 0\r\n                               
+      \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group/Vector\r\n                                   
+      isVisible | True\r\n                                    Type | VECTOR\r\n                                   
+      GetFigmaRotationAngle | 0\r\n                                    FillGeometry
+      | -1880041738\r\n                                    StrokeWeight | 1\r\n                                   
+      StrokeAlign | INSIDE\r\n                                    BlendMode | PASS_THROUGH\r\n                                   
+      Size | (64.9, 38.6)\r\n                                    isVisible | True\r\n                                   
+      Type | VECTOR\r\n                                    GetFigmaRotationAngle
+      | 0\r\n                                    FillGeometry | -1880041738\r\n                                   
+      StrokeWeight | 1\r\n                                    StrokeAlign | INSIDE\r\n                                   
+      BlendMode | PASS_THROUGH\r\n                                    Size | (64.9,
+      38.6)\r\n                                    \u2014\u2014\u2014\u2014Fills\r\n                                       
+      IsVisible | True\r\n                                        Type | SOLID\r\n                                       
+      Color | RGBA(0.176, 0.239, 0.122, 1.000)\r\n                                       
+      BlendMode | NORMAL\r\n                                    \u2014\u2014\u2014\u2014ArcData\r\n                                       
+      StartingAngle | 0\r\n                                        EndingAngle |
+      0\r\n                                        InnerRadius | 0\r\n                                   
+      \u2014\u2014\u2014\u2014Egg/Group 60/Vector\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | -1330023021\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (529.6, 75.2)\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | -1330023021\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (529.6, 75.2)\r\n                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                           
+      IsVisible | True\r\n                                            Type | SOLID\r\n                                           
+      Color | RGBA(0.729, 0.867, 0.824, 1.000)\r\n                                           
+      BlendMode | NORMAL\r\n                                        \u2014\u2014\u2014\u2014ArcData\r\n                                           
+      StartingAngle | 0\r\n                                            EndingAngle
+      | 0\r\n                                            InnerRadius | 0\r\n                                   
+      \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group/Vector\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | 557011308\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (64.9, 38.6)\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | 557011308\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (64.9, 38.6)\r\n                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                           
+      IsVisible | True\r\n                                            Type | SOLID\r\n                                           
+      Color | RGBA(0.176, 0.239, 0.122, 1.000)\r\n                                           
+      BlendMode | NORMAL\r\n                                        \u2014\u2014\u2014\u2014ArcData\r\n                                           
+      StartingAngle | 0\r\n                                            EndingAngle
+      | 0\r\n                                            InnerRadius | 0\r\n                                       
+      \u2014\u2014\u2014\u2014Egg/Group 60/Vector\r\n                                           
+      isVisible | True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            FillGeometry
+      | -596004882\r\n                                            StrokeWeight |
+      1\r\n                                            StrokeAlign | INSIDE\r\n                                           
+      BlendMode | PASS_THROUGH\r\n                                            Size
+      | (24.7, 42.8)\r\n                                            isVisible | True\r\n                                           
+      Type | VECTOR\r\n                                            GetFigmaRotationAngle
+      | 0\r\n                                            FillGeometry | -596004882\r\n                                           
+      StrokeWeight | 1\r\n                                            StrokeAlign
+      | INSIDE\r\n                                            BlendMode | PASS_THROUGH\r\n                                           
+      Size | (24.7, 42.8)\r\n                                            \u2014\u2014\u2014\u2014Fills\r\n                                               
+      IsVisible | True\r\n                                                Type |
+      SOLID\r\n                                                Color | RGBA(0.592,
+      0.776, 0.678, 1.000)\r\n                                                BlendMode
+      | NORMAL\r\n                                            \u2014\u2014\u2014\u2014ArcData\r\n                                               
+      StartingAngle | 0\r\n                                                EndingAngle
+      | 0\r\n                                                InnerRadius | 0\r\n                                       
+      \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group/Vector\r\n                                           
+      isVisible | True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            FillGeometry
+      | 998439347\r\n                                            StrokeWeight | 1\r\n                                           
+      StrokeAlign | INSIDE\r\n                                            BlendMode
+      | PASS_THROUGH\r\n                                            Size | (116.8,
+      79.2)\r\n                                            isVisible | True\r\n                                           
+      Type | VECTOR\r\n                                            GetFigmaRotationAngle
+      | 0\r\n                                            FillGeometry | 998439347\r\n                                           
+      StrokeWeight | 1\r\n                                            StrokeAlign
+      | INSIDE\r\n                                            BlendMode | PASS_THROUGH\r\n                                           
+      Size | (116.8, 79.2)\r\n                                            \u2014\u2014\u2014\u2014Fills\r\n                                               
+      IsVisible | True\r\n                                                Type |
+      SOLID\r\n                                                Color | RGBA(0.380,
+      0.176, 0.176, 1.000)\r\n                                                BlendMode
+      | NORMAL\r\n                                            \u2014\u2014\u2014\u2014ArcData\r\n                                               
+      StartingAngle | 0\r\n                                                EndingAngle
+      | 0\r\n                                                InnerRadius | 0\r\n                                           
+      \u2014\u2014\u2014\u2014Egg/Group 60/Vector\r\n                                               
+      isVisible | True\r\n                                                Type |
+      VECTOR\r\n                                                GetFigmaRotationAngle
+      | 0\r\n                                                FillGeometry | -904645043\r\n                                               
+      StrokeWeight | 1\r\n                                                StrokeAlign
+      | INSIDE\r\n                                                BlendMode | PASS_THROUGH\r\n                                               
+      Size | (54.0, 38.4)\r\n                                                isVisible
+      | True\r\n                                                Type | VECTOR\r\n                                               
+      GetFigmaRotationAngle | 0\r\n                                               
+      FillGeometry | -904645043\r\n                                               
+      StrokeWeight | 1\r\n                                                StrokeAlign
+      | INSIDE\r\n                                                BlendMode | PASS_THROUGH\r\n                                               
+      Size | (54.0, 38.4)\r\n                                                \u2014\u2014\u2014\u2014Fills\r\n                                                   
+      IsVisible | True\r\n                                                    Type
+      | SOLID\r\n                                                    Color | RGBA(0.729,
+      0.867, 0.824, 1.000)\r\n                                                   
+      BlendMode | NORMAL\r\n                                                \u2014\u2014\u2014\u2014ArcData\r\n                                                   
+      StartingAngle | 0\r\n                                                    EndingAngle
+      | 0\r\n                                                    InnerRadius | 0\r\n                                           
+      \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group/Vector\r\n                                               
+      isVisible | True\r\n                                                Type |
+      VECTOR\r\n                                                GetFigmaRotationAngle
+      | 0\r\n                                                FillGeometry | 55589775\r\n                                               
+      StrokeWeight | 1\r\n                                                StrokeAlign
+      | INSIDE\r\n                                                BlendMode | PASS_THROUGH\r\n                                               
+      Size | (97.5, 48.0)\r\n                                                isVisible
+      | True\r\n                                                Type | VECTOR\r\n                                               
+      GetFigmaRotationAngle | 0\r\n                                               
+      FillGeometry | 55589775\r\n                                               
+      StrokeWeight | 1\r\n                                                StrokeAlign
+      | INSIDE\r\n                                                BlendMode | PASS_THROUGH\r\n                                               
+      Size | (97.5, 48.0)\r\n                                                \u2014\u2014\u2014\u2014Fills\r\n                                                   
+      IsVisible | True\r\n                                                    Type
+      | SOLID\r\n                                                    Color | RGBA(0.949,
+      0.502, 0.541, 1.000)\r\n                                                   
+      BlendMode | NORMAL\r\n                                                \u2014\u2014\u2014\u2014ArcData\r\n                                                   
+      StartingAngle | 0\r\n                                                    EndingAngle
+      | 0\r\n                                                    InnerRadius | 0\r\n                                               
+      \u2014\u2014\u2014\u2014Egg/Group 60/Group\r\n                                                   
+      isVisible | True\r\n                                                    Type
+      | GROUP\r\n                                                    GetFigmaRotationAngle
+      | 0\r\n                                                    StrokeWeight | 1\r\n                                                   
+      StrokeAlign | INSIDE\r\n                                                   
+      BlendMode | PASS_THROUGH\r\n                                                   
+      ClipsContent | False\r\n                                                   
+      Size | (320.6, 116.7)\r\n                                                   
+      isVisible | True\r\n                                                    Type
+      | GROUP\r\n                                                    GetFigmaRotationAngle
+      | 0\r\n                                                    StrokeWeight | 1\r\n                                                   
+      StrokeAlign | INSIDE\r\n                                                   
+      BlendMode | PASS_THROUGH\r\n                                                   
+      ClipsContent | False\r\n                                                   
+      Size | (320.6, 116.7)\r\n                                                   
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                       
+      StartingAngle | 0\r\n                                                       
+      EndingAngle | 0\r\n                                                       
+      InnerRadius | 0\r\n                                                \u2014\u2014\u2014\u2014Egg/Group
+      60/Group/Vector\r\n                                                    isVisible
+      | True\r\n                                                    Type | VECTOR\r\n                                                   
+      GetFigmaRotationAngle | 0\r\n                                                   
+      FillGeometry | -610663997\r\n                                                   
+      StrokeWeight | 1\r\n                                                    StrokeAlign
+      | INSIDE\r\n                                                    BlendMode |
+      PASS_THROUGH\r\n                                                    Size |
+      (49.6, 33.0)\r\n                                                    isVisible
+      | True\r\n                                                    Type | VECTOR\r\n                                                   
+      GetFigmaRotationAngle | 0\r\n                                                   
+      FillGeometry | -610663997\r\n                                                   
+      StrokeWeight | 1\r\n                                                    StrokeAlign
+      | INSIDE\r\n                                                    BlendMode |
+      PASS_THROUGH\r\n                                                    Size |
+      (49.6, 33.0)\r\n                                                    \u2014\u2014\u2014\u2014Fills\r\n                                                       
+      IsVisible | True\r\n                                                       
+      Type | SOLID\r\n                                                        Color
+      | RGBA(0.949, 0.502, 0.541, 1.000)\r\n                                                       
+      BlendMode | NORMAL\r\n                                                    \u2014\u2014\u2014\u2014ArcData\r\n                                                       
+      StartingAngle | 0\r\n                                                       
+      EndingAngle | 0\r\n                                                       
+      InnerRadius | 0\r\n                                                    \u2014\u2014\u2014\u2014Egg/Group
+      60/Group/Vector\r\n                                                       
+      isVisible | True\r\n                                                       
+      Type | VECTOR\r\n                                                        GetFigmaRotationAngle
+      | 0\r\n                                                        FillGeometry
+      | -1961252587\r\n                                                        StrokeWeight
+      | 1\r\n                                                        StrokeAlign
+      | INSIDE\r\n                                                        BlendMode
+      | PASS_THROUGH\r\n                                                        Size
+      | (49.6, 33.0)\r\n                                                        isVisible
+      | True\r\n                                                        Type | VECTOR\r\n                                                       
+      GetFigmaRotationAngle | 0\r\n                                                       
+      FillGeometry | -1961252587\r\n                                                       
+      StrokeWeight | 1\r\n                                                       
+      StrokeAlign | INSIDE\r\n                                                       
+      BlendMode | PASS_THROUGH\r\n                                                       
+      Size | (49.6, 33.0)\r\n                                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                                           
+      IsVisible | True\r\n                                                           
+      Type | SOLID\r\n                                                           
+      Color | RGBA(0.949, 0.502, 0.541, 1.000)\r\n                                                           
+      BlendMode | NORMAL\r\n                                                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                           
+      StartingAngle | 0\r\n                                                           
+      EndingAngle | 0\r\n                                                           
+      InnerRadius | 0\r\n                                                       
+      \u2014\u2014\u2014\u2014Egg/Group 60/Group/Vector\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | VECTOR\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      FillGeometry | 843622970\r\n                                                           
+      StrokeWeight | 1\r\n                                                           
+      StrokeAlign | INSIDE\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      Size | (64.9, 38.6)\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | VECTOR\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      FillGeometry | 843622970\r\n                                                           
+      StrokeWeight | 1\r\n                                                           
+      StrokeAlign | INSIDE\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      Size | (64.9, 38.6)\r\n                                                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                                               
+      IsVisible | True\r\n                                                               
+      Type | SOLID\r\n                                                               
+      Color | RGBA(0.176, 0.239, 0.122, 1.000)\r\n                                                               
+      BlendMode | NORMAL\r\n                                                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                               
+      StartingAngle | 0\r\n                                                               
+      EndingAngle | 0\r\n                                                               
+      InnerRadius | 0\r\n                                                           
+      \u2014\u2014\u2014\u2014Egg/Group 60/Group/Vector\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | VECTOR\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      FillGeometry | -1944587961\r\n                                                               
+      StrokeWeight | 1\r\n                                                               
+      StrokeAlign | INSIDE\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      Size | (64.9, 38.6)\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | VECTOR\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      FillGeometry | -1944587961\r\n                                                               
+      StrokeWeight | 1\r\n                                                               
+      StrokeAlign | INSIDE\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      Size | (64.9, 38.6)\r\n                                                               
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                   
+      IsVisible | True\r\n                                                                   
+      Type | SOLID\r\n                                                                   
+      Color | RGBA(0.176, 0.239, 0.122, 1.000)\r\n                                                                   
+      BlendMode | NORMAL\r\n                                                               
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                   
+      StartingAngle | 0\r\n                                                                   
+      EndingAngle | 0\r\n                                                                   
+      InnerRadius | 0\r\n                                                               
+      \u2014\u2014\u2014\u2014Egg/Group 60/Group/Vector\r\n                                                                   
+      isVisible | True\r\n                                                                   
+      Type | VECTOR\r\n                                                                   
+      GetFigmaRotationAngle | 0\r\n                                                                   
+      FillGeometry | -1586283861\r\n                                                                   
+      StrokeWeight | 1\r\n                                                                   
+      StrokeAlign | INSIDE\r\n                                                                   
+      BlendMode | PASS_THROUGH\r\n                                                                   
+      Size | (116.8, 79.2)\r\n                                                                   
+      isVisible | True\r\n                                                                   
+      Type | VECTOR\r\n                                                                   
+      GetFigmaRotationAngle | 0\r\n                                                                   
+      FillGeometry | -1586283861\r\n                                                                   
+      StrokeWeight | 1\r\n                                                                   
+      StrokeAlign | INSIDE\r\n                                                                   
+      BlendMode | PASS_THROUGH\r\n                                                                   
+      Size | (116.8, 79.2)\r\n                                                                   
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                       
+      IsVisible | True\r\n                                                                       
+      Type | SOLID\r\n                                                                       
+      Color | RGBA(0.380, 0.176, 0.176, 1.000)\r\n                                                                       
+      BlendMode | NORMAL\r\n                                                                   
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                       
+      StartingAngle | 0\r\n                                                                       
+      EndingAngle | 0\r\n                                                                       
+      InnerRadius | 0\r\n                                                                   
+      \u2014\u2014\u2014\u2014Egg/Group 60/Group/Vector\r\n                                                                       
+      isVisible | True\r\n                                                                       
+      Type | VECTOR\r\n                                                                       
+      GetFigmaRotationAngle | 0\r\n                                                                       
+      FillGeometry | 1331632334\r\n                                                                       
+      StrokeWeight | 1\r\n                                                                       
+      StrokeAlign | INSIDE\r\n                                                                       
+      BlendMode | PASS_THROUGH\r\n                                                                       
+      Size | (97.5, 48.0)\r\n                                                                       
+      isVisible | True\r\n                                                                       
+      Type | VECTOR\r\n                                                                       
+      GetFigmaRotationAngle | 0\r\n                                                                       
+      FillGeometry | 1331632334\r\n                                                                       
+      StrokeWeight | 1\r\n                                                                       
+      StrokeAlign | INSIDE\r\n                                                                       
+      BlendMode | PASS_THROUGH\r\n                                                                       
+      Size | (97.5, 48.0)\r\n                                                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                           
+      IsVisible | True\r\n                                                                           
+      Type | SOLID\r\n                                                                           
+      Color | RGBA(0.949, 0.502, 0.541, 1.000)\r\n                                                                           
+      BlendMode | NORMAL\r\n                                                                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                           
+      StartingAngle | 0\r\n                                                                           
+      EndingAngle | 0\r\n                                                                           
+      InnerRadius | 0\r\n"
+    parentIndex: -1
+    hierarchy: Egg
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: children not empty
+    downloadAttempsCount: 0
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 1
+    forceImage: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &4809142579663254252
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2908915255337237508}
+  m_CullTransparentMesh: 1
+--- !u!114 &5334339843275665140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2908915255337237508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.49741668, g: 0.32083333, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 0a6816372b7d5d44986f4c0753c87f37, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &267413197836998570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2908915255337237508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding: {x: 0, y: 0, z: 0, w: 0}
+  m_Softness: {x: 0, y: 0}
+--- !u!1 &4316594079174430590
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8860679558541367653}
+  - component: {fileID: 6122441857664514417}
+  - component: {fileID: 3858948787487342047}
+  - component: {fileID: 7692694732597020098}
+  m_Layer: 5
+  m_Name: Egg_Plus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8860679558541367653
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4316594079174430590}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9084922897492288506}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1794.5283, y: -1232.9346}
+  m_SizeDelta: {x: 1002, y: 616}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &6122441857664514417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4316594079174430590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 342:377
+    formattedName: Egg_Plus
+    spriteName: Egg_Plus 0.5x 1134893542.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 4316594079174430590}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 0}
+    spriteSize: {x: 501, y: 308}
+    size: {x: 1002, y: 616}
+    position: {x: 14148.528, y: -2696.9346}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 1134893542
+    hashDataTree: "\u2014\u2014\u2014\u2014Egg/Egg_Plus\r\n    isVisible | True\r\n   
+      Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
+      StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent |
+      False\r\n    Size | (1000.1, 615.7)\r\n    isVisible | True\r\n    Type | GROUP\r\n   
+      GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n    Size | (1000.1,
+      615.7)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle | 0\r\n       
+      EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Egg/Egg_Plus/Group
+      62\r\n    isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle
+      | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode |
+      PASS_THROUGH\r\n    ClipsContent | False\r\n    Size | (1000.1, 615.7)\r\n   
+      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | False\r\n    Size | (1000.1, 615.7)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Egg/Egg_Plus/Group
+      62/Vector\r\n    isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle
+      | 0\r\n    FillGeometry | -199693029\r\n    StrokeWeight | 1\r\n    StrokeAlign
+      | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size | (149.2, 428.1)\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | -199693029\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (149.2, 428.1)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
+      IsVisible | True\r\n        Type | SOLID\r\n        Opacity | 0.2\r\n       
+      Color | RGBA(0.200, 0.200, 0.200, 1.000)\r\n        BlendMode | NORMAL\r\n   
+      \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle | 0\r\n        EndingAngle
+      | 0\r\n        InnerRadius | 0\r\n    \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group
+      62/Vector\r\n        isVisible | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle
+      | 0\r\n        FillGeometry | -898536689\r\n        StrokeWeight | 1\r\n       
+      StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size |
+      (529.6, 75.2)\r\n        isVisible | True\r\n        Type | VECTOR\r\n       
+      GetFigmaRotationAngle | 0\r\n        FillGeometry | -898536689\r\n        StrokeWeight
+      | 1\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
+      Size | (529.6, 75.2)\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
+      IsVisible | True\r\n            Type | SOLID\r\n            Opacity | 0.2\r\n           
+      Color | RGBA(0.200, 0.200, 0.200, 1.000)\r\n            BlendMode | NORMAL\r\n       
+      \u2014\u2014\u2014\u2014ArcData\r\n            StartingAngle | 0\r\n           
+      EndingAngle | 0\r\n            InnerRadius | 0\r\n    \u2014\u2014\u2014\u2014Egg/Egg_Plus/Vector\r\n       
+      isVisible | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle
+      | 0\r\n        FillGeometry | 1395407397\r\n        StrokeWeight | 1\r\n       
+      StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size |
+      (445.6, 281.9)\r\n        isVisible | True\r\n        Type | VECTOR\r\n       
+      GetFigmaRotationAngle | 0\r\n        FillGeometry | 1395407397\r\n        StrokeWeight
+      | 1\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
+      Size | (445.6, 281.9)\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
+      IsVisible | True\r\n            Type | SOLID\r\n            Opacity | 0.2\r\n           
+      Color | RGBA(0.200, 0.200, 0.200, 1.000)\r\n            BlendMode | NORMAL\r\n       
+      \u2014\u2014\u2014\u2014ArcData\r\n            StartingAngle | 0\r\n           
+      EndingAngle | 0\r\n            InnerRadius | 0\r\n        \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group
+      62/Vector\r\n            isVisible | True\r\n            Type | VECTOR\r\n           
+      GetFigmaRotationAngle | 0\r\n            FillGeometry | -221657978\r\n           
+      StrokeWeight | 1\r\n            StrokeAlign | INSIDE\r\n            BlendMode
+      | PASS_THROUGH\r\n            Size | (24.7, 42.8)\r\n            isVisible
+      | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle |
+      0\r\n            FillGeometry | -221657978\r\n            StrokeWeight | 1\r\n           
+      StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      Size | (24.7, 42.8)\r\n            \u2014\u2014\u2014\u2014Fills\r\n               
+      IsVisible | True\r\n                Type | SOLID\r\n                Opacity
+      | 0.3\r\n                Color | RGBA(0.200, 0.200, 0.200, 1.000)\r\n               
+      BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group 61\r\n           
+      isVisible | True\r\n            Type | GROUP\r\n            GetFigmaRotationAngle
+      | 0\r\n            StrokeWeight | 1\r\n            StrokeAlign | INSIDE\r\n           
+      BlendMode | PASS_THROUGH\r\n            ClipsContent | False\r\n           
+      Size | (214.0, 139.6)\r\n            isVisible | True\r\n            Type |
+      GROUP\r\n            GetFigmaRotationAngle | 0\r\n            StrokeWeight
+      | 1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      ClipsContent | False\r\n            Size | (214.0, 139.6)\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group 61/Vector\r\n           
+      isVisible | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle
+      | 0\r\n            FillGeometry | -535764219\r\n            StrokeWeight |
+      1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      Size | (142.3, 131.3)\r\n            isVisible | True\r\n            Type |
+      VECTOR\r\n            GetFigmaRotationAngle | 0\r\n            FillGeometry
+      | -535764219\r\n            StrokeWeight | 1\r\n            StrokeAlign | INSIDE\r\n           
+      BlendMode | PASS_THROUGH\r\n            Size | (142.3, 131.3)\r\n           
+      \u2014\u2014\u2014\u2014Fills\r\n                IsVisible | True\r\n               
+      Type | SOLID\r\n                Opacity | 0.7\r\n                Color | RGBA(1.000,
+      1.000, 1.000, 1.000)\r\n                BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n            \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group 62/Vector\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | -1665350707\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (54.0, 38.4)\r\n                isVisible
+      | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | -1665350707\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (54.0, 38.4)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Opacity | 0.2\r\n                    Color | RGBA(0.200, 0.200, 0.200, 1.000)\r\n                   
+      BlendMode | NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group 61/Vector\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 2054831348\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (40.9, 23.6)\r\n                isVisible
+      | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 2054831348\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (40.9, 23.6)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Opacity | 0.7\r\n                    Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                   
+      BlendMode | NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group\r\n               
+      isVisible | True\r\n                Type | GROUP\r\n                GetFigmaRotationAngle
+      | 0\r\n                StrokeWeight | 1\r\n                StrokeAlign | INSIDE\r\n               
+      BlendMode | PASS_THROUGH\r\n                ClipsContent | False\r\n               
+      Size | (320.6, 116.7)\r\n                isVisible | True\r\n               
+      Type | GROUP\r\n                GetFigmaRotationAngle | 0\r\n               
+      StrokeWeight | 1\r\n                StrokeAlign | INSIDE\r\n               
+      BlendMode | PASS_THROUGH\r\n                ClipsContent | False\r\n               
+      Size | (320.6, 116.7)\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group/Vector\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 680431128\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (49.6, 33.0)\r\n                isVisible
+      | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 680431128\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (49.6, 33.0)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Color | RGBA(0.949, 0.502, 0.541, 1.000)\r\n                    BlendMode |
+      NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group
+      62/Vector\r\n                    isVisible | True\r\n                    Type
+      | VECTOR\r\n                    GetFigmaRotationAngle | 0\r\n                   
+      FillGeometry | -1620006749\r\n                    StrokeWeight | 1\r\n                   
+      StrokeAlign | INSIDE\r\n                    BlendMode | PASS_THROUGH\r\n                   
+      Size | (1000.1, 585.7)\r\n                    isVisible | True\r\n                   
+      Type | VECTOR\r\n                    GetFigmaRotationAngle | 0\r\n                   
+      FillGeometry | -1620006749\r\n                    StrokeWeight | 1\r\n                   
+      StrokeAlign | INSIDE\r\n                    BlendMode | PASS_THROUGH\r\n                   
+      Size | (1000.1, 585.7)\r\n                    \u2014\u2014\u2014\u2014Fills\r\n                       
+      IsVisible | True\r\n                        Type | SOLID\r\n                       
+      Opacity | 0.3\r\n                        Color | RGBA(0.200, 0.200, 0.200,
+      1.000)\r\n                        BlendMode | NORMAL\r\n                   
+      \u2014\u2014\u2014\u2014ArcData\r\n                        StartingAngle |
+      0\r\n                        EndingAngle | 0\r\n                        InnerRadius
+      | 0\r\n                \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group/Vector\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | 2136147472\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (49.6, 33.0)\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | 2136147472\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (49.6, 33.0)\r\n                   
+      \u2014\u2014\u2014\u2014Fills\r\n                        IsVisible | True\r\n                       
+      Type | SOLID\r\n                        Color | RGBA(0.949, 0.502, 0.541, 1.000)\r\n                       
+      BlendMode | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group/Vector\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | -1880041738\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (64.9, 38.6)\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | -1880041738\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (64.9, 38.6)\r\n                       
+      \u2014\u2014\u2014\u2014Fills\r\n                            IsVisible | True\r\n                           
+      Type | SOLID\r\n                            Color | RGBA(0.176, 0.239, 0.122,
+      1.000)\r\n                            BlendMode | NORMAL\r\n                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                            StartingAngle
+      | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group/Vector\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | 557011308\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (64.9, 38.6)\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | 557011308\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (64.9, 38.6)\r\n                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                IsVisible
+      | True\r\n                                Type | SOLID\r\n                               
+      Color | RGBA(0.176, 0.239, 0.122, 1.000)\r\n                               
+      BlendMode | NORMAL\r\n                            \u2014\u2014\u2014\u2014ArcData\r\n                               
+      StartingAngle | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                            \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group/Vector\r\n                               
+      isVisible | True\r\n                                Type | VECTOR\r\n                               
+      GetFigmaRotationAngle | 0\r\n                                FillGeometry |
+      998439347\r\n                                StrokeWeight | 1\r\n                               
+      StrokeAlign | INSIDE\r\n                                BlendMode | PASS_THROUGH\r\n                               
+      Size | (116.8, 79.2)\r\n                                isVisible | True\r\n                               
+      Type | VECTOR\r\n                                GetFigmaRotationAngle | 0\r\n                               
+      FillGeometry | 998439347\r\n                                StrokeWeight |
+      1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                Size | (116.8,
+      79.2)\r\n                                \u2014\u2014\u2014\u2014Fills\r\n                                   
+      IsVisible | True\r\n                                    Type | SOLID\r\n                                   
+      Color | RGBA(0.380, 0.176, 0.176, 1.000)\r\n                                   
+      BlendMode | NORMAL\r\n                                \u2014\u2014\u2014\u2014ArcData\r\n                                   
+      StartingAngle | 0\r\n                                    EndingAngle | 0\r\n                                   
+      InnerRadius | 0\r\n                                \u2014\u2014\u2014\u2014Egg/Egg_Plus/Group/Vector\r\n                                   
+      isVisible | True\r\n                                    Type | VECTOR\r\n                                   
+      GetFigmaRotationAngle | 0\r\n                                    FillGeometry
+      | 55589775\r\n                                    StrokeWeight | 1\r\n                                   
+      StrokeAlign | INSIDE\r\n                                    BlendMode | PASS_THROUGH\r\n                                   
+      Size | (97.5, 48.0)\r\n                                    isVisible | True\r\n                                   
+      Type | VECTOR\r\n                                    GetFigmaRotationAngle
+      | 0\r\n                                    FillGeometry | 55589775\r\n                                   
+      StrokeWeight | 1\r\n                                    StrokeAlign | INSIDE\r\n                                   
+      BlendMode | PASS_THROUGH\r\n                                    Size | (97.5,
+      48.0)\r\n                                    \u2014\u2014\u2014\u2014Fills\r\n                                       
+      IsVisible | True\r\n                                        Type | SOLID\r\n                                       
+      Color | RGBA(0.949, 0.502, 0.541, 1.000)\r\n                                       
+      BlendMode | NORMAL\r\n                                    \u2014\u2014\u2014\u2014ArcData\r\n                                       
+      StartingAngle | 0\r\n                                        EndingAngle |
+      0\r\n                                        InnerRadius | 0\r\n"
+    parentIndex: 107
+    hierarchy: Egg/Egg_Plus
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &3858948787487342047
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4316594079174430590}
+  m_CullTransparentMesh: 1
+--- !u!114 &7692694732597020098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4316594079174430590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e16c43620721ad34890b8a2a7b927133, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &4787694284724499051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 638102726520434925}
+  - component: {fileID: 4663620973183998022}
+  - component: {fileID: 3372136069504812239}
+  - component: {fileID: 663572852908990774}
+  m_Layer: 5
+  m_Name: Egg_Shape_02_#FFC714
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &638102726520434925
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4787694284724499051}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9084922897492288506}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 571.04395, y: -48.98877}
+  m_SizeDelta: {x: -1938, y: -1729}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &4663620973183998022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4787694284724499051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 342:331
+    formattedName: Egg_Shape_02_#FFC714
+    spriteName: Egg_Shape_02_#FFC714 0.5x -1395416374.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 4787694284724499051}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 1, g: 1, b: 1, a: 1}
+    spriteSize: {x: 226, y: 204}
+    size: {x: 452, y: 408}
+    position: {x: 14395.044, y: -2685.4885}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -1395416374
+    hashDataTree: "\u2014\u2014\u2014\u2014Egg/Egg_Shape_02_#FFC714\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | -1676916697\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (450.9, 407.4)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -1676916697\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (450.9, 407.4)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 107
+    hierarchy: Egg/Egg_Shape_02_#FFC714
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &3372136069504812239
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4787694284724499051}
+  m_CullTransparentMesh: 1
+--- !u!114 &663572852908990774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4787694284724499051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 01f86331ae415b44cb332d2ead19841d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &5589010203040682405
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3753327441232655901}
+  - component: {fileID: 3494854662141367104}
+  - component: {fileID: 8171526289566585586}
+  - component: {fileID: 1436277904825739723}
+  m_Layer: 5
+  m_Name: Egg_Shape_01_#FFFFFF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3753327441232655901
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5589010203040682405}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9084922897492288506}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 598.64453, y: -62.9541}
+  m_SizeDelta: {x: -1358, y: -1283}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3494854662141367104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5589010203040682405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 342:328
+    formattedName: Egg_Shape_01_#FFFFFF
+    spriteName: Egg_Shape_01_#FFFFFF 0.5x -2140688600.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 5589010203040682405}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 1, g: 1, b: 1, a: 1}
+    spriteSize: {x: 516, y: 427}
+    size: {x: 1032, y: 854}
+    position: {x: 14132.645, y: -2476.4543}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -2140688600
+    hashDataTree: "\u2014\u2014\u2014\u2014Egg/Egg_Shape_01_#FFFFFF\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | 2132794335\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (1031.9, 852.1)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 2132794335\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (1031.9, 852.1)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 107
+    hierarchy: Egg/Egg_Shape_01_#FFFFFF
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8171526289566585586
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5589010203040682405}
+  m_CullTransparentMesh: 1
+--- !u!114 &1436277904825739723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5589010203040682405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 681ca2725ba74a942b56b6ac70050f46, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &6119677410388250158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3709939665554497422}
+  - component: {fileID: 27727855982031242}
+  - component: {fileID: 6903760594852371574}
+  - component: {fileID: 8820163266586955877}
+  m_Layer: 5
+  m_Name: Egg_Dot_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3709939665554497422
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6119677410388250158}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9084922897492288506}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 598.8623, y: -62.04004}
+  m_SizeDelta: {x: -1342, y: -1269}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &27727855982031242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6119677410388250158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 342:370
+    formattedName: Egg_Dot_01
+    spriteName: Egg_Dot_01 0.5x -1858859568.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 6119677410388250158}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+    spriteSize: {x: 524, y: 434}
+    size: {x: 1048, y: 868}
+    position: {x: 14124.862, y: -2468.5398}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -1858859568
+    hashDataTree: "\u2014\u2014\u2014\u2014Egg/Egg_Dot_01\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -1008273317\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (1047.4, 867.9)\r\n    isVisible | True\r\n    Type | VECTOR\r\n   
+      GetFigmaRotationAngle | 0\r\n    FillGeometry | -1008273317\r\n    StrokeWeight
+      | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size
+      | (1047.4, 867.9)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.847, 0.847, 0.847,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 107
+    hierarchy: Egg/Egg_Dot_01
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &6903760594852371574
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6119677410388250158}
+  m_CullTransparentMesh: 1
+--- !u!114 &8820163266586955877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6119677410388250158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: b813e21aee88d474a8b2ccddfc9da936, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &6492035710785703756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7833906329331600327}
+  - component: {fileID: 7187389096562818393}
+  - component: {fileID: 6503226111356273037}
+  - component: {fileID: 4838277471730364465}
+  m_Layer: 5
+  m_Name: Egg_Dot_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7833906329331600327
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6492035710785703756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9084922897492288506}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 571.6621, y: -48.62744}
+  m_SizeDelta: {x: -1888, y: -1681}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &7187389096562818393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6492035710785703756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 342:371
+    formattedName: Egg_Dot_02
+    spriteName: Egg_Dot_02 0.5x -175854084.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 6492035710785703756}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+    spriteSize: {x: 251, y: 228}
+    size: {x: 502, y: 456}
+    position: {x: 14370.662, y: -2661.1272}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -175854084
+    hashDataTree: "\u2014\u2014\u2014\u2014Egg/Egg_Dot_02\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 775505914\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (500.1, 455.5)\r\n    isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle
+      | 0\r\n    FillGeometry | 775505914\r\n    StrokeWeight | 1\r\n    StrokeAlign
+      | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size | (500.1, 455.5)\r\n   
+      \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n        Type |
+      SOLID\r\n        Color | RGBA(0.847, 0.847, 0.847, 1.000)\r\n        BlendMode
+      | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle |
+      0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 107
+    hierarchy: Egg/Egg_Dot_02
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &6503226111356273037
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6492035710785703756}
+  m_CullTransparentMesh: 1
+--- !u!114 &4838277471730364465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6492035710785703756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: da280ca89d4c4bf409c9f952079c2d3d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &6721849402855663000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7443972993113742337}
+  - component: {fileID: 5730262597410277877}
+  - component: {fileID: 5326709649353203292}
+  - component: {fileID: 6334803214292275612}
+  m_Layer: 5
+  m_Name: Egg_Stroke_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7443972993113742337
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6721849402855663000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9084922897492288506}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 598.7451, y: -62.083984}
+  m_SizeDelta: {x: -1326, y: -1253}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5730262597410277877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6721849402855663000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 342:329
+    formattedName: Egg_Stroke_01
+    spriteName: Egg_Stroke_01 0.5x -2031389601.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 6721849402855663000}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 1}
+    spriteSize: {x: 532, y: 442}
+    size: {x: 1064, y: 884}
+    position: {x: 14116.745, y: -2460.584}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -2031389601
+    hashDataTree: "\u2014\u2014\u2014\u2014Egg/Egg_Stroke_01\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 1623598265\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (1063.7, 883.8)\r\n    isVisible | True\r\n    Type | VECTOR\r\n   
+      GetFigmaRotationAngle | 0\r\n    FillGeometry | 1623598265\r\n    StrokeWeight
+      | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size
+      | (1063.7, 883.8)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.000, 0.000, 0.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 107
+    hierarchy: Egg/Egg_Stroke_01
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &5326709649353203292
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6721849402855663000}
+  m_CullTransparentMesh: 1
+--- !u!114 &6334803214292275612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6721849402855663000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e31e310d0e07f6e4588a75bc7f4881f0, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &7355209364023440466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8476454362474949964}
+  - component: {fileID: 8060810125761164628}
+  - component: {fileID: 1570517910665272576}
+  - component: {fileID: 273391657630710395}
+  m_Layer: 5
+  m_Name: Egg_Stroke_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8476454362474949964
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7355209364023440466}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9084922897492288506}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 571.3047, y: -49.237305}
+  m_SizeDelta: {x: -1874, y: -1665}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8060810125761164628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7355209364023440466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 342:332
+    formattedName: Egg_Stroke_02
+    spriteName: Egg_Stroke_02 0.5x -1454142109.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 7355209364023440466}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 1}
+    spriteSize: {x: 258, y: 236}
+    size: {x: 516, y: 472}
+    position: {x: 14363.305, y: -2653.7373}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -1454142109
+    hashDataTree: "\u2014\u2014\u2014\u2014Egg/Egg_Stroke_02\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 1386339944\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (514.4, 470.8)\r\n    isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle
+      | 0\r\n    FillGeometry | 1386339944\r\n    StrokeWeight | 1\r\n    StrokeAlign
+      | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size | (514.4, 470.8)\r\n   
+      \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n        Type |
+      SOLID\r\n        Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n        BlendMode
+      | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle |
+      0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 107
+    hierarchy: Egg/Egg_Stroke_02
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &1570517910665272576
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7355209364023440466}
+  m_CullTransparentMesh: 1
+--- !u!114 &273391657630710395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7355209364023440466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: de8b3df3acdbe844c8db82b36caee89d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1

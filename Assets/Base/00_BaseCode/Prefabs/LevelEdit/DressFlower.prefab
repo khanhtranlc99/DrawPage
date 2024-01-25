@@ -1,0 +1,2299 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3318770862366548452
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3318770862366548453}
+  - component: {fileID: 3318770862366548472}
+  - component: {fileID: 3318770862366548455}
+  - component: {fileID: 3318770862366548454}
+  m_Layer: 5
+  m_Name: DressFlower_Dot_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3318770862366548453
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770862366548452}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3318770862957522388}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 454.73608, y: 252.34961}
+  m_SizeDelta: {x: -1567, y: -1871}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3318770862366548472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770862366548452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 84:318
+    formattedName: DressFlower_Dot_01
+    spriteName: DressFlower_Dot_01 0.5x -707691464.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 3318770862366548452}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+    spriteSize: {x: 346, y: 133}
+    size: {x: 692, y: 266}
+    position: {x: -1762.7639, y: -23886.15}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -707691464
+    hashDataTree: "\u2014\u2014\u2014\u2014DressFlower/DressFlower_Dot_01\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | 560481675\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (690.1, 265.7)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 560481675\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (690.1, 265.7)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.847, 0.847, 0.847,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 67
+    hierarchy: DressFlower/DressFlower_Dot_01
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &3318770862366548455
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770862366548452}
+  m_CullTransparentMesh: 1
+--- !u!114 &3318770862366548454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770862366548452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: c62b3ebbed736164aa2aa353f9e39793, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &3318770862576983335
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3318770862576983352}
+  - component: {fileID: 3318770862576983355}
+  - component: {fileID: 3318770862576983354}
+  - component: {fileID: 3318770862576983353}
+  m_Layer: 5
+  m_Name: DressFlower_Plus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3318770862576983352
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770862576983335}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3318770862957522388}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 279.75024, y: -9.453125}
+  m_SizeDelta: {x: -1931, y: -1361}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3318770862576983355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770862576983335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 249:78
+    formattedName: DressFlower_Plus
+    spriteName: DressFlower_Plus 0.5x 398510248.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 3318770862576983335}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.2, g: 0.2, b: 0.2, a: 0.1}
+    spriteSize: {x: 164, y: 388}
+    size: {x: 328, y: 776}
+    position: {x: -1755.7498, y: -23892.953}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 398510248
+    hashDataTree: "\u2014\u2014\u2014\u2014DressFlower/DressFlower_Plus\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | -394331571\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (326.8, 774.9)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -394331571\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (326.8, 774.9)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Opacity | 0.1\r\n        Color |
+      RGBA(0.200, 0.200, 0.200, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 67
+    hierarchy: DressFlower/DressFlower_Plus
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &3318770862576983354
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770862576983335}
+  m_CullTransparentMesh: 1
+--- !u!114 &3318770862576983353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770862576983335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.2, g: 0.2, b: 0.2, a: 0.1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 643063422eb984344a8b061ea1111132, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &3318770862849248814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3318770862849248815}
+  - component: {fileID: 3318770862849248802}
+  - component: {fileID: 3318770862849248801}
+  - component: {fileID: 3318770862849248800}
+  m_Layer: 5
+  m_Name: DressFlower_Stroke_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3318770862849248815
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770862849248814}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3318770862957522388}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 453.81567, y: -111.55664}
+  m_SizeDelta: {x: -2009, y: -1871}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3318770862849248802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770862849248814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 84:284
+    formattedName: DressFlower_Stroke_03
+    spriteName: DressFlower_Stroke_03 0.5x -1319006301.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 3318770862849248814}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 1}
+    spriteSize: {x: 125, y: 133}
+    size: {x: 250, y: 266}
+    position: {x: -1542.6843, y: -24250.057}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -1319006301
+    hashDataTree: "\u2014\u2014\u2014\u2014DressFlower/DressFlower_Stroke_03\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | 2107288245\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (250.0, 264.5)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 2107288245\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (250.0, 264.5)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.000, 0.000, 0.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 67
+    hierarchy: DressFlower/DressFlower_Stroke_03
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &3318770862849248801
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770862849248814}
+  m_CullTransparentMesh: 1
+--- !u!114 &3318770862849248800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770862849248814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 4570a94e96a19444e925f7bf73e90222, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &3318770862896977420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3318770862896977421}
+  - component: {fileID: 3318770862896977408}
+  - component: {fileID: 3318770862896977423}
+  - component: {fileID: 3318770862896977422}
+  m_Layer: 5
+  m_Name: DressFlower_Shape_02_#FFABCD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3318770862896977421
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770862896977420}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3318770862957522388}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 454.31494, y: -68.58203}
+  m_SizeDelta: {x: -1661, y: -1465}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3318770862896977408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770862896977420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 249:75
+    formattedName: DressFlower_Shape_02_#FFABCD
+    spriteName: DressFlower_Shape_02_#FFABCD 0.5x -434693336.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 3318770862896977420}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 1, g: 1, b: 1, a: 1}
+    spriteSize: {x: 299, y: 336}
+    size: {x: 598, y: 672}
+    position: {x: -1716.1852, y: -24004.082}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -434693336
+    hashDataTree: "\u2014\u2014\u2014\u2014DressFlower/DressFlower_Shape_02_#FFABCD\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | -1320403569\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (597.0, 671.2)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -1320403569\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (597.0, 671.2)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 67
+    hierarchy: DressFlower/DressFlower_Shape_02_#FFABCD
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &3318770862896977423
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770862896977420}
+  m_CullTransparentMesh: 1
+--- !u!114 &3318770862896977422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770862896977420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 1bb43c74d55416d4b938c28535a51e8c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &3318770862957522387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3318770862957522388}
+  - component: {fileID: 3318770862957522391}
+  - component: {fileID: 3318770862957522390}
+  - component: {fileID: 3318770862957522389}
+  m_Layer: 5
+  m_Name: DressFlower
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3318770862957522388
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770862957522387}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3318770863903285470}
+  - {fileID: 3318770864235322828}
+  - {fileID: 3318770862896977421}
+  - {fileID: 3318770863865466265}
+  - {fileID: 3318770862576983352}
+  - {fileID: 3318770863491246238}
+  - {fileID: 3318770863820684673}
+  - {fileID: 3318770862849248815}
+  - {fileID: 3318770862366548453}
+  - {fileID: 3318770863295565092}
+  - {fileID: 3318770862974329947}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -1871.5, y: -26191.5}
+  m_SizeDelta: {x: 2259, y: 2137}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3318770862957522391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770862957522387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 84:143
+    formattedName: DressFlower
+    spriteName: DressFlower 0.5x -1435214959.png
+    tags: 02000000f6010000c900000001000000
+    childIndexes: 4400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e000000
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 3318770862957522387}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 0}
+    spriteSize: {x: 1129, y: 1068}
+    size: {x: 2259, y: 2137}
+    position: {x: -3001, y: -23203}
+    fcuImageType: 3
+    buttonComponent: 0
+    hash: -1435214959
+    hashDataTree: "\u2014\u2014\u2014\u2014DressFlower\r\n    isVisible | True\r\n   
+      Type | FRAME\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 2038957215\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | True\r\n    Size | (2259.0, 2137.0)\r\n    isVisible | True\r\n   
+      Type | FRAME\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 2038957215\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | True\r\n    Size | (2259.0, 2137.0)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
+      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 0.728,
+      0.321, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample\r\n   
+      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | False\r\n    Size | (704.6, 812.1)\r\n    isVisible | True\r\n   
+      Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
+      StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent |
+      False\r\n    Size | (704.6, 812.1)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Group\r\n   
+      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | False\r\n    Size | (704.6, 304.4)\r\n    isVisible | True\r\n   
+      Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
+      StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent |
+      False\r\n    Size | (704.6, 304.4)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Group/Vector\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | 2020811817\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (674.6, 273.5)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 2020811817\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (674.6, 273.5)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.800, 0.973, 1.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
+      \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Group/Vector\r\n       
+      isVisible | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle
+      | 0\r\n        FillGeometry | -958010252\r\n        StrokeWeight | 1\r\n       
+      StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size |
+      (704.6, 304.4)\r\n        isVisible | True\r\n        Type | VECTOR\r\n       
+      GetFigmaRotationAngle | 0\r\n        FillGeometry | -958010252\r\n        StrokeWeight
+      | 1\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
+      Size | (704.6, 304.4)\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
+      IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(0.000,
+      0.000, 0.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n    \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Vector\r\n       
+      isVisible | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle
+      | 0\r\n        FillGeometry | 2135024447\r\n        StrokeWeight | 1\r\n       
+      StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size |
+      (311.1, 239.1)\r\n        isVisible | True\r\n        Type | VECTOR\r\n       
+      GetFigmaRotationAngle | 0\r\n        FillGeometry | 2135024447\r\n        StrokeWeight
+      | 1\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
+      Size | (311.1, 239.1)\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
+      IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(0.624,
+      0.965, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n    \u2014\u2014\u2014\u2014DressFlower/DressFlower_Shape_01_#CCF8FF\r\n       
+      isVisible | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle
+      | 0\r\n        FillGeometry | 1456089308\r\n        StrokeWeight | 1\r\n       
+      StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size |
+      (674.6, 250.5)\r\n        isVisible | True\r\n        Type | VECTOR\r\n       
+      GetFigmaRotationAngle | 0\r\n        FillGeometry | 1456089308\r\n        StrokeWeight
+      | 1\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
+      Size | (674.6, 250.5)\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
+      IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
+      1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Group\r\n           
+      isVisible | True\r\n            Type | GROUP\r\n            GetFigmaRotationAngle
+      | 0\r\n            StrokeWeight | 1\r\n            StrokeAlign | INSIDE\r\n           
+      BlendMode | PASS_THROUGH\r\n            ClipsContent | False\r\n           
+      Size | (626.9, 632.3)\r\n            isVisible | True\r\n            Type |
+      GROUP\r\n            GetFigmaRotationAngle | 0\r\n            StrokeWeight
+      | 1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      ClipsContent | False\r\n            Size | (626.9, 632.3)\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Group/Vector\r\n           
+      isVisible | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle
+      | 0\r\n            FillGeometry | 1014177087\r\n            StrokeWeight |
+      1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      Size | (596.9, 601.6)\r\n            isVisible | True\r\n            Type |
+      VECTOR\r\n            GetFigmaRotationAngle | 0\r\n            FillGeometry
+      | 1014177087\r\n            StrokeWeight | 1\r\n            StrokeAlign | INSIDE\r\n           
+      BlendMode | PASS_THROUGH\r\n            Size | (596.9, 601.6)\r\n           
+      \u2014\u2014\u2014\u2014Fills\r\n                IsVisible | True\r\n               
+      Type | SOLID\r\n                Color | RGBA(1.000, 0.671, 0.804, 1.000)\r\n               
+      BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014DressFlower/DressFlower_Shape_02_#FFABCD\r\n           
+      isVisible | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle
+      | 0\r\n            FillGeometry | -1320403569\r\n            StrokeWeight |
+      1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      Size | (597.0, 671.2)\r\n            isVisible | True\r\n            Type |
+      VECTOR\r\n            GetFigmaRotationAngle | 0\r\n            FillGeometry
+      | -1320403569\r\n            StrokeWeight | 1\r\n            StrokeAlign |
+      INSIDE\r\n            BlendMode | PASS_THROUGH\r\n            Size | (597.0,
+      671.2)\r\n            \u2014\u2014\u2014\u2014Fills\r\n                IsVisible
+      | True\r\n                Type | SOLID\r\n                Color | RGBA(1.000,
+      1.000, 1.000, 1.000)\r\n                BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n            \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Group/Vector\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 1860211958\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (626.9, 632.3)\r\n                isVisible
+      | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 1860211958\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (626.9, 632.3)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                    BlendMode |
+      NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Vector\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 2073130433\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (261.2, 563.0)\r\n                isVisible
+      | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 2073130433\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (261.2, 563.0)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Color | RGBA(1.000, 0.561, 0.706, 1.000)\r\n                    BlendMode |
+      NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014DressFlower/DressFlower_Shape_03_#FFEB99\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | -738061902\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (220.0, 234.7)\r\n                isVisible
+      | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | -738061902\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (220.0, 234.7)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Color | RGBA(1.000, 0.922, 0.600, 1.000)\r\n                    BlendMode |
+      NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Vector\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | -1589669046\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (220.0, 240.8)\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | -1589669046\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (220.0, 240.8)\r\n                   
+      \u2014\u2014\u2014\u2014Fills\r\n                        IsVisible | True\r\n                       
+      Type | SOLID\r\n                        Color | RGBA(1.000, 0.922, 0.600, 1.000)\r\n                       
+      BlendMode | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014DressFlower/DressFlower_Plus\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | -394331571\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (326.8, 774.9)\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | -394331571\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (326.8, 774.9)\r\n                   
+      \u2014\u2014\u2014\u2014Fills\r\n                        IsVisible | True\r\n                       
+      Type | SOLID\r\n                        Opacity | 0.1\r\n                       
+      Color | RGBA(0.200, 0.200, 0.200, 1.000)\r\n                        BlendMode
+      | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Vector\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | 636326656\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (71.0, 71.4)\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | 636326656\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (71.0, 71.4)\r\n                       
+      \u2014\u2014\u2014\u2014Fills\r\n                            IsVisible | True\r\n                           
+      Type | SOLID\r\n                            Color | RGBA(0.918, 0.761, 1.000,
+      1.000)\r\n                            BlendMode | NORMAL\r\n                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                            StartingAngle
+      | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014DressFlower/DressFlower_Stroke_01\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | -1610118978\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (704.6, 280.5)\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | -1610118978\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (704.6, 280.5)\r\n                       
+      \u2014\u2014\u2014\u2014Fills\r\n                            IsVisible | True\r\n                           
+      Type | SOLID\r\n                            Color | RGBA(0.000, 0.000, 0.000,
+      1.000)\r\n                            BlendMode | NORMAL\r\n                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                            StartingAngle
+      | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Vector\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | -2025041150\r\n                           
+      StrokeWeight | 5\r\n                            StrokeAlign | CENTER\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            StrokeMiterAngle |
+      11.47834\r\n                            Size | (241.7, 262.5)\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | -2025041150\r\n                           
+      StrokeWeight | 5\r\n                            StrokeAlign | CENTER\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            StrokeMiterAngle |
+      11.47834\r\n                            Size | (241.7, 262.5)\r\n                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                IsVisible
+      | True\r\n                                Type | SOLID\r\n                               
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                               
+      BlendMode | NORMAL\r\n                            \u2014\u2014\u2014\u2014Strokes\r\n                               
+      IsVisible | True\r\n                                Type | SOLID\r\n                               
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                               
+      BlendMode | NORMAL\r\n                            \u2014\u2014\u2014\u2014ArcData\r\n                               
+      StartingAngle | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014DressFlower/DressFlower_Stroke_02\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | -304997804\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (627.0, 701.0)\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | -304997804\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (627.0, 701.0)\r\n                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                IsVisible
+      | True\r\n                                Type | SOLID\r\n                               
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                               
+      BlendMode | NORMAL\r\n                            \u2014\u2014\u2014\u2014ArcData\r\n                               
+      StartingAngle | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                            \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Group
+      39\r\n                                isVisible | True\r\n                               
+      Type | GROUP\r\n                                GetFigmaRotationAngle | 0\r\n                               
+      StrokeWeight | 1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                ClipsContent |
+      False\r\n                                Size | (364.3, 174.8)\r\n                               
+      isVisible | True\r\n                                Type | GROUP\r\n                               
+      GetFigmaRotationAngle | 0\r\n                                StrokeWeight |
+      1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                ClipsContent |
+      False\r\n                                Size | (364.3, 174.8)\r\n                               
+      \u2014\u2014\u2014\u2014ArcData\r\n                                    StartingAngle
+      | 0\r\n                                    EndingAngle | 0\r\n                                   
+      InnerRadius | 0\r\n                            \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Group
+      39/DressFlower_Shape_03\r\n                                isVisible | True\r\n                               
+      Type | VECTOR\r\n                                GetFigmaRotationAngle | 0\r\n                               
+      FillGeometry | -1112988288\r\n                                StrokeWeight
+      | 1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                Size | (66.4, 174.8)\r\n                               
+      isVisible | True\r\n                                Type | VECTOR\r\n                               
+      GetFigmaRotationAngle | 0\r\n                                FillGeometry |
+      -1112988288\r\n                                StrokeWeight | 1\r\n                               
+      StrokeAlign | INSIDE\r\n                                BlendMode | PASS_THROUGH\r\n                               
+      Size | (66.4, 174.8)\r\n                                \u2014\u2014\u2014\u2014Fills\r\n                                   
+      IsVisible | True\r\n                                    Type | SOLID\r\n                                   
+      Color | RGBA(1.000, 0.671, 0.804, 1.000)\r\n                                   
+      BlendMode | NORMAL\r\n                                \u2014\u2014\u2014\u2014ArcData\r\n                                   
+      StartingAngle | 0\r\n                                    EndingAngle | 0\r\n                                   
+      InnerRadius | 0\r\n                            \u2014\u2014\u2014\u2014DressFlower/DressFlower_Stroke_03\r\n                               
+      isVisible | True\r\n                                Type | VECTOR\r\n                               
+      GetFigmaRotationAngle | 0\r\n                                FillGeometry |
+      2107288245\r\n                                StrokeWeight | 1\r\n                               
+      StrokeAlign | INSIDE\r\n                                BlendMode | PASS_THROUGH\r\n                               
+      Size | (250.0, 264.5)\r\n                                isVisible | True\r\n                               
+      Type | VECTOR\r\n                                GetFigmaRotationAngle | 0\r\n                               
+      FillGeometry | 2107288245\r\n                                StrokeWeight |
+      1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                Size | (250.0,
+      264.5)\r\n                                \u2014\u2014\u2014\u2014Fills\r\n                                   
+      IsVisible | True\r\n                                    Type | SOLID\r\n                                   
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                   
+      BlendMode | NORMAL\r\n                                \u2014\u2014\u2014\u2014ArcData\r\n                                   
+      StartingAngle | 0\r\n                                    EndingAngle | 0\r\n                                   
+      InnerRadius | 0\r\n                                \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Group
+      39/DressFlower_Shape_04\r\n                                    isVisible |
+      True\r\n                                    Type | VECTOR\r\n                                   
+      GetFigmaRotationAngle | 0\r\n                                    FillGeometry
+      | -1112988288\r\n                                    StrokeWeight | 1\r\n                                   
+      StrokeAlign | INSIDE\r\n                                    BlendMode | PASS_THROUGH\r\n                                   
+      Size | (66.4, 174.8)\r\n                                    isVisible | True\r\n                                   
+      Type | VECTOR\r\n                                    GetFigmaRotationAngle
+      | 0\r\n                                    FillGeometry | -1112988288\r\n                                   
+      StrokeWeight | 1\r\n                                    StrokeAlign | INSIDE\r\n                                   
+      BlendMode | PASS_THROUGH\r\n                                    Size | (66.4,
+      174.8)\r\n                                    \u2014\u2014\u2014\u2014Fills\r\n                                       
+      IsVisible | True\r\n                                        Type | SOLID\r\n                                       
+      Color | RGBA(1.000, 0.671, 0.804, 1.000)\r\n                                       
+      BlendMode | NORMAL\r\n                                    \u2014\u2014\u2014\u2014ArcData\r\n                                       
+      StartingAngle | 0\r\n                                        EndingAngle |
+      0\r\n                                        InnerRadius | 0\r\n                               
+      \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Group 41\r\n                                   
+      isVisible | True\r\n                                    Type | GROUP\r\n                                   
+      GetFigmaRotationAngle | 0\r\n                                    StrokeWeight
+      | 1\r\n                                    StrokeAlign | INSIDE\r\n                                   
+      BlendMode | PASS_THROUGH\r\n                                    ClipsContent
+      | False\r\n                                    Size | (394.3, 205.6)\r\n                                   
+      isVisible | True\r\n                                    Type | GROUP\r\n                                   
+      GetFigmaRotationAngle | 0\r\n                                    StrokeWeight
+      | 1\r\n                                    StrokeAlign | INSIDE\r\n                                   
+      BlendMode | PASS_THROUGH\r\n                                    ClipsContent
+      | False\r\n                                    Size | (394.3, 205.6)\r\n                                   
+      \u2014\u2014\u2014\u2014ArcData\r\n                                       
+      StartingAngle | 0\r\n                                        EndingAngle |
+      0\r\n                                        InnerRadius | 0\r\n                               
+      \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Group 41/DressFlower_Stroke_03\r\n                                   
+      isVisible | True\r\n                                    Type | VECTOR\r\n                                   
+      GetFigmaRotationAngle | 0\r\n                                    FillGeometry
+      | -1144458998\r\n                                    StrokeWeight | 1\r\n                                   
+      StrokeAlign | INSIDE\r\n                                    BlendMode | PASS_THROUGH\r\n                                   
+      Size | (231.5, 30.8)\r\n                                    isVisible | True\r\n                                   
+      Type | VECTOR\r\n                                    GetFigmaRotationAngle
+      | 0\r\n                                    FillGeometry | -1144458998\r\n                                   
+      StrokeWeight | 1\r\n                                    StrokeAlign | INSIDE\r\n                                   
+      BlendMode | PASS_THROUGH\r\n                                    Size | (231.5,
+      30.8)\r\n                                    \u2014\u2014\u2014\u2014Fills\r\n                                       
+      IsVisible | True\r\n                                        Type | SOLID\r\n                                       
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                       
+      BlendMode | NORMAL\r\n                                    \u2014\u2014\u2014\u2014ArcData\r\n                                       
+      StartingAngle | 0\r\n                                        EndingAngle |
+      0\r\n                                        InnerRadius | 0\r\n                               
+      \u2014\u2014\u2014\u2014DressFlower/DressFlower_Dot_01\r\n                                   
+      isVisible | True\r\n                                    Type | VECTOR\r\n                                   
+      GetFigmaRotationAngle | 0\r\n                                    FillGeometry
+      | 560481675\r\n                                    StrokeWeight | 1\r\n                                   
+      StrokeAlign | INSIDE\r\n                                    BlendMode | PASS_THROUGH\r\n                                   
+      Size | (690.1, 265.7)\r\n                                    isVisible | True\r\n                                   
+      Type | VECTOR\r\n                                    GetFigmaRotationAngle
+      | 0\r\n                                    FillGeometry | 560481675\r\n                                   
+      StrokeWeight | 1\r\n                                    StrokeAlign | INSIDE\r\n                                   
+      BlendMode | PASS_THROUGH\r\n                                    Size | (690.1,
+      265.7)\r\n                                    \u2014\u2014\u2014\u2014Fills\r\n                                       
+      IsVisible | True\r\n                                        Type | SOLID\r\n                                       
+      Color | RGBA(0.847, 0.847, 0.847, 1.000)\r\n                                       
+      BlendMode | NORMAL\r\n                                    \u2014\u2014\u2014\u2014ArcData\r\n                                       
+      StartingAngle | 0\r\n                                        EndingAngle |
+      0\r\n                                        InnerRadius | 0\r\n                                   
+      \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Group 41/DressFlower_Stroke_04\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | 167617964\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (96.4, 205.6)\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | 167617964\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (96.4, 205.6)\r\n                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                           
+      IsVisible | True\r\n                                            Type | SOLID\r\n                                           
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                           
+      BlendMode | NORMAL\r\n                                        \u2014\u2014\u2014\u2014ArcData\r\n                                           
+      StartingAngle | 0\r\n                                            EndingAngle
+      | 0\r\n                                            InnerRadius | 0\r\n                                   
+      \u2014\u2014\u2014\u2014DressFlower/DressFlower_Dot_02\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | -1975467162\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (611.8, 687.1)\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | -1975467162\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (611.8, 687.1)\r\n                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                           
+      IsVisible | True\r\n                                            Type | SOLID\r\n                                           
+      Color | RGBA(0.847, 0.847, 0.847, 1.000)\r\n                                           
+      BlendMode | NORMAL\r\n                                        \u2014\u2014\u2014\u2014ArcData\r\n                                           
+      StartingAngle | 0\r\n                                            EndingAngle
+      | 0\r\n                                            InnerRadius | 0\r\n                                       
+      \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Group 41/DressFlower_Stroke_05\r\n                                           
+      isVisible | True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            FillGeometry
+      | 1892327526\r\n                                            StrokeWeight |
+      1\r\n                                            StrokeAlign | INSIDE\r\n                                           
+      BlendMode | PASS_THROUGH\r\n                                            Size
+      | (96.4, 205.6)\r\n                                            isVisible |
+      True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            FillGeometry
+      | 1892327526\r\n                                            StrokeWeight |
+      1\r\n                                            StrokeAlign | INSIDE\r\n                                           
+      BlendMode | PASS_THROUGH\r\n                                            Size
+      | (96.4, 205.6)\r\n                                            \u2014\u2014\u2014\u2014Fills\r\n                                               
+      IsVisible | True\r\n                                                Type |
+      SOLID\r\n                                                Color | RGBA(0.000,
+      0.000, 0.000, 1.000)\r\n                                                BlendMode
+      | NORMAL\r\n                                            \u2014\u2014\u2014\u2014ArcData\r\n                                               
+      StartingAngle | 0\r\n                                                EndingAngle
+      | 0\r\n                                                InnerRadius | 0\r\n                                       
+      \u2014\u2014\u2014\u2014DressFlower/DressFlower_Dot_03\r\n                                           
+      isVisible | True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            FillGeometry
+      | -2017407774\r\n                                            StrokeWeight |
+      1\r\n                                            StrokeAlign | INSIDE\r\n                                           
+      BlendMode | PASS_THROUGH\r\n                                            Size
+      | (233.8, 250.7)\r\n                                            isVisible |
+      True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            FillGeometry
+      | -2017407774\r\n                                            StrokeWeight |
+      1\r\n                                            StrokeAlign | INSIDE\r\n                                           
+      BlendMode | PASS_THROUGH\r\n                                            Size
+      | (233.8, 250.7)\r\n                                            \u2014\u2014\u2014\u2014Fills\r\n                                               
+      IsVisible | True\r\n                                                Type |
+      SOLID\r\n                                                Color | RGBA(0.847,
+      0.847, 0.847, 1.000)\r\n                                                BlendMode
+      | NORMAL\r\n                                            \u2014\u2014\u2014\u2014ArcData\r\n                                               
+      StartingAngle | 0\r\n                                                EndingAngle
+      | 0\r\n                                                InnerRadius | 0\r\n"
+    parentIndex: -1
+    hierarchy: DressFlower
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: children not empty
+    downloadAttempsCount: 0
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 1
+    forceImage: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &3318770862957522390
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770862957522387}
+  m_CullTransparentMesh: 1
+--- !u!114 &3318770862957522389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770862957522387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding: {x: 0, y: 0, z: 0, w: 0}
+  m_Softness: {x: 0, y: 0}
+--- !u!1 &3318770862974329946
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3318770862974329947}
+  - component: {fileID: 3318770862974329950}
+  - component: {fileID: 3318770862974329949}
+  - component: {fileID: 3318770862974329948}
+  m_Layer: 5
+  m_Name: DressFlower_Dot_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3318770862974329947
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770862974329946}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3318770862957522388}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 453.8999, y: -111.4707}
+  m_SizeDelta: {x: -2025, y: -1885}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3318770862974329950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770862974329946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 84:321
+    formattedName: DressFlower_Dot_03
+    spriteName: DressFlower_Dot_03 0.5x -1987570276.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 3318770862974329946}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+    spriteSize: {x: 117, y: 126}
+    size: {x: 234, y: 252}
+    position: {x: -1534.6, y: -24256.97}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -1987570276
+    hashDataTree: "\u2014\u2014\u2014\u2014DressFlower/DressFlower_Dot_03\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | -2017407774\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (233.8, 250.7)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -2017407774\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (233.8, 250.7)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.847, 0.847, 0.847,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 67
+    hierarchy: DressFlower/DressFlower_Dot_03
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &3318770862974329949
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770862974329946}
+  m_CullTransparentMesh: 1
+--- !u!114 &3318770862974329948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770862974329946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 19f8c580aa24b4c48b83b404ec274a59, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &3318770863295565091
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3318770863295565092}
+  - component: {fileID: 3318770863295565095}
+  - component: {fileID: 3318770863295565094}
+  - component: {fileID: 3318770863295565093}
+  m_Layer: 5
+  m_Name: DressFlower_Dot_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3318770863295565092
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770863295565091}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3318770862957522388}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 454.0166, y: -68.5918}
+  m_SizeDelta: {x: -1647, y: -1449}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3318770863295565095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770863295565091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 249:80
+    formattedName: DressFlower_Dot_02
+    spriteName: DressFlower_Dot_02 0.5x -1186198646.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 3318770863295565091}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+    spriteSize: {x: 306, y: 344}
+    size: {x: 612, y: 688}
+    position: {x: -1723.4834, y: -23996.092}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -1186198646
+    hashDataTree: "\u2014\u2014\u2014\u2014DressFlower/DressFlower_Dot_02\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | -1975467162\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (611.8, 687.1)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -1975467162\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (611.8, 687.1)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.847, 0.847, 0.847,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 67
+    hierarchy: DressFlower/DressFlower_Dot_02
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &3318770863295565094
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770863295565091}
+  m_CullTransparentMesh: 1
+--- !u!114 &3318770863295565093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770863295565091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3a09ce4182b7edf4d9caf9e2b540811c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &3318770863491246237
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3318770863491246238}
+  - component: {fileID: 3318770863491246225}
+  - component: {fileID: 3318770863491246224}
+  - component: {fileID: 3318770863491246239}
+  m_Layer: 5
+  m_Name: DressFlower_Stroke_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3318770863491246238
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770863491246237}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3318770862957522388}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 454.4829, y: 252.33789}
+  m_SizeDelta: {x: -1553, y: -1855}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3318770863491246225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770863491246237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 84:281
+    formattedName: DressFlower_Stroke_01
+    spriteName: DressFlower_Stroke_01 0.5x 120484423.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 3318770863491246237}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 1}
+    spriteSize: {x: 353, y: 141}
+    size: {x: 706, y: 282}
+    position: {x: -1770.0171, y: -23878.162}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 120484423
+    hashDataTree: "\u2014\u2014\u2014\u2014DressFlower/DressFlower_Stroke_01\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | -1610118978\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (704.6, 280.5)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -1610118978\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (704.6, 280.5)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.000, 0.000, 0.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 67
+    hierarchy: DressFlower/DressFlower_Stroke_01
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &3318770863491246224
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770863491246237}
+  m_CullTransparentMesh: 1
+--- !u!114 &3318770863491246239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770863491246237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 13c7257930e90854c93fb80d4dece841, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &3318770863820684672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3318770863820684673}
+  - component: {fileID: 3318770863820684676}
+  - component: {fileID: 3318770863820684675}
+  - component: {fileID: 3318770863820684674}
+  m_Layer: 5
+  m_Name: DressFlower_Stroke_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3318770863820684673
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770863820684672}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3318770862957522388}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 454.32642, y: -68.76172}
+  m_SizeDelta: {x: -1631, y: -1435}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3318770863820684676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770863820684672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 249:79
+    formattedName: DressFlower_Stroke_02
+    spriteName: DressFlower_Stroke_02 0.5x 1690675427.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 3318770863820684672}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 1}
+    spriteSize: {x: 314, y: 351}
+    size: {x: 628, y: 702}
+    position: {x: -1731.1736, y: -23989.262}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 1690675427
+    hashDataTree: "\u2014\u2014\u2014\u2014DressFlower/DressFlower_Stroke_02\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | -304997804\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (627.0, 701.0)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -304997804\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (627.0, 701.0)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.000, 0.000, 0.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 67
+    hierarchy: DressFlower/DressFlower_Stroke_02
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &3318770863820684675
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770863820684672}
+  m_CullTransparentMesh: 1
+--- !u!114 &3318770863820684674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770863820684672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 65a0cb171ee39534a9afe1663c8e4a6a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &3318770863865466264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3318770863865466265}
+  - component: {fileID: 3318770863865466268}
+  - component: {fileID: 3318770863865466267}
+  - component: {fileID: 3318770863865466266}
+  m_Layer: 5
+  m_Name: DressFlower_Shape_03_#FFEB99
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3318770863865466265
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770863865466264}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3318770862957522388}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 453.80273, y: -111.46484}
+  m_SizeDelta: {x: -2039, y: -1901}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3318770863865466268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770863865466264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 108:7
+    formattedName: DressFlower_Shape_03_#FFEB99
+    spriteName: DressFlower_Shape_03_#FFEB99 0.5x -1151371119.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 3318770863865466264}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 1, g: 0.92156863, b: 0.6, a: 1}
+    spriteSize: {x: 110, y: 118}
+    size: {x: 220, y: 236}
+    position: {x: -1527.6974, y: -24264.965}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -1151371119
+    hashDataTree: "\u2014\u2014\u2014\u2014DressFlower/DressFlower_Shape_03_#FFEB99\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | -738061902\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (220.0, 234.7)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -738061902\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (220.0, 234.7)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 0.922, 0.600,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 67
+    hierarchy: DressFlower/DressFlower_Shape_03_#FFEB99
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &3318770863865466267
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770863865466264}
+  m_CullTransparentMesh: 1
+--- !u!114 &3318770863865466266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770863865466264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.92156863, b: 0.6, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ff227207ea3282445b3a5ea47267bcaa, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &3318770863903285469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3318770863903285470}
+  - component: {fileID: 3318770863903285457}
+  - component: {fileID: 3318770863903285456}
+  - component: {fileID: 3318770863903285471}
+  m_Layer: 5
+  m_Name: DressFlower_Sample
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3318770863903285470
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770863903285469}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3318770862957522388}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -477.19507, y: -12.716797}
+  m_SizeDelta: {x: -1554.39, y: -1324.89}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3318770863903285457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770863903285469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 84:263
+    formattedName: DressFlower_Sample
+    spriteName: DressFlower_Sample 0.5x -332031374.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 3318770863903285469}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 0}
+    spriteSize: {x: 353, y: 407}
+    size: {x: 704.61, y: 812.11}
+    position: {x: -2701, y: -23878.162}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -332031374
+    hashDataTree: "\u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample\r\n   
+      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | False\r\n    Size | (704.6, 812.1)\r\n    isVisible | True\r\n   
+      Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
+      StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent |
+      False\r\n    Size | (704.6, 812.1)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Group\r\n   
+      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | False\r\n    Size | (704.6, 304.4)\r\n    isVisible | True\r\n   
+      Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
+      StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent |
+      False\r\n    Size | (704.6, 304.4)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Group/Vector\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | 2020811817\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (674.6, 273.5)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 2020811817\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (674.6, 273.5)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.800, 0.973, 1.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
+      \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Group/Vector\r\n       
+      isVisible | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle
+      | 0\r\n        FillGeometry | -958010252\r\n        StrokeWeight | 1\r\n       
+      StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size |
+      (704.6, 304.4)\r\n        isVisible | True\r\n        Type | VECTOR\r\n       
+      GetFigmaRotationAngle | 0\r\n        FillGeometry | -958010252\r\n        StrokeWeight
+      | 1\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
+      Size | (704.6, 304.4)\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
+      IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(0.000,
+      0.000, 0.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n    \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Vector\r\n       
+      isVisible | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle
+      | 0\r\n        FillGeometry | 2135024447\r\n        StrokeWeight | 1\r\n       
+      StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size |
+      (311.1, 239.1)\r\n        isVisible | True\r\n        Type | VECTOR\r\n       
+      GetFigmaRotationAngle | 0\r\n        FillGeometry | 2135024447\r\n        StrokeWeight
+      | 1\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
+      Size | (311.1, 239.1)\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
+      IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(0.624,
+      0.965, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Group\r\n           
+      isVisible | True\r\n            Type | GROUP\r\n            GetFigmaRotationAngle
+      | 0\r\n            StrokeWeight | 1\r\n            StrokeAlign | INSIDE\r\n           
+      BlendMode | PASS_THROUGH\r\n            ClipsContent | False\r\n           
+      Size | (626.9, 632.3)\r\n            isVisible | True\r\n            Type |
+      GROUP\r\n            GetFigmaRotationAngle | 0\r\n            StrokeWeight
+      | 1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      ClipsContent | False\r\n            Size | (626.9, 632.3)\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Group/Vector\r\n           
+      isVisible | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle
+      | 0\r\n            FillGeometry | 1014177087\r\n            StrokeWeight |
+      1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      Size | (596.9, 601.6)\r\n            isVisible | True\r\n            Type |
+      VECTOR\r\n            GetFigmaRotationAngle | 0\r\n            FillGeometry
+      | 1014177087\r\n            StrokeWeight | 1\r\n            StrokeAlign | INSIDE\r\n           
+      BlendMode | PASS_THROUGH\r\n            Size | (596.9, 601.6)\r\n           
+      \u2014\u2014\u2014\u2014Fills\r\n                IsVisible | True\r\n               
+      Type | SOLID\r\n                Color | RGBA(1.000, 0.671, 0.804, 1.000)\r\n               
+      BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n            \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Group/Vector\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 1860211958\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (626.9, 632.3)\r\n                isVisible
+      | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 1860211958\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (626.9, 632.3)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                    BlendMode |
+      NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Vector\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 2073130433\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (261.2, 563.0)\r\n                isVisible
+      | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 2073130433\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (261.2, 563.0)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Color | RGBA(1.000, 0.561, 0.706, 1.000)\r\n                    BlendMode |
+      NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Vector\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | -1589669046\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (220.0, 240.8)\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | -1589669046\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (220.0, 240.8)\r\n                   
+      \u2014\u2014\u2014\u2014Fills\r\n                        IsVisible | True\r\n                       
+      Type | SOLID\r\n                        Color | RGBA(1.000, 0.922, 0.600, 1.000)\r\n                       
+      BlendMode | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Vector\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | 636326656\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (71.0, 71.4)\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | 636326656\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (71.0, 71.4)\r\n                       
+      \u2014\u2014\u2014\u2014Fills\r\n                            IsVisible | True\r\n                           
+      Type | SOLID\r\n                            Color | RGBA(0.918, 0.761, 1.000,
+      1.000)\r\n                            BlendMode | NORMAL\r\n                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                            StartingAngle
+      | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Vector\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | -2025041150\r\n                           
+      StrokeWeight | 5\r\n                            StrokeAlign | CENTER\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            StrokeMiterAngle |
+      11.47834\r\n                            Size | (241.7, 262.5)\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | -2025041150\r\n                           
+      StrokeWeight | 5\r\n                            StrokeAlign | CENTER\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            StrokeMiterAngle |
+      11.47834\r\n                            Size | (241.7, 262.5)\r\n                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                IsVisible
+      | True\r\n                                Type | SOLID\r\n                               
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                               
+      BlendMode | NORMAL\r\n                            \u2014\u2014\u2014\u2014Strokes\r\n                               
+      IsVisible | True\r\n                                Type | SOLID\r\n                               
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                               
+      BlendMode | NORMAL\r\n                            \u2014\u2014\u2014\u2014ArcData\r\n                               
+      StartingAngle | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                            \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Group
+      39\r\n                                isVisible | True\r\n                               
+      Type | GROUP\r\n                                GetFigmaRotationAngle | 0\r\n                               
+      StrokeWeight | 1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                ClipsContent |
+      False\r\n                                Size | (364.3, 174.8)\r\n                               
+      isVisible | True\r\n                                Type | GROUP\r\n                               
+      GetFigmaRotationAngle | 0\r\n                                StrokeWeight |
+      1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                ClipsContent |
+      False\r\n                                Size | (364.3, 174.8)\r\n                               
+      \u2014\u2014\u2014\u2014ArcData\r\n                                    StartingAngle
+      | 0\r\n                                    EndingAngle | 0\r\n                                   
+      InnerRadius | 0\r\n                            \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Group
+      39/DressFlower_Shape_03\r\n                                isVisible | True\r\n                               
+      Type | VECTOR\r\n                                GetFigmaRotationAngle | 0\r\n                               
+      FillGeometry | -1112988288\r\n                                StrokeWeight
+      | 1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                Size | (66.4, 174.8)\r\n                               
+      isVisible | True\r\n                                Type | VECTOR\r\n                               
+      GetFigmaRotationAngle | 0\r\n                                FillGeometry |
+      -1112988288\r\n                                StrokeWeight | 1\r\n                               
+      StrokeAlign | INSIDE\r\n                                BlendMode | PASS_THROUGH\r\n                               
+      Size | (66.4, 174.8)\r\n                                \u2014\u2014\u2014\u2014Fills\r\n                                   
+      IsVisible | True\r\n                                    Type | SOLID\r\n                                   
+      Color | RGBA(1.000, 0.671, 0.804, 1.000)\r\n                                   
+      BlendMode | NORMAL\r\n                                \u2014\u2014\u2014\u2014ArcData\r\n                                   
+      StartingAngle | 0\r\n                                    EndingAngle | 0\r\n                                   
+      InnerRadius | 0\r\n                                \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Group
+      39/DressFlower_Shape_04\r\n                                    isVisible |
+      True\r\n                                    Type | VECTOR\r\n                                   
+      GetFigmaRotationAngle | 0\r\n                                    FillGeometry
+      | -1112988288\r\n                                    StrokeWeight | 1\r\n                                   
+      StrokeAlign | INSIDE\r\n                                    BlendMode | PASS_THROUGH\r\n                                   
+      Size | (66.4, 174.8)\r\n                                    isVisible | True\r\n                                   
+      Type | VECTOR\r\n                                    GetFigmaRotationAngle
+      | 0\r\n                                    FillGeometry | -1112988288\r\n                                   
+      StrokeWeight | 1\r\n                                    StrokeAlign | INSIDE\r\n                                   
+      BlendMode | PASS_THROUGH\r\n                                    Size | (66.4,
+      174.8)\r\n                                    \u2014\u2014\u2014\u2014Fills\r\n                                       
+      IsVisible | True\r\n                                        Type | SOLID\r\n                                       
+      Color | RGBA(1.000, 0.671, 0.804, 1.000)\r\n                                       
+      BlendMode | NORMAL\r\n                                    \u2014\u2014\u2014\u2014ArcData\r\n                                       
+      StartingAngle | 0\r\n                                        EndingAngle |
+      0\r\n                                        InnerRadius | 0\r\n                               
+      \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Group 41\r\n                                   
+      isVisible | True\r\n                                    Type | GROUP\r\n                                   
+      GetFigmaRotationAngle | 0\r\n                                    StrokeWeight
+      | 1\r\n                                    StrokeAlign | INSIDE\r\n                                   
+      BlendMode | PASS_THROUGH\r\n                                    ClipsContent
+      | False\r\n                                    Size | (394.3, 205.6)\r\n                                   
+      isVisible | True\r\n                                    Type | GROUP\r\n                                   
+      GetFigmaRotationAngle | 0\r\n                                    StrokeWeight
+      | 1\r\n                                    StrokeAlign | INSIDE\r\n                                   
+      BlendMode | PASS_THROUGH\r\n                                    ClipsContent
+      | False\r\n                                    Size | (394.3, 205.6)\r\n                                   
+      \u2014\u2014\u2014\u2014ArcData\r\n                                       
+      StartingAngle | 0\r\n                                        EndingAngle |
+      0\r\n                                        InnerRadius | 0\r\n                               
+      \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Group 41/DressFlower_Stroke_03\r\n                                   
+      isVisible | True\r\n                                    Type | VECTOR\r\n                                   
+      GetFigmaRotationAngle | 0\r\n                                    FillGeometry
+      | -1144458998\r\n                                    StrokeWeight | 1\r\n                                   
+      StrokeAlign | INSIDE\r\n                                    BlendMode | PASS_THROUGH\r\n                                   
+      Size | (231.5, 30.8)\r\n                                    isVisible | True\r\n                                   
+      Type | VECTOR\r\n                                    GetFigmaRotationAngle
+      | 0\r\n                                    FillGeometry | -1144458998\r\n                                   
+      StrokeWeight | 1\r\n                                    StrokeAlign | INSIDE\r\n                                   
+      BlendMode | PASS_THROUGH\r\n                                    Size | (231.5,
+      30.8)\r\n                                    \u2014\u2014\u2014\u2014Fills\r\n                                       
+      IsVisible | True\r\n                                        Type | SOLID\r\n                                       
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                       
+      BlendMode | NORMAL\r\n                                    \u2014\u2014\u2014\u2014ArcData\r\n                                       
+      StartingAngle | 0\r\n                                        EndingAngle |
+      0\r\n                                        InnerRadius | 0\r\n                                   
+      \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Group 41/DressFlower_Stroke_04\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | 167617964\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (96.4, 205.6)\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | 167617964\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (96.4, 205.6)\r\n                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                           
+      IsVisible | True\r\n                                            Type | SOLID\r\n                                           
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                           
+      BlendMode | NORMAL\r\n                                        \u2014\u2014\u2014\u2014ArcData\r\n                                           
+      StartingAngle | 0\r\n                                            EndingAngle
+      | 0\r\n                                            InnerRadius | 0\r\n                                       
+      \u2014\u2014\u2014\u2014DressFlower/DressFlower_Sample/Group 41/DressFlower_Stroke_05\r\n                                           
+      isVisible | True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            FillGeometry
+      | 1892327526\r\n                                            StrokeWeight |
+      1\r\n                                            StrokeAlign | INSIDE\r\n                                           
+      BlendMode | PASS_THROUGH\r\n                                            Size
+      | (96.4, 205.6)\r\n                                            isVisible |
+      True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            FillGeometry
+      | 1892327526\r\n                                            StrokeWeight |
+      1\r\n                                            StrokeAlign | INSIDE\r\n                                           
+      BlendMode | PASS_THROUGH\r\n                                            Size
+      | (96.4, 205.6)\r\n                                            \u2014\u2014\u2014\u2014Fills\r\n                                               
+      IsVisible | True\r\n                                                Type |
+      SOLID\r\n                                                Color | RGBA(0.000,
+      0.000, 0.000, 1.000)\r\n                                                BlendMode
+      | NORMAL\r\n                                            \u2014\u2014\u2014\u2014ArcData\r\n                                               
+      StartingAngle | 0\r\n                                                EndingAngle
+      | 0\r\n                                                InnerRadius | 0\r\n"
+    parentIndex: 67
+    hierarchy: DressFlower/DressFlower_Sample
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &3318770863903285456
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770863903285469}
+  m_CullTransparentMesh: 1
+--- !u!114 &3318770863903285471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770863903285469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: de458715d4f9c7247b7ab67cb8a6e455, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &3318770864235322827
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3318770864235322828}
+  - component: {fileID: 3318770864235322831}
+  - component: {fileID: 3318770864235322830}
+  - component: {fileID: 3318770864235322829}
+  m_Layer: 5
+  m_Name: DressFlower_Shape_01_#CCF8FF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3318770864235322828
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770864235322827}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3318770862957522388}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 454.4829, y: 252.33789}
+  m_SizeDelta: {x: -1583, y: -1885}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3318770864235322831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770864235322827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 108:3
+    formattedName: DressFlower_Shape_01_#CCF8FF
+    spriteName: DressFlower_Shape_01_#CCF8FF 0.5x 1044023202.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 3318770864235322827}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 1, g: 1, b: 1, a: 1}
+    spriteSize: {x: 338, y: 126}
+    size: {x: 676, y: 252}
+    position: {x: -1755.0171, y: -23893.162}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 1044023202
+    hashDataTree: "\u2014\u2014\u2014\u2014DressFlower/DressFlower_Shape_01_#CCF8FF\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | 1456089308\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (674.6, 250.5)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 1456089308\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (674.6, 250.5)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 67
+    hierarchy: DressFlower/DressFlower_Shape_01_#CCF8FF
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &3318770864235322830
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770864235322827}
+  m_CullTransparentMesh: 1
+--- !u!114 &3318770864235322829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318770864235322827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: a4959eaa9e28ac243a149e6c53fe3105, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1

@@ -1,0 +1,2726 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8669231119371682650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8669231119371682651}
+  - component: {fileID: 8669231119371682654}
+  - component: {fileID: 8669231119371682649}
+  - component: {fileID: 8669231119371682648}
+  m_Layer: 5
+  m_Name: Rabbit_Stroke_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8669231119371682651
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231119371682650}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8669231120607935971}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 412, y: 37.390625}
+  m_SizeDelta: {x: -1492, y: -1291}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8669231119371682654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231119371682650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 120:280
+    formattedName: Rabbit_Stroke_01
+    spriteName: Rabbit_Stroke_01 0.5x -2036291165.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8669231119371682650}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 1}
+    spriteSize: {x: 383, y: 423}
+    size: {x: 766, y: 846}
+    position: {x: 6144, y: -21014.11}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -2036291165
+    hashDataTree: "\u2014\u2014\u2014\u2014Rabbit/Rabbit_Stroke_01\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | 2119759000\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (765.4, 845.9)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 2119759000\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (765.4, 845.9)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.000, 0.000, 0.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 201
+    hierarchy: Rabbit/Rabbit_Stroke_01
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8669231119371682649
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231119371682650}
+  m_CullTransparentMesh: 1
+--- !u!114 &8669231119371682648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231119371682650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e79f7fb3f7308b8419fff603473980fe, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8669231119921490656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8669231119921490657}
+  - component: {fileID: 8669231119921490660}
+  - component: {fileID: 8669231119921490663}
+  - component: {fileID: 8669231119921490662}
+  m_Layer: 5
+  m_Name: Rabbit_Stroke_05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8669231119921490657
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231119921490656}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8669231120607935971}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 191.85693, y: 328.5}
+  m_SizeDelta: {x: -2120, y: -1863}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8669231119921490660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231119921490656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 120:277
+    formattedName: Rabbit_Stroke_05
+    spriteName: Rabbit_Stroke_05 0.5x 109585571.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8669231119921490656}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 1}
+    spriteSize: {x: 69, y: 137}
+    size: {x: 138, y: 274}
+    position: {x: 6237.857, y: -21009}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 109585571
+    hashDataTree: "\u2014\u2014\u2014\u2014Rabbit/Rabbit_Stroke_05\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | 1484317601\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (136.6, 272.3)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 1484317601\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (136.6, 272.3)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.000, 0.000, 0.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 201
+    hierarchy: Rabbit/Rabbit_Stroke_05
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8669231119921490663
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231119921490656}
+  m_CullTransparentMesh: 1
+--- !u!114 &8669231119921490662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231119921490656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 12f5be398cfd7ce418fd945aec8b81b3, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8669231119949554763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8669231119949554760}
+  - component: {fileID: 8669231119949554767}
+  - component: {fileID: 8669231119949554766}
+  - component: {fileID: 8669231119949554761}
+  m_Layer: 5
+  m_Name: Rabbit_Stroke_04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8669231119949554760
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231119949554763}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8669231120607935971}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 844.2959, y: -214.44336}
+  m_SizeDelta: {x: -2092, y: -1951}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8669231119949554767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231119949554763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 120:278
+    formattedName: Rabbit_Stroke_04
+    spriteName: Rabbit_Stroke_04 0.5x -1138041501.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8669231119949554763}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 1}
+    spriteSize: {x: 83, y: 93}
+    size: {x: 166, y: 186}
+    position: {x: 6876.296, y: -21595.943}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -1138041501
+    hashDataTree: "\u2014\u2014\u2014\u2014Rabbit/Rabbit_Stroke_04\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | -186818001\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (164.6, 185.5)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -186818001\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (164.6, 185.5)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.000, 0.000, 0.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 201
+    hierarchy: Rabbit/Rabbit_Stroke_04
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8669231119949554766
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231119949554763}
+  m_CullTransparentMesh: 1
+--- !u!114 &8669231119949554761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231119949554763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e4c84b5aa0cb52f4db7ca6341ae647dc, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8669231120009722622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8669231120009722623}
+  - component: {fileID: 8669231120009722594}
+  - component: {fileID: 8669231120009722621}
+  - component: {fileID: 8669231120009722620}
+  m_Layer: 5
+  m_Name: Rabbit_SHape_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8669231120009722623
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120009722622}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8669231120607935971}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 842.90625, y: -214.46484}
+  m_SizeDelta: {x: -2120, y: -1981}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8669231120009722594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120009722622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 120:273
+    formattedName: Rabbit_SHape_02
+    spriteName: Rabbit_SHape_02 0.5x 771374690.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8669231120009722622}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 1, g: 1, b: 1, a: 1}
+    spriteSize: {x: 69, y: 78}
+    size: {x: 138, y: 156}
+    position: {x: 6888.9062, y: -21610.965}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 771374690
+    hashDataTree: "\u2014\u2014\u2014\u2014Rabbit/Rabbit_SHape_02\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | 2127737620\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (137.0, 155.5)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 2127737620\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (137.0, 155.5)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 201
+    hierarchy: Rabbit/Rabbit_SHape_02
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8669231120009722621
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120009722622}
+  m_CullTransparentMesh: 1
+--- !u!114 &8669231120009722620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120009722622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: a85a8e3e9cb55f148bb2674f18d764f7, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8669231120061010493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8669231120061010466}
+  - component: {fileID: 8669231120061010465}
+  - component: {fileID: 8669231120061010464}
+  - component: {fileID: 8669231120061010467}
+  m_Layer: 5
+  m_Name: Rabbit_Dot_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8669231120061010466
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120061010493}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8669231120607935971}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 529.15625, y: -240.98047}
+  m_SizeDelta: {x: -1998, y: -1865}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8669231120061010465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120061010493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 120:315
+    formattedName: Rabbit_Dot_03
+    spriteName: Rabbit_Dot_03 0.5x -403150032.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8669231120061010493}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+    spriteSize: {x: 130, y: 136}
+    size: {x: 260, y: 272}
+    position: {x: 6514.1562, y: -21579.48}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -403150032
+    hashDataTree: "\u2014\u2014\u2014\u2014Rabbit/Rabbit_Dot_03\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | 1495611208\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (259.9, 270.7)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 1495611208\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (259.9, 270.7)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.847, 0.847, 0.847,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 201
+    hierarchy: Rabbit/Rabbit_Dot_03
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8669231120061010464
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120061010493}
+  m_CullTransparentMesh: 1
+--- !u!114 &8669231120061010467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120061010493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 828e16801ad46b347b94c8bf3e276a58, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8669231120221659020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8669231120221659021}
+  - component: {fileID: 8669231120221659120}
+  - component: {fileID: 8669231120221659123}
+  - component: {fileID: 8669231120221659122}
+  m_Layer: 5
+  m_Name: Rabbit_Stroke_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8669231120221659021
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120221659020}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8669231120607935971}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 231.43652, y: -186.49219}
+  m_SizeDelta: {x: -2176, y: -1899}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8669231120221659120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120221659020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 120:281
+    formattedName: Rabbit_Stroke_02
+    spriteName: Rabbit_Stroke_02 0.5x 1861147295.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8669231120221659020}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 1}
+    spriteSize: {x: 41, y: 119}
+    size: {x: 82, y: 238}
+    position: {x: 6305.4365, y: -21541.992}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 1861147295
+    hashDataTree: "\u2014\u2014\u2014\u2014Rabbit/Rabbit_Stroke_02\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | 1615401138\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (81.4, 236.3)\r\n    isVisible | True\r\n    Type
+      | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 1615401138\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (81.4, 236.3)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.000, 0.000, 0.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 201
+    hierarchy: Rabbit/Rabbit_Stroke_02
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8669231120221659123
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120221659020}
+  m_CullTransparentMesh: 1
+--- !u!114 &8669231120221659122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120221659020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3bdf225c0537b0845809139fadea8b44, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8669231120352689721
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8669231120352689726}
+  - component: {fileID: 8669231120352689725}
+  - component: {fileID: 8669231120352689724}
+  - component: {fileID: 8669231120352689727}
+  m_Layer: 5
+  m_Name: Rabbit_Stroke_00
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8669231120352689726
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120352689721}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8669231120607935971}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 189.5293, y: 81.27539}
+  m_SizeDelta: {x: -2180, y: -2073}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8669231120352689725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120352689721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 120:275
+    formattedName: Rabbit_Stroke_00
+    spriteName: Rabbit_Stroke_00 0.5x -1832952957.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8669231120352689721}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 1}
+    spriteSize: {x: 39, y: 32}
+    size: {x: 78, y: 64}
+    position: {x: 6265.5293, y: -21361.225}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -1832952957
+    hashDataTree: "\u2014\u2014\u2014\u2014Rabbit/Rabbit_Stroke_00\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | 2058657610\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (76.7, 62.5)\r\n    isVisible | True\r\n    Type
+      | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 2058657610\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (76.7, 62.5)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.000, 0.000, 0.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 201
+    hierarchy: Rabbit/Rabbit_Stroke_00
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8669231120352689724
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120352689721}
+  m_CullTransparentMesh: 1
+--- !u!114 &8669231120352689727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120352689721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: aa0f88fb7f23913499986c908edacd38, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8669231120368083768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8669231120368083769}
+  - component: {fileID: 8669231120368083772}
+  - component: {fileID: 8669231120368083775}
+  - component: {fileID: 8669231120368083774}
+  m_Layer: 5
+  m_Name: Rabbit_Dot_04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8669231120368083769
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120368083768}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8669231120607935971}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 843.7959, y: -213.99023}
+  m_SizeDelta: {x: -2108, y: -1967}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8669231120368083772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120368083768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 120:316
+    formattedName: Rabbit_Dot_04
+    spriteName: Rabbit_Dot_04 0.5x 544838078.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8669231120368083768}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+    spriteSize: {x: 75, y: 85}
+    size: {x: 150, y: 170}
+    position: {x: 6883.796, y: -21603.49}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 544838078
+    hashDataTree: "\u2014\u2014\u2014\u2014Rabbit/Rabbit_Dot_04\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | -1464691822\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (148.5, 169.9)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -1464691822\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (148.5, 169.9)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.847, 0.847, 0.847,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 201
+    hierarchy: Rabbit/Rabbit_Dot_04
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8669231120368083775
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120368083768}
+  m_CullTransparentMesh: 1
+--- !u!114 &8669231120368083774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120368083768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 102b69208d14ca64fab9c8ada653ec32, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8669231120408362293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8669231120408362298}
+  - component: {fileID: 8669231120408362297}
+  - component: {fileID: 8669231120408362296}
+  - component: {fileID: 8669231120408362299}
+  m_Layer: 5
+  m_Name: Rabbit_Shape_01_#FDDFBB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8669231120408362298
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120408362293}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8669231120607935971}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 412.06738, y: 37.375}
+  m_SizeDelta: {x: -1522, y: -1321}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8669231120408362297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120408362293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 120:272
+    formattedName: Rabbit_Shape_01_#FDDFBB
+    spriteName: Rabbit_Shape_01_#FDDFBB 0.5x -367206136.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8669231120408362293}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 1, g: 1, b: 1, a: 1}
+    spriteSize: {x: 368, y: 408}
+    size: {x: 736, y: 816}
+    position: {x: 6159.0674, y: -21029.125}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -367206136
+    hashDataTree: "\u2014\u2014\u2014\u2014Rabbit/Rabbit_Shape_01_#FDDFBB\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | -1689779347\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (735.9, 815.9)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -1689779347\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (735.9, 815.9)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 201
+    hierarchy: Rabbit/Rabbit_Shape_01_#FDDFBB
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8669231120408362296
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120408362293}
+  m_CullTransparentMesh: 1
+--- !u!114 &8669231120408362299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120408362293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 02c16f657bd84864ca07fc567cec14db, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8669231120607935970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8669231120607935971}
+  - component: {fileID: 8669231120607935974}
+  - component: {fileID: 8669231120607935969}
+  - component: {fileID: 8669231120607935968}
+  m_Layer: 5
+  m_Name: Rabbit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8669231120607935971
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120607935970}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8669231121247639386}
+  - {fileID: 8669231120408362298}
+  - {fileID: 8669231120009722623}
+  - {fileID: 8669231121271235877}
+  - {fileID: 8669231120352689726}
+  - {fileID: 8669231119371682651}
+  - {fileID: 8669231120221659021}
+  - {fileID: 8669231121222976880}
+  - {fileID: 8669231119949554760}
+  - {fileID: 8669231119921490657}
+  - {fileID: 8669231121002040880}
+  - {fileID: 8669231120656940356}
+  - {fileID: 8669231120061010466}
+  - {fileID: 8669231120368083769}
+  - {fileID: 8669231121028036814}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 6115, y: -23394.5}
+  m_SizeDelta: {x: 2258, y: 2137}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8669231120607935974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120607935970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 118:2
+    formattedName: Rabbit
+    spriteName: Rabbit 0.5x -1866957967.png
+    tags: 02000000f6010000c900000001000000
+    childIndexes: ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8669231120607935970}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 0}
+    spriteSize: {x: 1128, y: 1068}
+    size: {x: 2258, y: 2137}
+    position: {x: 4986, y: -20406}
+    fcuImageType: 3
+    buttonComponent: 0
+    hash: -1866957967
+    hashDataTree: "\u2014\u2014\u2014\u2014Rabbit\r\n    isVisible | True\r\n   
+      Type | FRAME\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 817778115\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | True\r\n    Size | (2258.0, 2137.0)\r\n    isVisible | True\r\n   
+      Type | FRAME\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 817778115\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | True\r\n    Size | (2258.0, 2137.0)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
+      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(0.497, 0.321,
+      1.000, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Rabbit/Rabbit_Sample\r\n   
+      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | False\r\n    Size | (866.8, 821.0)\r\n    isVisible | True\r\n   
+      Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
+      StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent |
+      False\r\n    Size | (866.8, 821.0)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Rabbit/Rabbit_Sample/Group\r\n   
+      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | False\r\n    Size | (866.8, 821.0)\r\n    isVisible | True\r\n   
+      Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
+      StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent |
+      False\r\n    Size | (866.8, 821.0)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Rabbit/Rabbit_Sample/Group/Group\r\n   
+      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | False\r\n    Size | (866.8, 821.0)\r\n    isVisible | True\r\n   
+      Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
+      StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent |
+      False\r\n    Size | (866.8, 821.0)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Rabbit/Rabbit_Sample/Group/Group/Vector\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | 1842465393\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (735.9, 815.9)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 1842465393\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (735.9, 815.9)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.992, 0.875, 0.733,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
+      \u2014\u2014\u2014\u2014Rabbit/Rabbit_Sample/Group/Group/Vector\r\n       
+      isVisible | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle
+      | 0\r\n        FillGeometry | 2127737620\r\n        StrokeWeight | 1\r\n       
+      StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size |
+      (137.0, 155.5)\r\n        isVisible | True\r\n        Type | VECTOR\r\n       
+      GetFigmaRotationAngle | 0\r\n        FillGeometry | 2127737620\r\n        StrokeWeight
+      | 1\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
+      Size | (137.0, 155.5)\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
+      IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(0.992,
+      0.875, 0.733, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n    \u2014\u2014\u2014\u2014Rabbit/Rabbit_Sample/Group/Vector\r\n       
+      isVisible | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle
+      | 0\r\n        StrokeWeight | 30\r\n        StrokeAlign | CENTER\r\n       
+      BlendMode | PASS_THROUGH\r\n        StrokeCap | ROUND\r\n        StrokeJoin
+      | ROUND\r\n        Size | (46.7, 32.5)\r\n        isVisible | True\r\n       
+      Type | VECTOR\r\n        GetFigmaRotationAngle | 0\r\n        StrokeWeight
+      | 30\r\n        StrokeAlign | CENTER\r\n        BlendMode | PASS_THROUGH\r\n       
+      StrokeCap | ROUND\r\n        StrokeJoin | ROUND\r\n        Size | (46.7, 32.5)\r\n       
+      \u2014\u2014\u2014\u2014Strokes\r\n            IsVisible | True\r\n           
+      Type | SOLID\r\n            Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n           
+      BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n    \u2014\u2014\u2014\u2014Rabbit/Rabbit_Sample/Group\r\n        isVisible
+      | True\r\n        Type | GROUP\r\n        GetFigmaRotationAngle | 0\r\n       
+      StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
+      ClipsContent | False\r\n        Size | (866.8, 821.0)\r\n        isVisible
+      | True\r\n        Type | GROUP\r\n        GetFigmaRotationAngle | 0\r\n       
+      StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
+      ClipsContent | False\r\n        Size | (866.8, 821.0)\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n    \u2014\u2014\u2014\u2014Rabbit/Rabbit_Sample/Group/Vector\r\n       
+      isVisible | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle
+      | 0\r\n        StrokeWeight | 30\r\n        StrokeAlign | CENTER\r\n       
+      BlendMode | PASS_THROUGH\r\n        StrokeCap | ROUND\r\n        StrokeJoin
+      | ROUND\r\n        Size | (106.6, 242.3)\r\n        isVisible | True\r\n       
+      Type | VECTOR\r\n        GetFigmaRotationAngle | 0\r\n        StrokeWeight
+      | 30\r\n        StrokeAlign | CENTER\r\n        BlendMode | PASS_THROUGH\r\n       
+      StrokeCap | ROUND\r\n        StrokeJoin | ROUND\r\n        Size | (106.6, 242.3)\r\n       
+      \u2014\u2014\u2014\u2014Strokes\r\n            IsVisible | True\r\n           
+      Type | SOLID\r\n            Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n           
+      BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n    \u2014\u2014\u2014\u2014Rabbit/Rabbit_Shape_01_#FDDFBB\r\n       
+      isVisible | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle
+      | 0\r\n        FillGeometry | -1689779347\r\n        StrokeWeight | 1\r\n       
+      StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size |
+      (735.9, 815.9)\r\n        isVisible | True\r\n        Type | VECTOR\r\n       
+      GetFigmaRotationAngle | 0\r\n        FillGeometry | -1689779347\r\n       
+      StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
+      Size | (735.9, 815.9)\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
+      IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
+      1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014Rabbit/Rabbit_Sample/Group/Group/Vector\r\n           
+      isVisible | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle
+      | 0\r\n            FillGeometry | 1159389542\r\n            StrokeWeight |
+      1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      Size | (108.5, 248.8)\r\n            isVisible | True\r\n            Type |
+      VECTOR\r\n            GetFigmaRotationAngle | 0\r\n            FillGeometry
+      | 1159389542\r\n            StrokeWeight | 1\r\n            StrokeAlign | INSIDE\r\n           
+      BlendMode | PASS_THROUGH\r\n            Size | (108.5, 248.8)\r\n           
+      \u2014\u2014\u2014\u2014Fills\r\n                IsVisible | True\r\n               
+      Type | SOLID\r\n                Color | RGBA(0.973, 0.690, 0.431, 1.000)\r\n               
+      BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014Rabbit/Rabbit_Sample/Group/Vector\r\n           
+      isVisible | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle
+      | 0\r\n            StrokeWeight | 30\r\n            StrokeAlign | CENTER\r\n           
+      BlendMode | PASS_THROUGH\r\n            StrokeCap | ROUND\r\n            StrokeJoin
+      | ROUND\r\n            Size | (134.6, 155.5)\r\n            isVisible | True\r\n           
+      Type | VECTOR\r\n            GetFigmaRotationAngle | 0\r\n            StrokeWeight
+      | 30\r\n            StrokeAlign | CENTER\r\n            BlendMode | PASS_THROUGH\r\n           
+      StrokeCap | ROUND\r\n            StrokeJoin | ROUND\r\n            Size | (134.6,
+      155.5)\r\n            \u2014\u2014\u2014\u2014Strokes\r\n                IsVisible
+      | True\r\n                Type | SOLID\r\n                Color | RGBA(0.000,
+      0.000, 0.000, 1.000)\r\n                BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014Rabbit/Rabbit_SHape_02\r\n           
+      isVisible | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle
+      | 0\r\n            FillGeometry | 2127737620\r\n            StrokeWeight |
+      1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      Size | (137.0, 155.5)\r\n            isVisible | True\r\n            Type |
+      VECTOR\r\n            GetFigmaRotationAngle | 0\r\n            FillGeometry
+      | 2127737620\r\n            StrokeWeight | 1\r\n            StrokeAlign | INSIDE\r\n           
+      BlendMode | PASS_THROUGH\r\n            Size | (137.0, 155.5)\r\n           
+      \u2014\u2014\u2014\u2014Fills\r\n                IsVisible | True\r\n               
+      Type | SOLID\r\n                Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n               
+      BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n            \u2014\u2014\u2014\u2014Rabbit/Rabbit_Sample/Group/Group/Vector\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 736809817\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (459.6, 496.8)\r\n                isVisible
+      | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 736809817\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (459.6, 496.8)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Color | RGBA(0.973, 0.690, 0.431, 1.000)\r\n                    BlendMode |
+      NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014Rabbit/Rabbit_Sample/Group/Vector\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                StrokeWeight | 30\r\n                StrokeAlign | CENTER\r\n               
+      BlendMode | PASS_THROUGH\r\n                StrokeCap | ROUND\r\n               
+      StrokeJoin | ROUND\r\n                Size | (244.9, 256.0)\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                StrokeWeight | 30\r\n                StrokeAlign | CENTER\r\n               
+      BlendMode | PASS_THROUGH\r\n                StrokeCap | ROUND\r\n               
+      StrokeJoin | ROUND\r\n                Size | (244.9, 256.0)\r\n               
+      \u2014\u2014\u2014\u2014Strokes\r\n                    IsVisible | True\r\n                   
+      Type | SOLID\r\n                    Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                   
+      BlendMode | NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014Rabbit/Rabbit_Shape_03\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 1159389542\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (108.5, 248.8)\r\n                isVisible
+      | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 1159389542\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (108.5, 248.8)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                    BlendMode |
+      NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014Rabbit/Rabbit_Sample/Group/Vector\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    StrokeWeight | 30\r\n                   
+      StrokeAlign | CENTER\r\n                    BlendMode | PASS_THROUGH\r\n                   
+      StrokeCap | ROUND\r\n                    StrokeJoin | ROUND\r\n                   
+      Size | (735.3, 815.9)\r\n                    isVisible | True\r\n                   
+      Type | VECTOR\r\n                    GetFigmaRotationAngle | 0\r\n                   
+      StrokeWeight | 30\r\n                    StrokeAlign | CENTER\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    StrokeCap | ROUND\r\n                   
+      StrokeJoin | ROUND\r\n                    Size | (735.3, 815.9)\r\n                   
+      \u2014\u2014\u2014\u2014Strokes\r\n                        IsVisible | True\r\n                       
+      Type | SOLID\r\n                        Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                       
+      BlendMode | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014Rabbit/Rabbit_Stroke_00\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | 2058657610\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (76.7, 62.5)\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | 2058657610\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (76.7, 62.5)\r\n                   
+      \u2014\u2014\u2014\u2014Fills\r\n                        IsVisible | True\r\n                       
+      Type | SOLID\r\n                        Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                       
+      BlendMode | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014Rabbit/Rabbit_Stroke_01\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | 2119759000\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (765.4, 845.9)\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | 2119759000\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (765.4, 845.9)\r\n                       
+      \u2014\u2014\u2014\u2014Fills\r\n                            IsVisible | True\r\n                           
+      Type | SOLID\r\n                            Color | RGBA(0.000, 0.000, 0.000,
+      1.000)\r\n                            BlendMode | NORMAL\r\n                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                            StartingAngle
+      | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014Rabbit/Rabbit_Stroke_02\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | 1615401138\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (81.4, 236.3)\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | 1615401138\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (81.4, 236.3)\r\n                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                IsVisible
+      | True\r\n                                Type | SOLID\r\n                               
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                               
+      BlendMode | NORMAL\r\n                            \u2014\u2014\u2014\u2014ArcData\r\n                               
+      StartingAngle | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                            \u2014\u2014\u2014\u2014Rabbit/Rabbit_Stroke_03\r\n                               
+      isVisible | True\r\n                                Type | VECTOR\r\n                               
+      GetFigmaRotationAngle | 0\r\n                                FillGeometry |
+      -1528950345\r\n                                StrokeWeight | 1\r\n                               
+      StrokeAlign | INSIDE\r\n                                BlendMode | PASS_THROUGH\r\n                               
+      Size | (274.9, 286.0)\r\n                                isVisible | True\r\n                               
+      Type | VECTOR\r\n                                GetFigmaRotationAngle | 0\r\n                               
+      FillGeometry | -1528950345\r\n                                StrokeWeight
+      | 1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                Size | (274.9,
+      286.0)\r\n                                \u2014\u2014\u2014\u2014Fills\r\n                                   
+      IsVisible | True\r\n                                    Type | SOLID\r\n                                   
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                   
+      BlendMode | NORMAL\r\n                                \u2014\u2014\u2014\u2014ArcData\r\n                                   
+      StartingAngle | 0\r\n                                    EndingAngle | 0\r\n                                   
+      InnerRadius | 0\r\n                                \u2014\u2014\u2014\u2014Rabbit/Rabbit_Stroke_04\r\n                                   
+      isVisible | True\r\n                                    Type | VECTOR\r\n                                   
+      GetFigmaRotationAngle | 0\r\n                                    FillGeometry
+      | -186818001\r\n                                    StrokeWeight | 1\r\n                                   
+      StrokeAlign | INSIDE\r\n                                    BlendMode | PASS_THROUGH\r\n                                   
+      Size | (164.6, 185.5)\r\n                                    isVisible | True\r\n                                   
+      Type | VECTOR\r\n                                    GetFigmaRotationAngle
+      | 0\r\n                                    FillGeometry | -186818001\r\n                                   
+      StrokeWeight | 1\r\n                                    StrokeAlign | INSIDE\r\n                                   
+      BlendMode | PASS_THROUGH\r\n                                    Size | (164.6,
+      185.5)\r\n                                    \u2014\u2014\u2014\u2014Fills\r\n                                       
+      IsVisible | True\r\n                                        Type | SOLID\r\n                                       
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                       
+      BlendMode | NORMAL\r\n                                    \u2014\u2014\u2014\u2014ArcData\r\n                                       
+      StartingAngle | 0\r\n                                        EndingAngle |
+      0\r\n                                        InnerRadius | 0\r\n                                   
+      \u2014\u2014\u2014\u2014Rabbit/Rabbit_Stroke_05\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | 1484317601\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (136.6, 272.3)\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | 1484317601\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (136.6, 272.3)\r\n                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                           
+      IsVisible | True\r\n                                            Type | SOLID\r\n                                           
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                           
+      BlendMode | NORMAL\r\n                                        \u2014\u2014\u2014\u2014ArcData\r\n                                           
+      StartingAngle | 0\r\n                                            EndingAngle
+      | 0\r\n                                            InnerRadius | 0\r\n                                       
+      \u2014\u2014\u2014\u2014Rabbit/Rabbit_Dot_01\r\n                                           
+      isVisible | True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            FillGeometry
+      | 587913061\r\n                                            StrokeWeight | 1\r\n                                           
+      StrokeAlign | INSIDE\r\n                                            BlendMode
+      | PASS_THROUGH\r\n                                            Size | (749.7,
+      830.8)\r\n                                            isVisible | True\r\n                                           
+      Type | VECTOR\r\n                                            GetFigmaRotationAngle
+      | 0\r\n                                            FillGeometry | 587913061\r\n                                           
+      StrokeWeight | 1\r\n                                            StrokeAlign
+      | INSIDE\r\n                                            BlendMode | PASS_THROUGH\r\n                                           
+      Size | (749.7, 830.8)\r\n                                            \u2014\u2014\u2014\u2014Fills\r\n                                               
+      IsVisible | True\r\n                                                Type |
+      SOLID\r\n                                                Color | RGBA(0.847,
+      0.847, 0.847, 1.000)\r\n                                                BlendMode
+      | NORMAL\r\n                                            \u2014\u2014\u2014\u2014ArcData\r\n                                               
+      StartingAngle | 0\r\n                                                EndingAngle
+      | 0\r\n                                                InnerRadius | 0\r\n                                           
+      \u2014\u2014\u2014\u2014Rabbit/Rabbit_Dot_02\r\n                                               
+      isVisible | True\r\n                                                Type |
+      VECTOR\r\n                                                GetFigmaRotationAngle
+      | 0\r\n                                                FillGeometry | 1582370515\r\n                                               
+      StrokeWeight | 1\r\n                                                StrokeAlign
+      | INSIDE\r\n                                                BlendMode | PASS_THROUGH\r\n                                               
+      Size | (66.3, 221.3)\r\n                                                isVisible
+      | True\r\n                                                Type | VECTOR\r\n                                               
+      GetFigmaRotationAngle | 0\r\n                                               
+      FillGeometry | 1582370515\r\n                                               
+      StrokeWeight | 1\r\n                                                StrokeAlign
+      | INSIDE\r\n                                                BlendMode | PASS_THROUGH\r\n                                               
+      Size | (66.3, 221.3)\r\n                                                \u2014\u2014\u2014\u2014Fills\r\n                                                   
+      IsVisible | True\r\n                                                    Type
+      | SOLID\r\n                                                    Color | RGBA(0.847,
+      0.847, 0.847, 1.000)\r\n                                                   
+      BlendMode | NORMAL\r\n                                                \u2014\u2014\u2014\u2014ArcData\r\n                                                   
+      StartingAngle | 0\r\n                                                    EndingAngle
+      | 0\r\n                                                    InnerRadius | 0\r\n                                               
+      \u2014\u2014\u2014\u2014Rabbit/Rabbit_Dot_03\r\n                                                   
+      isVisible | True\r\n                                                    Type
+      | VECTOR\r\n                                                    GetFigmaRotationAngle
+      | 0\r\n                                                    FillGeometry | 1495611208\r\n                                                   
+      StrokeWeight | 1\r\n                                                    StrokeAlign
+      | INSIDE\r\n                                                    BlendMode |
+      PASS_THROUGH\r\n                                                    Size |
+      (259.9, 270.7)\r\n                                                    isVisible
+      | True\r\n                                                    Type | VECTOR\r\n                                                   
+      GetFigmaRotationAngle | 0\r\n                                                   
+      FillGeometry | 1495611208\r\n                                                   
+      StrokeWeight | 1\r\n                                                    StrokeAlign
+      | INSIDE\r\n                                                    BlendMode |
+      PASS_THROUGH\r\n                                                    Size |
+      (259.9, 270.7)\r\n                                                    \u2014\u2014\u2014\u2014Fills\r\n                                                       
+      IsVisible | True\r\n                                                       
+      Type | SOLID\r\n                                                        Color
+      | RGBA(0.847, 0.847, 0.847, 1.000)\r\n                                                       
+      BlendMode | NORMAL\r\n                                                    \u2014\u2014\u2014\u2014ArcData\r\n                                                       
+      StartingAngle | 0\r\n                                                       
+      EndingAngle | 0\r\n                                                       
+      InnerRadius | 0\r\n                                                    \u2014\u2014\u2014\u2014Rabbit/Rabbit_Dot_04\r\n                                                       
+      isVisible | True\r\n                                                       
+      Type | VECTOR\r\n                                                        GetFigmaRotationAngle
+      | 0\r\n                                                        FillGeometry
+      | -1464691822\r\n                                                        StrokeWeight
+      | 1\r\n                                                        StrokeAlign
+      | INSIDE\r\n                                                        BlendMode
+      | PASS_THROUGH\r\n                                                        Size
+      | (148.5, 169.9)\r\n                                                       
+      isVisible | True\r\n                                                       
+      Type | VECTOR\r\n                                                        GetFigmaRotationAngle
+      | 0\r\n                                                        FillGeometry
+      | -1464691822\r\n                                                        StrokeWeight
+      | 1\r\n                                                        StrokeAlign
+      | INSIDE\r\n                                                        BlendMode
+      | PASS_THROUGH\r\n                                                        Size
+      | (148.5, 169.9)\r\n                                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                                           
+      IsVisible | True\r\n                                                           
+      Type | SOLID\r\n                                                           
+      Color | RGBA(0.847, 0.847, 0.847, 1.000)\r\n                                                           
+      BlendMode | NORMAL\r\n                                                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                           
+      StartingAngle | 0\r\n                                                           
+      EndingAngle | 0\r\n                                                           
+      InnerRadius | 0\r\n                                                       
+      \u2014\u2014\u2014\u2014Rabbit/Rabbit_Dot_05\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | VECTOR\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      FillGeometry | -1204209901\r\n                                                           
+      StrokeWeight | 1\r\n                                                           
+      StrokeAlign | INSIDE\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      Size | (121.3, 257.1)\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | VECTOR\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      FillGeometry | -1204209901\r\n                                                           
+      StrokeWeight | 1\r\n                                                           
+      StrokeAlign | INSIDE\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      Size | (121.3, 257.1)\r\n                                                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                                               
+      IsVisible | True\r\n                                                               
+      Type | SOLID\r\n                                                               
+      Color | RGBA(0.847, 0.847, 0.847, 1.000)\r\n                                                               
+      BlendMode | NORMAL\r\n                                                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                               
+      StartingAngle | 0\r\n                                                               
+      EndingAngle | 0\r\n                                                               
+      InnerRadius | 0\r\n"
+    parentIndex: -1
+    hierarchy: Rabbit
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: children not empty
+    downloadAttempsCount: 0
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 1
+    forceImage: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8669231120607935969
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120607935970}
+  m_CullTransparentMesh: 1
+--- !u!114 &8669231120607935968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120607935970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding: {x: 0, y: 0, z: 0, w: 0}
+  m_Softness: {x: 0, y: 0}
+--- !u!1 &8669231120656940359
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8669231120656940356}
+  - component: {fileID: 8669231120656940363}
+  - component: {fileID: 8669231120656940362}
+  - component: {fileID: 8669231120656940357}
+  m_Layer: 5
+  m_Name: Rabbit_Dot_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8669231120656940356
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120656940359}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8669231120607935971}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 232.0332, y: -185.99805}
+  m_SizeDelta: {x: -2190, y: -1915}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8669231120656940363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120656940359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 120:314
+    formattedName: Rabbit_Dot_02
+    spriteName: Rabbit_Dot_02 0.5x -432286504.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8669231120656940359}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+    spriteSize: {x: 34, y: 111}
+    size: {x: 68, y: 222}
+    position: {x: 6313.033, y: -21549.498}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -432286504
+    hashDataTree: "\u2014\u2014\u2014\u2014Rabbit/Rabbit_Dot_02\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | 1582370515\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (66.3, 221.3)\r\n    isVisible | True\r\n    Type
+      | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 1582370515\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (66.3, 221.3)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.847, 0.847, 0.847,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 201
+    hierarchy: Rabbit/Rabbit_Dot_02
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8669231120656940362
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120656940359}
+  m_CullTransparentMesh: 1
+--- !u!114 &8669231120656940357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231120656940359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 6c31e8e85483cf942b0601d60973f03a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8669231121002040883
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8669231121002040880}
+  - component: {fileID: 8669231121002040887}
+  - component: {fileID: 8669231121002040886}
+  - component: {fileID: 8669231121002040881}
+  m_Layer: 5
+  m_Name: Rabbit_Dot_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8669231121002040880
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231121002040883}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8669231120607935971}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 411.97168, y: 36.865234}
+  m_SizeDelta: {x: -1508, y: -1305}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8669231121002040887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231121002040883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 120:313
+    formattedName: Rabbit_Dot_01
+    spriteName: Rabbit_Dot_01 0.5x -1435629244.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8669231121002040883}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+    spriteSize: {x: 375, y: 416}
+    size: {x: 750, y: 832}
+    position: {x: 6151.9717, y: -21021.635}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -1435629244
+    hashDataTree: "\u2014\u2014\u2014\u2014Rabbit/Rabbit_Dot_01\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | 587913061\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (749.7, 830.8)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 587913061\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (749.7, 830.8)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.847, 0.847, 0.847,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 201
+    hierarchy: Rabbit/Rabbit_Dot_01
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8669231121002040886
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231121002040883}
+  m_CullTransparentMesh: 1
+--- !u!114 &8669231121002040881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231121002040883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 49ee9ae37b54af2449f6f8513735b657, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8669231121028036809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8669231121028036814}
+  - component: {fileID: 8669231121028036813}
+  - component: {fileID: 8669231121028036812}
+  - component: {fileID: 8669231121028036815}
+  m_Layer: 5
+  m_Name: Rabbit_Dot_05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8669231121028036814
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231121028036809}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8669231120607935971}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 191.66992, y: 328.73047}
+  m_SizeDelta: {x: -2136, y: -1879}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8669231121028036813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231121028036809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 120:317
+    formattedName: Rabbit_Dot_05
+    spriteName: Rabbit_Dot_05 0.5x 1639807530.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8669231121028036809}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+    spriteSize: {x: 61, y: 129}
+    size: {x: 122, y: 258}
+    position: {x: 6245.67, y: -21016.77}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 1639807530
+    hashDataTree: "\u2014\u2014\u2014\u2014Rabbit/Rabbit_Dot_05\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | -1204209901\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (121.3, 257.1)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -1204209901\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (121.3, 257.1)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.847, 0.847, 0.847,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 201
+    hierarchy: Rabbit/Rabbit_Dot_05
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8669231121028036812
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231121028036809}
+  m_CullTransparentMesh: 1
+--- !u!114 &8669231121028036815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231121028036809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e2d5d5175d124a04c98ab872c069a260, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8669231121222976883
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8669231121222976880}
+  - component: {fileID: 8669231121222976887}
+  - component: {fileID: 8669231121222976886}
+  - component: {fileID: 8669231121222976881}
+  m_Layer: 5
+  m_Name: Rabbit_Stroke_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8669231121222976880
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231121222976883}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8669231120607935971}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 529.66406, y: -240.26758}
+  m_SizeDelta: {x: -1982, y: -1851}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8669231121222976887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231121222976883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 120:279
+    formattedName: Rabbit_Stroke_03
+    spriteName: Rabbit_Stroke_03 0.5x -1925082649.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8669231121222976883}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 1}
+    spriteSize: {x: 138, y: 143}
+    size: {x: 276, y: 286}
+    position: {x: 6506.664, y: -21571.768}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -1925082649
+    hashDataTree: "\u2014\u2014\u2014\u2014Rabbit/Rabbit_Stroke_03\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | -1528950345\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (274.9, 286.0)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -1528950345\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (274.9, 286.0)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.000, 0.000, 0.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 201
+    hierarchy: Rabbit/Rabbit_Stroke_03
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8669231121222976886
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231121222976883}
+  m_CullTransparentMesh: 1
+--- !u!114 &8669231121222976881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231121222976883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: a019c98677b027f468aa236dbf8bf31e, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8669231121247639381
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8669231121247639386}
+  - component: {fileID: 8669231121247639385}
+  - component: {fileID: 8669231121247639384}
+  - component: {fileID: 8669231121247639387}
+  m_Layer: 5
+  m_Name: Rabbit_Sample
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8669231121247639386
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231121247639381}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8669231120607935971}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -468.00488, y: 24.486328}
+  m_SizeDelta: {x: -1360, y: -1285}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8669231121247639385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231121247639381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 120:175
+    formattedName: Rabbit_Sample
+    spriteName: Rabbit_Sample 0.5x -1332113801.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8669231121247639381}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 0}
+    spriteSize: {x: 449, y: 426}
+    size: {x: 898, y: 852}
+    position: {x: 5197.995, y: -21024.014}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -1332113801
+    hashDataTree: "\u2014\u2014\u2014\u2014Rabbit/Rabbit_Sample\r\n    isVisible
+      | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight
+      | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent
+      | False\r\n    Size | (866.8, 821.0)\r\n    isVisible | True\r\n    Type |
+      GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign
+      | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n   
+      Size | (866.8, 821.0)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle
+      | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Rabbit/Rabbit_Sample/Group\r\n   
+      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | False\r\n    Size | (866.8, 821.0)\r\n    isVisible | True\r\n   
+      Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
+      StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent |
+      False\r\n    Size | (866.8, 821.0)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Rabbit/Rabbit_Sample/Group/Group\r\n   
+      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | False\r\n    Size | (866.8, 821.0)\r\n    isVisible | True\r\n   
+      Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
+      StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent |
+      False\r\n    Size | (866.8, 821.0)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Rabbit/Rabbit_Sample/Group/Group/Vector\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | 1842465393\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (735.9, 815.9)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 1842465393\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (735.9, 815.9)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.992, 0.875, 0.733,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
+      \u2014\u2014\u2014\u2014Rabbit/Rabbit_Sample/Group/Group/Vector\r\n       
+      isVisible | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle
+      | 0\r\n        FillGeometry | 2127737620\r\n        StrokeWeight | 1\r\n       
+      StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size |
+      (137.0, 155.5)\r\n        isVisible | True\r\n        Type | VECTOR\r\n       
+      GetFigmaRotationAngle | 0\r\n        FillGeometry | 2127737620\r\n        StrokeWeight
+      | 1\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
+      Size | (137.0, 155.5)\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
+      IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(0.992,
+      0.875, 0.733, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n    \u2014\u2014\u2014\u2014Rabbit/Rabbit_Sample/Group/Vector\r\n       
+      isVisible | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle
+      | 0\r\n        StrokeWeight | 30\r\n        StrokeAlign | CENTER\r\n       
+      BlendMode | PASS_THROUGH\r\n        StrokeCap | ROUND\r\n        StrokeJoin
+      | ROUND\r\n        Size | (46.7, 32.5)\r\n        isVisible | True\r\n       
+      Type | VECTOR\r\n        GetFigmaRotationAngle | 0\r\n        StrokeWeight
+      | 30\r\n        StrokeAlign | CENTER\r\n        BlendMode | PASS_THROUGH\r\n       
+      StrokeCap | ROUND\r\n        StrokeJoin | ROUND\r\n        Size | (46.7, 32.5)\r\n       
+      \u2014\u2014\u2014\u2014Strokes\r\n            IsVisible | True\r\n           
+      Type | SOLID\r\n            Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n           
+      BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n    \u2014\u2014\u2014\u2014Rabbit/Rabbit_Sample/Group\r\n        isVisible
+      | True\r\n        Type | GROUP\r\n        GetFigmaRotationAngle | 0\r\n       
+      StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
+      ClipsContent | False\r\n        Size | (866.8, 821.0)\r\n        isVisible
+      | True\r\n        Type | GROUP\r\n        GetFigmaRotationAngle | 0\r\n       
+      StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
+      ClipsContent | False\r\n        Size | (866.8, 821.0)\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n    \u2014\u2014\u2014\u2014Rabbit/Rabbit_Sample/Group/Vector\r\n       
+      isVisible | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle
+      | 0\r\n        StrokeWeight | 30\r\n        StrokeAlign | CENTER\r\n       
+      BlendMode | PASS_THROUGH\r\n        StrokeCap | ROUND\r\n        StrokeJoin
+      | ROUND\r\n        Size | (106.6, 242.3)\r\n        isVisible | True\r\n       
+      Type | VECTOR\r\n        GetFigmaRotationAngle | 0\r\n        StrokeWeight
+      | 30\r\n        StrokeAlign | CENTER\r\n        BlendMode | PASS_THROUGH\r\n       
+      StrokeCap | ROUND\r\n        StrokeJoin | ROUND\r\n        Size | (106.6, 242.3)\r\n       
+      \u2014\u2014\u2014\u2014Strokes\r\n            IsVisible | True\r\n           
+      Type | SOLID\r\n            Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n           
+      BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014Rabbit/Rabbit_Sample/Group/Group/Vector\r\n           
+      isVisible | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle
+      | 0\r\n            FillGeometry | 1159389542\r\n            StrokeWeight |
+      1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      Size | (108.5, 248.8)\r\n            isVisible | True\r\n            Type |
+      VECTOR\r\n            GetFigmaRotationAngle | 0\r\n            FillGeometry
+      | 1159389542\r\n            StrokeWeight | 1\r\n            StrokeAlign | INSIDE\r\n           
+      BlendMode | PASS_THROUGH\r\n            Size | (108.5, 248.8)\r\n           
+      \u2014\u2014\u2014\u2014Fills\r\n                IsVisible | True\r\n               
+      Type | SOLID\r\n                Color | RGBA(0.973, 0.690, 0.431, 1.000)\r\n               
+      BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014Rabbit/Rabbit_Sample/Group/Vector\r\n           
+      isVisible | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle
+      | 0\r\n            StrokeWeight | 30\r\n            StrokeAlign | CENTER\r\n           
+      BlendMode | PASS_THROUGH\r\n            StrokeCap | ROUND\r\n            StrokeJoin
+      | ROUND\r\n            Size | (134.6, 155.5)\r\n            isVisible | True\r\n           
+      Type | VECTOR\r\n            GetFigmaRotationAngle | 0\r\n            StrokeWeight
+      | 30\r\n            StrokeAlign | CENTER\r\n            BlendMode | PASS_THROUGH\r\n           
+      StrokeCap | ROUND\r\n            StrokeJoin | ROUND\r\n            Size | (134.6,
+      155.5)\r\n            \u2014\u2014\u2014\u2014Strokes\r\n                IsVisible
+      | True\r\n                Type | SOLID\r\n                Color | RGBA(0.000,
+      0.000, 0.000, 1.000)\r\n                BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n            \u2014\u2014\u2014\u2014Rabbit/Rabbit_Sample/Group/Group/Vector\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 736809817\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (459.6, 496.8)\r\n                isVisible
+      | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 736809817\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (459.6, 496.8)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Color | RGBA(0.973, 0.690, 0.431, 1.000)\r\n                    BlendMode |
+      NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014Rabbit/Rabbit_Sample/Group/Vector\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                StrokeWeight | 30\r\n                StrokeAlign | CENTER\r\n               
+      BlendMode | PASS_THROUGH\r\n                StrokeCap | ROUND\r\n               
+      StrokeJoin | ROUND\r\n                Size | (244.9, 256.0)\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                StrokeWeight | 30\r\n                StrokeAlign | CENTER\r\n               
+      BlendMode | PASS_THROUGH\r\n                StrokeCap | ROUND\r\n               
+      StrokeJoin | ROUND\r\n                Size | (244.9, 256.0)\r\n               
+      \u2014\u2014\u2014\u2014Strokes\r\n                    IsVisible | True\r\n                   
+      Type | SOLID\r\n                    Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                   
+      BlendMode | NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014Rabbit/Rabbit_Sample/Group/Vector\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    StrokeWeight | 30\r\n                   
+      StrokeAlign | CENTER\r\n                    BlendMode | PASS_THROUGH\r\n                   
+      StrokeCap | ROUND\r\n                    StrokeJoin | ROUND\r\n                   
+      Size | (735.3, 815.9)\r\n                    isVisible | True\r\n                   
+      Type | VECTOR\r\n                    GetFigmaRotationAngle | 0\r\n                   
+      StrokeWeight | 30\r\n                    StrokeAlign | CENTER\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    StrokeCap | ROUND\r\n                   
+      StrokeJoin | ROUND\r\n                    Size | (735.3, 815.9)\r\n                   
+      \u2014\u2014\u2014\u2014Strokes\r\n                        IsVisible | True\r\n                       
+      Type | SOLID\r\n                        Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                       
+      BlendMode | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n"
+    parentIndex: 201
+    hierarchy: Rabbit/Rabbit_Sample
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8669231121247639384
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231121247639381}
+  m_CullTransparentMesh: 1
+--- !u!114 &8669231121247639387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231121247639381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e49e17f68fdb5db44b84b3a152033541, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8669231121271235876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8669231121271235877}
+  - component: {fileID: 8669231121271235880}
+  - component: {fileID: 8669231121271235883}
+  - component: {fileID: 8669231121271235882}
+  m_Layer: 5
+  m_Name: Rabbit_Shape_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8669231121271235877
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231121271235876}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8669231120607935971}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 192.8877, y: 325.50586}
+  m_SizeDelta: {x: -2148, y: -1887}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8669231121271235880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231121271235876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 120:274
+    formattedName: Rabbit_Shape_03
+    spriteName: Rabbit_Shape_03 0.5x 573796066.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8669231121271235876}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 1, g: 1, b: 1, a: 1}
+    spriteSize: {x: 55, y: 125}
+    size: {x: 110, y: 250}
+    position: {x: 6252.8877, y: -21023.994}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 573796066
+    hashDataTree: "\u2014\u2014\u2014\u2014Rabbit/Rabbit_Shape_03\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | 1159389542\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (108.5, 248.8)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 1159389542\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (108.5, 248.8)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 201
+    hierarchy: Rabbit/Rabbit_Shape_03
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8669231121271235883
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231121271235876}
+  m_CullTransparentMesh: 1
+--- !u!114 &8669231121271235882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669231121271235876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: cbdb7827d2d02ed48b010e79a3bf7db6, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1

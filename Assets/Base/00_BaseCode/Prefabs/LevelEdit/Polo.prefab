@@ -1,0 +1,2639 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8383425256625399819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8383425256625399818}
+  - component: {fileID: 8383425256625399823}
+  - component: {fileID: 8383425256625399820}
+  - component: {fileID: 8383425256625399821}
+  m_Layer: 5
+  m_Name: Polo_Dot_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8383425256625399818
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425256625399819}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8383425258433596878}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 493.53467, y: -37.441406}
+  m_SizeDelta: {x: -1441, y: -1391}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8383425256625399823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425256625399819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 249:4
+    formattedName: Polo_Dot_01
+    spriteName: Polo_Dot_01 0.5x 626555504.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8383425256625399819}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+    spriteSize: {x: 409, y: 373}
+    size: {x: 818, y: 746}
+    position: {x: 876.03467, y: -23935.941}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 626555504
+    hashDataTree: "\u2014\u2014\u2014\u2014Polo/Polo_Dot_01\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 1799662456\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (817.9, 745.0)\r\n    isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle
+      | 0\r\n    FillGeometry | 1799662456\r\n    StrokeWeight | 1\r\n    StrokeAlign
+      | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size | (817.9, 745.0)\r\n   
+      \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n        Type |
+      SOLID\r\n        Color | RGBA(0.847, 0.847, 0.847, 1.000)\r\n        BlendMode
+      | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle |
+      0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 107
+    hierarchy: Polo/Polo_Dot_01
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8383425256625399820
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425256625399819}
+  m_CullTransparentMesh: 1
+--- !u!114 &8383425256625399821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425256625399819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: b3c4893ad89aaed409c3aa8039f4cd3a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8383425256719547492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8383425256719547495}
+  - component: {fileID: 8383425256719547496}
+  - component: {fileID: 8383425256719547497}
+  - component: {fileID: 8383425256719547494}
+  m_Layer: 5
+  m_Name: Polo_Shape_03_#BEC8F7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8383425256719547495
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425256719547492}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8383425258433596878}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 651.06995, y: 26.691406}
+  m_SizeDelta: {x: -2129, y: -2065}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8383425256719547496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425256719547492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 93:366
+    formattedName: Polo_Shape_03_#BEC8F7
+    spriteName: Polo_Shape_03_#BEC8F7 0.5x -1456696774.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8383425256719547492}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 1, g: 1, b: 1, a: 1}
+    spriteSize: {x: 65, y: 36}
+    size: {x: 130, y: 72}
+    position: {x: 1377.57, y: -24208.809}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -1456696774
+    hashDataTree: "\u2014\u2014\u2014\u2014Polo/Polo_Shape_03_#BEC8F7\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | 1709969347\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (129.2, 71.3)\r\n    isVisible | True\r\n    Type
+      | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 1709969347\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (129.2, 71.3)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 107
+    hierarchy: Polo/Polo_Shape_03_#BEC8F7
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8383425256719547497
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425256719547492}
+  m_CullTransparentMesh: 1
+--- !u!114 &8383425256719547494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425256719547492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 5e00a41eaf6cffc4ba5cd014241e78ed, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8383425257277090511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8383425257277090510}
+  - component: {fileID: 8383425257277090515}
+  - component: {fileID: 8383425257277090512}
+  - component: {fileID: 8383425257277090513}
+  m_Layer: 5
+  m_Name: Polo_Stroke_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8383425257277090510
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425257277090511}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8383425258433596878}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 651.07007, y: 26.691406}
+  m_SizeDelta: {x: -2099, y: -2035}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8383425257277090515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425257277090511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 93:397
+    formattedName: Polo_Stroke_03
+    spriteName: Polo_Stroke_03 0.5x 1472522723.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8383425257277090511}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 1}
+    spriteSize: {x: 80, y: 51}
+    size: {x: 160, y: 102}
+    position: {x: 1362.5701, y: -24193.809}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 1472522723
+    hashDataTree: "\u2014\u2014\u2014\u2014Polo/Polo_Stroke_03\r\n    isVisible |
+      True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight
+      | 30\r\n    StrokeAlign | CENTER\r\n    BlendMode | PASS_THROUGH\r\n    StrokeCap
+      | ROUND\r\n    StrokeJoin | ROUND\r\n    Size | (129.2, 71.3)\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight
+      | 30\r\n    StrokeAlign | CENTER\r\n    BlendMode | PASS_THROUGH\r\n    StrokeCap
+      | ROUND\r\n    StrokeJoin | ROUND\r\n    Size | (129.2, 71.3)\r\n    \u2014\u2014\u2014\u2014Strokes\r\n       
+      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(0.000, 0.000,
+      0.000, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 107
+    hierarchy: Polo/Polo_Stroke_03
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8383425257277090512
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425257277090511}
+  m_CullTransparentMesh: 1
+--- !u!114 &8383425257277090513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425257277090511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: b5562359c17181743a452a3cc867a888, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8383425257611811633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8383425257611811632}
+  - component: {fileID: 8383425257611811637}
+  - component: {fileID: 8383425257611811634}
+  - component: {fileID: 8383425257611811635}
+  m_Layer: 5
+  m_Name: Polo_Sample
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8383425257611811632
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425257611811633}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8383425258433596878}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 629.9968, y: -1077}
+  m_SizeDelta: {x: 832, y: 832}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8383425257611811637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425257611811633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 93:423
+    formattedName: Polo_Sample
+    spriteName: Polo_Sample 0.5x 1132470895.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8383425257611811633}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 0}
+    spriteSize: {x: 416, y: 416}
+    size: {x: 832, y: 832}
+    position: {x: -124.003174, y: -23864}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 1132470895
+    hashDataTree: "\u2014\u2014\u2014\u2014Polo/Polo_Sample\r\n    isVisible | True\r\n   
+      Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
+      StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent |
+      False\r\n    Size | (802.0, 802.0)\r\n    isVisible | True\r\n    Type | GROUP\r\n   
+      GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n    Size | (802.0,
+      802.0)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle | 0\r\n       
+      EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Polo/Polo_Sample/Vector\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | 2078176725\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (801.9, 751.0)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 2078176725\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (801.9, 751.0)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.914, 0.937, 1.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
+      \u2014\u2014\u2014\u2014Polo/Polo_Sample/Vector\r\n        isVisible | True\r\n       
+      Type | VECTOR\r\n        GetFigmaRotationAngle | 0\r\n        FillGeometry
+      | 625995577\r\n        StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n       
+      BlendMode | PASS_THROUGH\r\n        Size | (435.6, 751.0)\r\n        isVisible
+      | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle | 0\r\n       
+      FillGeometry | 625995577\r\n        StrokeWeight | 1\r\n        StrokeAlign
+      | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size | (435.6, 751.0)\r\n       
+      \u2014\u2014\u2014\u2014Fills\r\n            IsVisible | True\r\n           
+      Type | SOLID\r\n            Color | RGBA(0.827, 0.863, 0.984, 1.000)\r\n           
+      BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014Polo/Polo_Sample/Vector\r\n           
+      isVisible | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle
+      | 0\r\n            FillGeometry | -1245103282\r\n            StrokeWeight |
+      1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      Size | (304.4, 128.6)\r\n            isVisible | True\r\n            Type |
+      VECTOR\r\n            GetFigmaRotationAngle | 0\r\n            FillGeometry
+      | -1245103282\r\n            StrokeWeight | 1\r\n            StrokeAlign |
+      INSIDE\r\n            BlendMode | PASS_THROUGH\r\n            Size | (304.4,
+      128.6)\r\n            \u2014\u2014\u2014\u2014Fills\r\n                IsVisible
+      | True\r\n                Type | SOLID\r\n                Color | RGBA(0.329,
+      0.243, 0.357, 1.000)\r\n                BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n            \u2014\u2014\u2014\u2014Polo/Polo_Sample/Vector\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 914563184\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (209.4, 128.6)\r\n                isVisible
+      | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 914563184\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (209.4, 128.6)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Color | RGBA(0.271, 0.188, 0.298, 1.000)\r\n                    BlendMode |
+      NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014Polo/Polo_Sample/Vector\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | -1183195710\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (80.0, 276.7)\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | -1183195710\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (80.0, 276.7)\r\n                   
+      \u2014\u2014\u2014\u2014Fills\r\n                        IsVisible | True\r\n                       
+      Type | SOLID\r\n                        Color | RGBA(0.329, 0.243, 0.357, 1.000)\r\n                       
+      BlendMode | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014Polo/Polo_Sample/Vector\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | -1474820005\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (206.2, 226.7)\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | -1474820005\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (206.2, 226.7)\r\n                       
+      \u2014\u2014\u2014\u2014Fills\r\n                            IsVisible | True\r\n                           
+      Type | SOLID\r\n                            Color | RGBA(0.424, 0.329, 0.459,
+      1.000)\r\n                            BlendMode | NORMAL\r\n                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                            StartingAngle
+      | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014Polo/Polo_Sample/Vector\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | 117733483\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (206.2, 226.7)\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | 117733483\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (206.2, 226.7)\r\n                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                IsVisible
+      | True\r\n                                Type | SOLID\r\n                               
+      Color | RGBA(0.424, 0.329, 0.459, 1.000)\r\n                               
+      BlendMode | NORMAL\r\n                            \u2014\u2014\u2014\u2014ArcData\r\n                               
+      StartingAngle | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                            \u2014\u2014\u2014\u2014Polo/Polo_Sample/Vector\r\n                               
+      isVisible | True\r\n                                Type | VECTOR\r\n                               
+      GetFigmaRotationAngle | 0\r\n                                FillGeometry |
+      1709969347\r\n                                StrokeWeight | 1\r\n                               
+      StrokeAlign | INSIDE\r\n                                BlendMode | PASS_THROUGH\r\n                               
+      Size | (129.2, 71.3)\r\n                                isVisible | True\r\n                               
+      Type | VECTOR\r\n                                GetFigmaRotationAngle | 0\r\n                               
+      FillGeometry | 1709969347\r\n                                StrokeWeight |
+      1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                Size | (129.2,
+      71.3)\r\n                                \u2014\u2014\u2014\u2014Fills\r\n                                   
+      IsVisible | True\r\n                                    Type | SOLID\r\n                                   
+      Color | RGBA(0.745, 0.784, 0.969, 1.000)\r\n                                   
+      BlendMode | NORMAL\r\n                                \u2014\u2014\u2014\u2014ArcData\r\n                                   
+      StartingAngle | 0\r\n                                    EndingAngle | 0\r\n                                   
+      InnerRadius | 0\r\n                                \u2014\u2014\u2014\u2014Polo/Polo_Sample/Vector\r\n                                   
+      isVisible | True\r\n                                    Type | VECTOR\r\n                                   
+      GetFigmaRotationAngle | 0\r\n                                    FillGeometry
+      | -214644176\r\n                                    StrokeWeight | 1\r\n                                   
+      StrokeAlign | INSIDE\r\n                                    BlendMode | PASS_THROUGH\r\n                                   
+      Size | (86.7, 71.3)\r\n                                    isVisible | True\r\n                                   
+      Type | VECTOR\r\n                                    GetFigmaRotationAngle
+      | 0\r\n                                    FillGeometry | -214644176\r\n                                   
+      StrokeWeight | 1\r\n                                    StrokeAlign | INSIDE\r\n                                   
+      BlendMode | PASS_THROUGH\r\n                                    Size | (86.7,
+      71.3)\r\n                                    \u2014\u2014\u2014\u2014Fills\r\n                                       
+      IsVisible | True\r\n                                        Type | SOLID\r\n                                       
+      Color | RGBA(0.659, 0.718, 0.937, 1.000)\r\n                                       
+      BlendMode | NORMAL\r\n                                    \u2014\u2014\u2014\u2014ArcData\r\n                                       
+      StartingAngle | 0\r\n                                        EndingAngle |
+      0\r\n                                        InnerRadius | 0\r\n                                   
+      \u2014\u2014\u2014\u2014Polo/Polo_Sample/Group\r\n                                       
+      isVisible | True\r\n                                        Type | GROUP\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        StrokeWeight
+      | 1\r\n                                        StrokeAlign | INSIDE\r\n                                       
+      BlendMode | PASS_THROUGH\r\n                                        ClipsContent
+      | False\r\n                                        Size | (802.0, 802.0)\r\n                                       
+      isVisible | True\r\n                                        Type | GROUP\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        StrokeWeight
+      | 1\r\n                                        StrokeAlign | INSIDE\r\n                                       
+      BlendMode | PASS_THROUGH\r\n                                        ClipsContent
+      | False\r\n                                        Size | (802.0, 802.0)\r\n                                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                                           
+      StartingAngle | 0\r\n                                            EndingAngle
+      | 0\r\n                                            InnerRadius | 0\r\n                                   
+      \u2014\u2014\u2014\u2014Polo/Polo_Sample/Group/Group\r\n                                       
+      isVisible | True\r\n                                        Type | GROUP\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        StrokeWeight
+      | 1\r\n                                        StrokeAlign | INSIDE\r\n                                       
+      BlendMode | PASS_THROUGH\r\n                                        ClipsContent
+      | False\r\n                                        Size | (802.0, 354.3)\r\n                                       
+      isVisible | True\r\n                                        Type | GROUP\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        StrokeWeight
+      | 1\r\n                                        StrokeAlign | INSIDE\r\n                                       
+      BlendMode | PASS_THROUGH\r\n                                        ClipsContent
+      | False\r\n                                        Size | (802.0, 354.3)\r\n                                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                                           
+      StartingAngle | 0\r\n                                            EndingAngle
+      | 0\r\n                                            InnerRadius | 0\r\n                                   
+      \u2014\u2014\u2014\u2014Polo/Polo_Sample/Group/Group/Vector\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        StrokeWeight
+      | 30\r\n                                        StrokeAlign | CENTER\r\n                                       
+      BlendMode | PASS_THROUGH\r\n                                        StrokeCap
+      | ROUND\r\n                                        StrokeJoin | ROUND\r\n                                       
+      Size | (182.8, 354.0)\r\n                                        isVisible
+      | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        StrokeWeight
+      | 30\r\n                                        StrokeAlign | CENTER\r\n                                       
+      BlendMode | PASS_THROUGH\r\n                                        StrokeCap
+      | ROUND\r\n                                        StrokeJoin | ROUND\r\n                                       
+      Size | (182.8, 354.0)\r\n                                        \u2014\u2014\u2014\u2014Strokes\r\n                                           
+      IsVisible | True\r\n                                            Type | SOLID\r\n                                           
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                           
+      BlendMode | NORMAL\r\n                                        \u2014\u2014\u2014\u2014ArcData\r\n                                           
+      StartingAngle | 0\r\n                                            EndingAngle
+      | 0\r\n                                            InnerRadius | 0\r\n                                       
+      \u2014\u2014\u2014\u2014Polo/Polo_Sample/Group/Group/Vector\r\n                                           
+      isVisible | True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            StrokeWeight
+      | 30\r\n                                            StrokeAlign | CENTER\r\n                                           
+      BlendMode | PASS_THROUGH\r\n                                            StrokeCap
+      | ROUND\r\n                                            StrokeJoin | ROUND\r\n                                           
+      Size | (183.5, 354.3)\r\n                                            isVisible
+      | True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            StrokeWeight
+      | 30\r\n                                            StrokeAlign | CENTER\r\n                                           
+      BlendMode | PASS_THROUGH\r\n                                            StrokeCap
+      | ROUND\r\n                                            StrokeJoin | ROUND\r\n                                           
+      Size | (183.5, 354.3)\r\n                                            \u2014\u2014\u2014\u2014Strokes\r\n                                               
+      IsVisible | True\r\n                                                Type |
+      SOLID\r\n                                                Color | RGBA(0.000,
+      0.000, 0.000, 1.000)\r\n                                                BlendMode
+      | NORMAL\r\n                                            \u2014\u2014\u2014\u2014ArcData\r\n                                               
+      StartingAngle | 0\r\n                                                EndingAngle
+      | 0\r\n                                                InnerRadius | 0\r\n                                       
+      \u2014\u2014\u2014\u2014Polo/Polo_Sample/Group/Vector\r\n                                           
+      isVisible | True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            StrokeWeight
+      | 30\r\n                                            StrokeAlign | CENTER\r\n                                           
+      BlendMode | PASS_THROUGH\r\n                                            StrokeCap
+      | ROUND\r\n                                            StrokeJoin | ROUND\r\n                                           
+      Size | (563.5, 388.2)\r\n                                            isVisible
+      | True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            StrokeWeight
+      | 30\r\n                                            StrokeAlign | CENTER\r\n                                           
+      BlendMode | PASS_THROUGH\r\n                                            StrokeCap
+      | ROUND\r\n                                            StrokeJoin | ROUND\r\n                                           
+      Size | (563.5, 388.2)\r\n                                            \u2014\u2014\u2014\u2014Strokes\r\n                                               
+      IsVisible | True\r\n                                                Type |
+      SOLID\r\n                                                Color | RGBA(0.000,
+      0.000, 0.000, 1.000)\r\n                                                BlendMode
+      | NORMAL\r\n                                            \u2014\u2014\u2014\u2014ArcData\r\n                                               
+      StartingAngle | 0\r\n                                                EndingAngle
+      | 0\r\n                                                InnerRadius | 0\r\n                                           
+      \u2014\u2014\u2014\u2014Polo/Polo_Sample/Group/Vector\r\n                                               
+      isVisible | True\r\n                                                Type |
+      VECTOR\r\n                                                GetFigmaRotationAngle
+      | 0\r\n                                                StrokeWeight | 30\r\n                                               
+      StrokeAlign | CENTER\r\n                                                BlendMode
+      | PASS_THROUGH\r\n                                                StrokeCap
+      | ROUND\r\n                                                StrokeJoin | ROUND\r\n                                               
+      Size | (304.4, 0.0)\r\n                                                isVisible
+      | True\r\n                                                Type | VECTOR\r\n                                               
+      GetFigmaRotationAngle | 0\r\n                                               
+      StrokeWeight | 30\r\n                                                StrokeAlign
+      | CENTER\r\n                                                BlendMode | PASS_THROUGH\r\n                                               
+      StrokeCap | ROUND\r\n                                                StrokeJoin
+      | ROUND\r\n                                                Size | (304.4, 0.0)\r\n                                               
+      \u2014\u2014\u2014\u2014Strokes\r\n                                                   
+      IsVisible | True\r\n                                                    Type
+      | SOLID\r\n                                                    Color | RGBA(0.000,
+      0.000, 0.000, 1.000)\r\n                                                   
+      BlendMode | NORMAL\r\n                                                \u2014\u2014\u2014\u2014ArcData\r\n                                                   
+      StartingAngle | 0\r\n                                                    EndingAngle
+      | 0\r\n                                                    InnerRadius | 0\r\n                                               
+      \u2014\u2014\u2014\u2014Polo/Polo_Sample/Group/Vector\r\n                                                   
+      isVisible | True\r\n                                                    Type
+      | VECTOR\r\n                                                    GetFigmaRotationAngle
+      | 0\r\n                                                    StrokeWeight | 30\r\n                                                   
+      StrokeAlign | CENTER\r\n                                                   
+      BlendMode | PASS_THROUGH\r\n                                                   
+      StrokeCap | ROUND\r\n                                                    StrokeJoin
+      | ROUND\r\n                                                    Size | (206.2,
+      226.7)\r\n                                                    isVisible | True\r\n                                                   
+      Type | VECTOR\r\n                                                    GetFigmaRotationAngle
+      | 0\r\n                                                    StrokeWeight | 30\r\n                                                   
+      StrokeAlign | CENTER\r\n                                                   
+      BlendMode | PASS_THROUGH\r\n                                                   
+      StrokeCap | ROUND\r\n                                                    StrokeJoin
+      | ROUND\r\n                                                    Size | (206.2,
+      226.7)\r\n                                                    \u2014\u2014\u2014\u2014Strokes\r\n                                                       
+      IsVisible | True\r\n                                                       
+      Type | SOLID\r\n                                                        Color
+      | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                       
+      BlendMode | NORMAL\r\n                                                    \u2014\u2014\u2014\u2014ArcData\r\n                                                       
+      StartingAngle | 0\r\n                                                       
+      EndingAngle | 0\r\n                                                       
+      InnerRadius | 0\r\n                                                    \u2014\u2014\u2014\u2014Polo/Polo_Sample/Group/Vector\r\n                                                       
+      isVisible | True\r\n                                                       
+      Type | VECTOR\r\n                                                        GetFigmaRotationAngle
+      | 0\r\n                                                        StrokeWeight
+      | 30\r\n                                                        StrokeAlign
+      | CENTER\r\n                                                        BlendMode
+      | PASS_THROUGH\r\n                                                        StrokeCap
+      | ROUND\r\n                                                        StrokeJoin
+      | ROUND\r\n                                                        Size | (206.2,
+      226.7)\r\n                                                        isVisible
+      | True\r\n                                                        Type | VECTOR\r\n                                                       
+      GetFigmaRotationAngle | 0\r\n                                                       
+      StrokeWeight | 30\r\n                                                       
+      StrokeAlign | CENTER\r\n                                                       
+      BlendMode | PASS_THROUGH\r\n                                                       
+      StrokeCap | ROUND\r\n                                                       
+      StrokeJoin | ROUND\r\n                                                       
+      Size | (206.2, 226.7)\r\n                                                       
+      \u2014\u2014\u2014\u2014Strokes\r\n                                                           
+      IsVisible | True\r\n                                                           
+      Type | SOLID\r\n                                                           
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                           
+      BlendMode | NORMAL\r\n                                                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                           
+      StartingAngle | 0\r\n                                                           
+      EndingAngle | 0\r\n                                                           
+      InnerRadius | 0\r\n                                                       
+      \u2014\u2014\u2014\u2014Polo/Polo_Sample/Group/Vector\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | VECTOR\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      StrokeWeight | 30\r\n                                                           
+      StrokeAlign | CENTER\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      StrokeCap | ROUND\r\n                                                           
+      StrokeJoin | ROUND\r\n                                                           
+      Size | (0.0, 99.5)\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | VECTOR\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      StrokeWeight | 30\r\n                                                           
+      StrokeAlign | CENTER\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      StrokeCap | ROUND\r\n                                                           
+      StrokeJoin | ROUND\r\n                                                           
+      Size | (0.0, 99.5)\r\n                                                           
+      \u2014\u2014\u2014\u2014Strokes\r\n                                                               
+      IsVisible | True\r\n                                                               
+      Type | SOLID\r\n                                                               
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                               
+      BlendMode | NORMAL\r\n                                                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                               
+      StartingAngle | 0\r\n                                                               
+      EndingAngle | 0\r\n                                                               
+      InnerRadius | 0\r\n                                                           
+      \u2014\u2014\u2014\u2014Polo/Polo_Sample/Group/Vector\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | VECTOR\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      StrokeWeight | 30\r\n                                                               
+      StrokeAlign | CENTER\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      StrokeCap | ROUND\r\n                                                               
+      StrokeJoin | ROUND\r\n                                                               
+      Size | (0.0, 99.5)\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | VECTOR\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      StrokeWeight | 30\r\n                                                               
+      StrokeAlign | CENTER\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      StrokeCap | ROUND\r\n                                                               
+      StrokeJoin | ROUND\r\n                                                               
+      Size | (0.0, 99.5)\r\n                                                               
+      \u2014\u2014\u2014\u2014Strokes\r\n                                                                   
+      IsVisible | True\r\n                                                                   
+      Type | SOLID\r\n                                                                   
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                   
+      BlendMode | NORMAL\r\n                                                               
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                   
+      StartingAngle | 0\r\n                                                                   
+      EndingAngle | 0\r\n                                                                   
+      InnerRadius | 0\r\n                                                               
+      \u2014\u2014\u2014\u2014Polo/Polo_Sample/Group/Vector\r\n                                                                   
+      isVisible | True\r\n                                                                   
+      Type | VECTOR\r\n                                                                   
+      GetFigmaRotationAngle | 0\r\n                                                                   
+      StrokeWeight | 30\r\n                                                                   
+      StrokeAlign | CENTER\r\n                                                                   
+      BlendMode | PASS_THROUGH\r\n                                                                   
+      StrokeCap | ROUND\r\n                                                                   
+      StrokeJoin | ROUND\r\n                                                                   
+      Size | (80.0, 211.1)\r\n                                                                   
+      isVisible | True\r\n                                                                   
+      Type | VECTOR\r\n                                                                   
+      GetFigmaRotationAngle | 0\r\n                                                                   
+      StrokeWeight | 30\r\n                                                                   
+      StrokeAlign | CENTER\r\n                                                                   
+      BlendMode | PASS_THROUGH\r\n                                                                   
+      StrokeCap | ROUND\r\n                                                                   
+      StrokeJoin | ROUND\r\n                                                                   
+      Size | (80.0, 211.1)\r\n                                                                   
+      \u2014\u2014\u2014\u2014Strokes\r\n                                                                       
+      IsVisible | True\r\n                                                                       
+      Type | SOLID\r\n                                                                       
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                       
+      BlendMode | NORMAL\r\n                                                                   
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                       
+      StartingAngle | 0\r\n                                                                       
+      EndingAngle | 0\r\n                                                                       
+      InnerRadius | 0\r\n                                                                   
+      \u2014\u2014\u2014\u2014Polo/Polo_Sample/Group/Vector\r\n                                                                       
+      isVisible | True\r\n                                                                       
+      Type | VECTOR\r\n                                                                       
+      GetFigmaRotationAngle | 0\r\n                                                                       
+      StrokeWeight | 30\r\n                                                                       
+      StrokeAlign | CENTER\r\n                                                                       
+      BlendMode | PASS_THROUGH\r\n                                                                       
+      StrokeCap | ROUND\r\n                                                                       
+      StrokeJoin | ROUND\r\n                                                                       
+      Size | (22.5, 1.6)\r\n                                                                       
+      isVisible | True\r\n                                                                       
+      Type | VECTOR\r\n                                                                       
+      GetFigmaRotationAngle | 0\r\n                                                                       
+      StrokeWeight | 30\r\n                                                                       
+      StrokeAlign | CENTER\r\n                                                                       
+      BlendMode | PASS_THROUGH\r\n                                                                       
+      StrokeCap | ROUND\r\n                                                                       
+      StrokeJoin | ROUND\r\n                                                                       
+      Size | (22.5, 1.6)\r\n                                                                       
+      \u2014\u2014\u2014\u2014Strokes\r\n                                                                           
+      IsVisible | True\r\n                                                                           
+      Type | SOLID\r\n                                                                           
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                           
+      BlendMode | NORMAL\r\n                                                                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                           
+      StartingAngle | 0\r\n                                                                           
+      EndingAngle | 0\r\n                                                                           
+      InnerRadius | 0\r\n                                                                       
+      \u2014\u2014\u2014\u2014Polo/Polo_Sample/Group/Vector\r\n                                                                           
+      isVisible | True\r\n                                                                           
+      Type | VECTOR\r\n                                                                           
+      GetFigmaRotationAngle | 0\r\n                                                                           
+      StrokeWeight | 30\r\n                                                                           
+      StrokeAlign | CENTER\r\n                                                                           
+      BlendMode | PASS_THROUGH\r\n                                                                           
+      StrokeCap | ROUND\r\n                                                                           
+      StrokeJoin | ROUND\r\n                                                                           
+      Size | (129.2, 71.3)\r\n                                                                           
+      isVisible | True\r\n                                                                           
+      Type | VECTOR\r\n                                                                           
+      GetFigmaRotationAngle | 0\r\n                                                                           
+      StrokeWeight | 30\r\n                                                                           
+      StrokeAlign | CENTER\r\n                                                                           
+      BlendMode | PASS_THROUGH\r\n                                                                           
+      StrokeCap | ROUND\r\n                                                                           
+      StrokeJoin | ROUND\r\n                                                                           
+      Size | (129.2, 71.3)\r\n                                                                           
+      \u2014\u2014\u2014\u2014Strokes\r\n                                                                               
+      IsVisible | True\r\n                                                                               
+      Type | SOLID\r\n                                                                               
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                               
+      BlendMode | NORMAL\r\n                                                                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                               
+      StartingAngle | 0\r\n                                                                               
+      EndingAngle | 0\r\n                                                                               
+      InnerRadius | 0\r\n"
+    parentIndex: 107
+    hierarchy: Polo/Polo_Sample
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8383425257611811634
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425257611811633}
+  m_CullTransparentMesh: 1
+--- !u!114 &8383425257611811635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425257611811633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: b495cc2b7fe7c694cb982930c1d6195a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8383425257623859077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8383425257623859076}
+  - component: {fileID: 8383425257623859081}
+  - component: {fileID: 8383425257623859078}
+  - component: {fileID: 8383425257623859079}
+  m_Layer: 5
+  m_Name: Polo_Shape_01_#E9EFFF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8383425257623859076
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425257623859077}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8383425258433596878}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 493.47437, y: -32}
+  m_SizeDelta: {x: -1457, y: -1395}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8383425257623859081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425257623859077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 93:361
+    formattedName: Polo_Shape_01_#E9EFFF
+    spriteName: Polo_Shape_01_#E9EFFF 0.5x -1636236600.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8383425257623859077}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 1, g: 1, b: 1, a: 1}
+    spriteSize: {x: 401, y: 371}
+    size: {x: 802, y: 742}
+    position: {x: 883.97437, y: -23932.5}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -1636236600
+    hashDataTree: "\u2014\u2014\u2014\u2014Polo/Polo_Shape_01_#E9EFFF\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | 803922874\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (801.9, 740.5)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 803922874\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (801.9, 740.5)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 107
+    hierarchy: Polo/Polo_Shape_01_#E9EFFF
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8383425257623859078
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425257623859077}
+  m_CullTransparentMesh: 1
+--- !u!114 &8383425257623859079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425257623859077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 95ec2c92d5586344388b2db320acae01, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8383425257682517439
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8383425257682517438}
+  - component: {fileID: 8383425257682517315}
+  - component: {fileID: 8383425257682517312}
+  - component: {fileID: 8383425257682517313}
+  m_Layer: 5
+  m_Name: Polo_Stroke_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8383425257682517438
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425257682517439}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8383425258433596878}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 493.98975, y: 205.49219}
+  m_SizeDelta: {x: -1793, y: -1717}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8383425257682517315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425257682517439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 249:3
+    formattedName: Polo_Stroke_02
+    spriteName: Polo_Stroke_02 0.5x -1439629757.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8383425257682517439}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 1}
+    spriteSize: {x: 233, y: 210}
+    size: {x: 466, y: 420}
+    position: {x: 1052.4897, y: -23856.008}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -1439629757
+    hashDataTree: "\u2014\u2014\u2014\u2014Polo/Polo_Stroke_02\r\n    isVisible |
+      True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight
+      | 30\r\n    StrokeAlign | CENTER\r\n    BlendMode | PASS_THROUGH\r\n    StrokeCap
+      | ROUND\r\n    StrokeJoin | ROUND\r\n    Size | (435.0, 388.2)\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight
+      | 30\r\n    StrokeAlign | CENTER\r\n    BlendMode | PASS_THROUGH\r\n    StrokeCap
+      | ROUND\r\n    StrokeJoin | ROUND\r\n    Size | (435.0, 388.2)\r\n    \u2014\u2014\u2014\u2014Strokes\r\n       
+      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(0.000, 0.000,
+      0.000, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 107
+    hierarchy: Polo/Polo_Stroke_02
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8383425257682517312
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425257682517439}
+  m_CullTransparentMesh: 1
+--- !u!114 &8383425257682517313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425257682517439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 4bb60194bbc84a543bb8c9ccccc533dc, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8383425257742640263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8383425257742640262}
+  - component: {fileID: 8383425257742640267}
+  - component: {fileID: 8383425257742640264}
+  - component: {fileID: 8383425257742640265}
+  m_Layer: 5
+  m_Name: Polo_Stroke_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8383425257742640262
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425257742640263}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8383425258433596878}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 493.4812, y: -30.964844}
+  m_SizeDelta: {x: -1427, y: -1363}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8383425257742640267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425257742640263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 249:2
+    formattedName: Polo_Stroke_01
+    spriteName: Polo_Stroke_01 0.5x 1190511039.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8383425257742640263}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 1}
+    spriteSize: {x: 416, y: 387}
+    size: {x: 832, y: 774}
+    position: {x: 868.9812, y: -23915.465}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 1190511039
+    hashDataTree: "\u2014\u2014\u2014\u2014Polo/Polo_Stroke_01\r\n    isVisible |
+      True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight
+      | 30\r\n    StrokeAlign | CENTER\r\n    BlendMode | PASS_THROUGH\r\n    StrokeCap
+      | ROUND\r\n    StrokeJoin | ROUND\r\n    Size | (802.0, 742.5)\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight
+      | 30\r\n    StrokeAlign | CENTER\r\n    BlendMode | PASS_THROUGH\r\n    StrokeCap
+      | ROUND\r\n    StrokeJoin | ROUND\r\n    Size | (802.0, 742.5)\r\n    \u2014\u2014\u2014\u2014Strokes\r\n       
+      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(0.000, 0.000,
+      0.000, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 107
+    hierarchy: Polo/Polo_Stroke_01
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8383425257742640264
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425257742640263}
+  m_CullTransparentMesh: 1
+--- !u!114 &8383425257742640265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425257742640263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 8c9e2c924b99e9647b9f2c5214c7407a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8383425258216809050
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8383425258216809053}
+  - component: {fileID: 8383425258216809054}
+  - component: {fileID: 8383425258216809055}
+  - component: {fileID: 8383425258216809052}
+  m_Layer: 5
+  m_Name: Subtract
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8383425258216809053
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425258216809050}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8383425258433596878}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1512.9487, y: -1069}
+  m_SizeDelta: {x: 582, y: 802}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8383425258216809054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425258216809050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 243:1111
+    formattedName: Subtract
+    spriteName: Subtract 0.5x -1880277976.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8383425258216809050}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.2, g: 0.2, b: 0.2, a: 0.1}
+    spriteSize: {x: 291, y: 401}
+    size: {x: 582, y: 802}
+    position: {x: 883.9487, y: -23871}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -1880277976
+    hashDataTree: "\u2014\u2014\u2014\u2014Polo/Subtract\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -178461700\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (580.3, 802.0)\r\n    isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle
+      | 0\r\n    FillGeometry | -178461700\r\n    StrokeWeight | 1\r\n    StrokeAlign
+      | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size | (580.3, 802.0)\r\n   
+      \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n        Type |
+      SOLID\r\n        Opacity | 0.1\r\n        Color | RGBA(0.200, 0.200, 0.200,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 107
+    hierarchy: Polo/Subtract
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8383425258216809055
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425258216809050}
+  m_CullTransparentMesh: 1
+--- !u!114 &8383425258216809052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425258216809050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.2, g: 0.2, b: 0.2, a: 0.1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e14180b4e5c2f084f929ab223df82072, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8383425258227428563
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8383425258227428562}
+  - component: {fileID: 8383425258227428567}
+  - component: {fileID: 8383425258227428564}
+  - component: {fileID: 8383425258227428565}
+  m_Layer: 5
+  m_Name: Polo_Shape_02_#6C5475
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8383425258227428562
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425258227428563}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8383425258433596878}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 493.99292, y: 205.49219}
+  m_SizeDelta: {x: -1823, y: -1747}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8383425258227428567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425258227428563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 243:1112
+    formattedName: Polo_Shape_02_#6C5475
+    spriteName: Polo_Shape_02_#6C5475 0.5x -1804578398.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8383425258227428563}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 1, g: 1, b: 1, a: 1}
+    spriteSize: {x: 218, y: 195}
+    size: {x: 436, y: 390}
+    position: {x: 1067.4929, y: -23871.008}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -1804578398
+    hashDataTree: "\u2014\u2014\u2014\u2014Polo/Polo_Shape_02_#6C5475\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | 1237240490\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (435.0, 388.2)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 1237240490\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (435.0, 388.2)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 107
+    hierarchy: Polo/Polo_Shape_02_#6C5475
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8383425258227428564
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425258227428563}
+  m_CullTransparentMesh: 1
+--- !u!114 &8383425258227428565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425258227428563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: fb221afe5b6435d4393f75c7a78e6b98, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8383425258310726947
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8383425258310726946}
+  - component: {fileID: 8383425258310726951}
+  - component: {fileID: 8383425258310726948}
+  - component: {fileID: 8383425258310726949}
+  m_Layer: 5
+  m_Name: Polo_Dot_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8383425258310726946
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425258310726947}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8383425258433596878}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 649.07007, y: 26.689453}
+  m_SizeDelta: {x: -2117, y: -2049}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8383425258310726951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425258310726947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 93:422
+    formattedName: Polo_Dot_03
+    spriteName: Polo_Dot_03 0.5x 1162803184.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8383425258310726947}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+    spriteSize: {x: 71, y: 44}
+    size: {x: 142, y: 88}
+    position: {x: 1369.5701, y: -24200.81}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 1162803184
+    hashDataTree: "\u2014\u2014\u2014\u2014Polo/Polo_Dot_03\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -40503251\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (141.9, 87.3)\r\n    isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle
+      | 0\r\n    FillGeometry | -40503251\r\n    StrokeWeight | 1\r\n    StrokeAlign
+      | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size | (141.9, 87.3)\r\n   
+      \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n        Type |
+      SOLID\r\n        Color | RGBA(0.847, 0.847, 0.847, 1.000)\r\n        BlendMode
+      | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle |
+      0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 107
+    hierarchy: Polo/Polo_Dot_03
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8383425258310726948
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425258310726947}
+  m_CullTransparentMesh: 1
+--- !u!114 &8383425258310726949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425258310726947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3d6cd6251fc5ae24e9d4b909e5bdece8, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8383425258433596879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8383425258433596878}
+  - component: {fileID: 8383425258433596883}
+  - component: {fileID: 8383425258433596880}
+  - component: {fileID: 8383425258433596881}
+  m_Layer: 5
+  m_Name: Polo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8383425258433596878
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425258433596879}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8383425257611811632}
+  - {fileID: 8383425257623859076}
+  - {fileID: 8383425258227428562}
+  - {fileID: 8383425256719547495}
+  - {fileID: 8383425258216809053}
+  - {fileID: 8383425257742640262}
+  - {fileID: 8383425257682517438}
+  - {fileID: 8383425257277090510}
+  - {fileID: 8383425256625399818}
+  - {fileID: 8383425258554478636}
+  - {fileID: 8383425258310726946}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 791.5, y: -26191.5}
+  m_SizeDelta: {x: 2259, y: 2137}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8383425258433596883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425258433596879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 84:218
+    formattedName: Polo
+    spriteName: Polo 0.5x -522473103.png
+    tags: 02000000f6010000c900000001000000
+    childIndexes: 6c0000006d0000006e0000006f00000070000000710000007200000073000000740000007500000076000000
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8383425258433596879}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 0}
+    spriteSize: {x: 1129, y: 1068}
+    size: {x: 2259, y: 2137}
+    position: {x: -338, y: -23203}
+    fcuImageType: 3
+    buttonComponent: 0
+    hash: -522473103
+    hashDataTree: "\u2014\u2014\u2014\u2014Polo\r\n    isVisible | True\r\n    Type
+      | FRAME\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 2038957215\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | True\r\n    Size | (2259.0, 2137.0)\r\n    isVisible | True\r\n   
+      Type | FRAME\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 2038957215\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | True\r\n    Size | (2259.0, 2137.0)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
+      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 0.728,
+      0.321, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Polo/Polo_Sample\r\n   
+      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | False\r\n    Size | (802.0, 802.0)\r\n    isVisible | True\r\n   
+      Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
+      StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent |
+      False\r\n    Size | (802.0, 802.0)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Polo/Polo_Sample/Vector\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | 2078176725\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (801.9, 751.0)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 2078176725\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (801.9, 751.0)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.914, 0.937, 1.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
+      \u2014\u2014\u2014\u2014Polo/Polo_Sample/Vector\r\n        isVisible | True\r\n       
+      Type | VECTOR\r\n        GetFigmaRotationAngle | 0\r\n        FillGeometry
+      | 625995577\r\n        StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n       
+      BlendMode | PASS_THROUGH\r\n        Size | (435.6, 751.0)\r\n        isVisible
+      | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle | 0\r\n       
+      FillGeometry | 625995577\r\n        StrokeWeight | 1\r\n        StrokeAlign
+      | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size | (435.6, 751.0)\r\n       
+      \u2014\u2014\u2014\u2014Fills\r\n            IsVisible | True\r\n           
+      Type | SOLID\r\n            Color | RGBA(0.827, 0.863, 0.984, 1.000)\r\n           
+      BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n    \u2014\u2014\u2014\u2014Polo/Polo_Shape_01_#E9EFFF\r\n        isVisible
+      | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle | 0\r\n       
+      FillGeometry | 803922874\r\n        StrokeWeight | 1\r\n        StrokeAlign
+      | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size | (801.9, 740.5)\r\n       
+      isVisible | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle
+      | 0\r\n        FillGeometry | 803922874\r\n        StrokeWeight | 1\r\n       
+      StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size |
+      (801.9, 740.5)\r\n        \u2014\u2014\u2014\u2014Fills\r\n            IsVisible
+      | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000, 1.000,
+      1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014Polo/Polo_Sample/Vector\r\n           
+      isVisible | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle
+      | 0\r\n            FillGeometry | -1245103282\r\n            StrokeWeight |
+      1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      Size | (304.4, 128.6)\r\n            isVisible | True\r\n            Type |
+      VECTOR\r\n            GetFigmaRotationAngle | 0\r\n            FillGeometry
+      | -1245103282\r\n            StrokeWeight | 1\r\n            StrokeAlign |
+      INSIDE\r\n            BlendMode | PASS_THROUGH\r\n            Size | (304.4,
+      128.6)\r\n            \u2014\u2014\u2014\u2014Fills\r\n                IsVisible
+      | True\r\n                Type | SOLID\r\n                Color | RGBA(0.329,
+      0.243, 0.357, 1.000)\r\n                BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014Polo/Polo_Shape_02_#6C5475\r\n           
+      isVisible | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle
+      | 0\r\n            FillGeometry | 1237240490\r\n            StrokeWeight |
+      1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      Size | (435.0, 388.2)\r\n            isVisible | True\r\n            Type |
+      VECTOR\r\n            GetFigmaRotationAngle | 0\r\n            FillGeometry
+      | 1237240490\r\n            StrokeWeight | 1\r\n            StrokeAlign | INSIDE\r\n           
+      BlendMode | PASS_THROUGH\r\n            Size | (435.0, 388.2)\r\n           
+      \u2014\u2014\u2014\u2014Fills\r\n                IsVisible | True\r\n               
+      Type | SOLID\r\n                Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n               
+      BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n            \u2014\u2014\u2014\u2014Polo/Polo_Sample/Vector\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 914563184\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (209.4, 128.6)\r\n                isVisible
+      | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 914563184\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (209.4, 128.6)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Color | RGBA(0.271, 0.188, 0.298, 1.000)\r\n                    BlendMode |
+      NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014Polo/Polo_Shape_03_#BEC8F7\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 1709969347\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (129.2, 71.3)\r\n                isVisible
+      | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 1709969347\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (129.2, 71.3)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                    BlendMode |
+      NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014Polo/Polo_Sample/Vector\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | -1183195710\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (80.0, 276.7)\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | -1183195710\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (80.0, 276.7)\r\n                   
+      \u2014\u2014\u2014\u2014Fills\r\n                        IsVisible | True\r\n                       
+      Type | SOLID\r\n                        Color | RGBA(0.329, 0.243, 0.357, 1.000)\r\n                       
+      BlendMode | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014Polo/Subtract\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | -178461700\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (580.3, 802.0)\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | -178461700\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (580.3, 802.0)\r\n                   
+      \u2014\u2014\u2014\u2014Fills\r\n                        IsVisible | True\r\n                       
+      Type | SOLID\r\n                        Opacity | 0.1\r\n                       
+      Color | RGBA(0.200, 0.200, 0.200, 1.000)\r\n                        BlendMode
+      | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014Polo/Polo_Sample/Vector\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | -1474820005\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (206.2, 226.7)\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | -1474820005\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (206.2, 226.7)\r\n                       
+      \u2014\u2014\u2014\u2014Fills\r\n                            IsVisible | True\r\n                           
+      Type | SOLID\r\n                            Color | RGBA(0.424, 0.329, 0.459,
+      1.000)\r\n                            BlendMode | NORMAL\r\n                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                            StartingAngle
+      | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014Polo/Polo_Stroke_01\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        StrokeWeight | 30\r\n                       
+      StrokeAlign | CENTER\r\n                        BlendMode | PASS_THROUGH\r\n                       
+      StrokeCap | ROUND\r\n                        StrokeJoin | ROUND\r\n                       
+      Size | (802.0, 742.5)\r\n                        isVisible | True\r\n                       
+      Type | VECTOR\r\n                        GetFigmaRotationAngle | 0\r\n                       
+      StrokeWeight | 30\r\n                        StrokeAlign | CENTER\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        StrokeCap | ROUND\r\n                       
+      StrokeJoin | ROUND\r\n                        Size | (802.0, 742.5)\r\n                       
+      \u2014\u2014\u2014\u2014Strokes\r\n                            IsVisible |
+      True\r\n                            Type | SOLID\r\n                           
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                            BlendMode
+      | NORMAL\r\n                        \u2014\u2014\u2014\u2014ArcData\r\n                           
+      StartingAngle | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014Polo/Polo_Sample/Vector\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | 117733483\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (206.2, 226.7)\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | 117733483\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (206.2, 226.7)\r\n                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                IsVisible
+      | True\r\n                                Type | SOLID\r\n                               
+      Color | RGBA(0.424, 0.329, 0.459, 1.000)\r\n                               
+      BlendMode | NORMAL\r\n                            \u2014\u2014\u2014\u2014ArcData\r\n                               
+      StartingAngle | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014Polo/Polo_Stroke_02\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            StrokeWeight | 30\r\n                           
+      StrokeAlign | CENTER\r\n                            BlendMode | PASS_THROUGH\r\n                           
+      StrokeCap | ROUND\r\n                            StrokeJoin | ROUND\r\n                           
+      Size | (435.0, 388.2)\r\n                            isVisible | True\r\n                           
+      Type | VECTOR\r\n                            GetFigmaRotationAngle | 0\r\n                           
+      StrokeWeight | 30\r\n                            StrokeAlign | CENTER\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            StrokeCap | ROUND\r\n                           
+      StrokeJoin | ROUND\r\n                            Size | (435.0, 388.2)\r\n                           
+      \u2014\u2014\u2014\u2014Strokes\r\n                                IsVisible
+      | True\r\n                                Type | SOLID\r\n                               
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                               
+      BlendMode | NORMAL\r\n                            \u2014\u2014\u2014\u2014ArcData\r\n                               
+      StartingAngle | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                            \u2014\u2014\u2014\u2014Polo/Polo_Sample/Vector\r\n                               
+      isVisible | True\r\n                                Type | VECTOR\r\n                               
+      GetFigmaRotationAngle | 0\r\n                                FillGeometry |
+      1709969347\r\n                                StrokeWeight | 1\r\n                               
+      StrokeAlign | INSIDE\r\n                                BlendMode | PASS_THROUGH\r\n                               
+      Size | (129.2, 71.3)\r\n                                isVisible | True\r\n                               
+      Type | VECTOR\r\n                                GetFigmaRotationAngle | 0\r\n                               
+      FillGeometry | 1709969347\r\n                                StrokeWeight |
+      1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                Size | (129.2,
+      71.3)\r\n                                \u2014\u2014\u2014\u2014Fills\r\n                                   
+      IsVisible | True\r\n                                    Type | SOLID\r\n                                   
+      Color | RGBA(0.745, 0.784, 0.969, 1.000)\r\n                                   
+      BlendMode | NORMAL\r\n                                \u2014\u2014\u2014\u2014ArcData\r\n                                   
+      StartingAngle | 0\r\n                                    EndingAngle | 0\r\n                                   
+      InnerRadius | 0\r\n                            \u2014\u2014\u2014\u2014Polo/Polo_Stroke_03\r\n                               
+      isVisible | True\r\n                                Type | VECTOR\r\n                               
+      GetFigmaRotationAngle | 0\r\n                                StrokeWeight |
+      30\r\n                                StrokeAlign | CENTER\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                StrokeCap | ROUND\r\n                               
+      StrokeJoin | ROUND\r\n                                Size | (129.2, 71.3)\r\n                               
+      isVisible | True\r\n                                Type | VECTOR\r\n                               
+      GetFigmaRotationAngle | 0\r\n                                StrokeWeight |
+      30\r\n                                StrokeAlign | CENTER\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                StrokeCap | ROUND\r\n                               
+      StrokeJoin | ROUND\r\n                                Size | (129.2, 71.3)\r\n                               
+      \u2014\u2014\u2014\u2014Strokes\r\n                                    IsVisible
+      | True\r\n                                    Type | SOLID\r\n                                   
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                   
+      BlendMode | NORMAL\r\n                                \u2014\u2014\u2014\u2014ArcData\r\n                                   
+      StartingAngle | 0\r\n                                    EndingAngle | 0\r\n                                   
+      InnerRadius | 0\r\n                                \u2014\u2014\u2014\u2014Polo/Polo_Sample/Vector\r\n                                   
+      isVisible | True\r\n                                    Type | VECTOR\r\n                                   
+      GetFigmaRotationAngle | 0\r\n                                    FillGeometry
+      | -214644176\r\n                                    StrokeWeight | 1\r\n                                   
+      StrokeAlign | INSIDE\r\n                                    BlendMode | PASS_THROUGH\r\n                                   
+      Size | (86.7, 71.3)\r\n                                    isVisible | True\r\n                                   
+      Type | VECTOR\r\n                                    GetFigmaRotationAngle
+      | 0\r\n                                    FillGeometry | -214644176\r\n                                   
+      StrokeWeight | 1\r\n                                    StrokeAlign | INSIDE\r\n                                   
+      BlendMode | PASS_THROUGH\r\n                                    Size | (86.7,
+      71.3)\r\n                                    \u2014\u2014\u2014\u2014Fills\r\n                                       
+      IsVisible | True\r\n                                        Type | SOLID\r\n                                       
+      Color | RGBA(0.659, 0.718, 0.937, 1.000)\r\n                                       
+      BlendMode | NORMAL\r\n                                    \u2014\u2014\u2014\u2014ArcData\r\n                                       
+      StartingAngle | 0\r\n                                        EndingAngle |
+      0\r\n                                        InnerRadius | 0\r\n                               
+      \u2014\u2014\u2014\u2014Polo/Polo_Dot_01\r\n                                   
+      isVisible | True\r\n                                    Type | VECTOR\r\n                                   
+      GetFigmaRotationAngle | 0\r\n                                    FillGeometry
+      | 1799662456\r\n                                    StrokeWeight | 1\r\n                                   
+      StrokeAlign | INSIDE\r\n                                    BlendMode | PASS_THROUGH\r\n                                   
+      Size | (817.9, 745.0)\r\n                                    isVisible | True\r\n                                   
+      Type | VECTOR\r\n                                    GetFigmaRotationAngle
+      | 0\r\n                                    FillGeometry | 1799662456\r\n                                   
+      StrokeWeight | 1\r\n                                    StrokeAlign | INSIDE\r\n                                   
+      BlendMode | PASS_THROUGH\r\n                                    Size | (817.9,
+      745.0)\r\n                                    \u2014\u2014\u2014\u2014Fills\r\n                                       
+      IsVisible | True\r\n                                        Type | SOLID\r\n                                       
+      Color | RGBA(0.847, 0.847, 0.847, 1.000)\r\n                                       
+      BlendMode | NORMAL\r\n                                    \u2014\u2014\u2014\u2014ArcData\r\n                                       
+      StartingAngle | 0\r\n                                        EndingAngle |
+      0\r\n                                        InnerRadius | 0\r\n                                   
+      \u2014\u2014\u2014\u2014Polo/Polo_Sample/Group\r\n                                       
+      isVisible | True\r\n                                        Type | GROUP\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        StrokeWeight
+      | 1\r\n                                        StrokeAlign | INSIDE\r\n                                       
+      BlendMode | PASS_THROUGH\r\n                                        ClipsContent
+      | False\r\n                                        Size | (802.0, 802.0)\r\n                                       
+      isVisible | True\r\n                                        Type | GROUP\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        StrokeWeight
+      | 1\r\n                                        StrokeAlign | INSIDE\r\n                                       
+      BlendMode | PASS_THROUGH\r\n                                        ClipsContent
+      | False\r\n                                        Size | (802.0, 802.0)\r\n                                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                                           
+      StartingAngle | 0\r\n                                            EndingAngle
+      | 0\r\n                                            InnerRadius | 0\r\n                                   
+      \u2014\u2014\u2014\u2014Polo/Polo_Sample/Group/Group\r\n                                       
+      isVisible | True\r\n                                        Type | GROUP\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        StrokeWeight
+      | 1\r\n                                        StrokeAlign | INSIDE\r\n                                       
+      BlendMode | PASS_THROUGH\r\n                                        ClipsContent
+      | False\r\n                                        Size | (802.0, 354.3)\r\n                                       
+      isVisible | True\r\n                                        Type | GROUP\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        StrokeWeight
+      | 1\r\n                                        StrokeAlign | INSIDE\r\n                                       
+      BlendMode | PASS_THROUGH\r\n                                        ClipsContent
+      | False\r\n                                        Size | (802.0, 354.3)\r\n                                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                                           
+      StartingAngle | 0\r\n                                            EndingAngle
+      | 0\r\n                                            InnerRadius | 0\r\n                                   
+      \u2014\u2014\u2014\u2014Polo/Polo_Sample/Group/Group/Vector\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        StrokeWeight
+      | 30\r\n                                        StrokeAlign | CENTER\r\n                                       
+      BlendMode | PASS_THROUGH\r\n                                        StrokeCap
+      | ROUND\r\n                                        StrokeJoin | ROUND\r\n                                       
+      Size | (182.8, 354.0)\r\n                                        isVisible
+      | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        StrokeWeight
+      | 30\r\n                                        StrokeAlign | CENTER\r\n                                       
+      BlendMode | PASS_THROUGH\r\n                                        StrokeCap
+      | ROUND\r\n                                        StrokeJoin | ROUND\r\n                                       
+      Size | (182.8, 354.0)\r\n                                        \u2014\u2014\u2014\u2014Strokes\r\n                                           
+      IsVisible | True\r\n                                            Type | SOLID\r\n                                           
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                           
+      BlendMode | NORMAL\r\n                                        \u2014\u2014\u2014\u2014ArcData\r\n                                           
+      StartingAngle | 0\r\n                                            EndingAngle
+      | 0\r\n                                            InnerRadius | 0\r\n                                   
+      \u2014\u2014\u2014\u2014Polo/Polo_Dot_02\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | 59447884\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (446.9, 401.3)\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | 59447884\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (446.9, 401.3)\r\n                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                           
+      IsVisible | True\r\n                                            Type | SOLID\r\n                                           
+      Color | RGBA(0.847, 0.847, 0.847, 1.000)\r\n                                           
+      BlendMode | NORMAL\r\n                                        \u2014\u2014\u2014\u2014ArcData\r\n                                           
+      StartingAngle | 0\r\n                                            EndingAngle
+      | 0\r\n                                            InnerRadius | 0\r\n                                       
+      \u2014\u2014\u2014\u2014Polo/Polo_Sample/Group/Group/Vector\r\n                                           
+      isVisible | True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            StrokeWeight
+      | 30\r\n                                            StrokeAlign | CENTER\r\n                                           
+      BlendMode | PASS_THROUGH\r\n                                            StrokeCap
+      | ROUND\r\n                                            StrokeJoin | ROUND\r\n                                           
+      Size | (183.5, 354.3)\r\n                                            isVisible
+      | True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            StrokeWeight
+      | 30\r\n                                            StrokeAlign | CENTER\r\n                                           
+      BlendMode | PASS_THROUGH\r\n                                            StrokeCap
+      | ROUND\r\n                                            StrokeJoin | ROUND\r\n                                           
+      Size | (183.5, 354.3)\r\n                                            \u2014\u2014\u2014\u2014Strokes\r\n                                               
+      IsVisible | True\r\n                                                Type |
+      SOLID\r\n                                                Color | RGBA(0.000,
+      0.000, 0.000, 1.000)\r\n                                                BlendMode
+      | NORMAL\r\n                                            \u2014\u2014\u2014\u2014ArcData\r\n                                               
+      StartingAngle | 0\r\n                                                EndingAngle
+      | 0\r\n                                                InnerRadius | 0\r\n                                       
+      \u2014\u2014\u2014\u2014Polo/Polo_Sample/Group/Vector\r\n                                           
+      isVisible | True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            StrokeWeight
+      | 30\r\n                                            StrokeAlign | CENTER\r\n                                           
+      BlendMode | PASS_THROUGH\r\n                                            StrokeCap
+      | ROUND\r\n                                            StrokeJoin | ROUND\r\n                                           
+      Size | (563.5, 388.2)\r\n                                            isVisible
+      | True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            StrokeWeight
+      | 30\r\n                                            StrokeAlign | CENTER\r\n                                           
+      BlendMode | PASS_THROUGH\r\n                                            StrokeCap
+      | ROUND\r\n                                            StrokeJoin | ROUND\r\n                                           
+      Size | (563.5, 388.2)\r\n                                            \u2014\u2014\u2014\u2014Strokes\r\n                                               
+      IsVisible | True\r\n                                                Type |
+      SOLID\r\n                                                Color | RGBA(0.000,
+      0.000, 0.000, 1.000)\r\n                                                BlendMode
+      | NORMAL\r\n                                            \u2014\u2014\u2014\u2014ArcData\r\n                                               
+      StartingAngle | 0\r\n                                                EndingAngle
+      | 0\r\n                                                InnerRadius | 0\r\n                                       
+      \u2014\u2014\u2014\u2014Polo/Polo_Dot_03\r\n                                           
+      isVisible | True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            FillGeometry
+      | -40503251\r\n                                            StrokeWeight | 1\r\n                                           
+      StrokeAlign | INSIDE\r\n                                            BlendMode
+      | PASS_THROUGH\r\n                                            Size | (141.9,
+      87.3)\r\n                                            isVisible | True\r\n                                           
+      Type | VECTOR\r\n                                            GetFigmaRotationAngle
+      | 0\r\n                                            FillGeometry | -40503251\r\n                                           
+      StrokeWeight | 1\r\n                                            StrokeAlign
+      | INSIDE\r\n                                            BlendMode | PASS_THROUGH\r\n                                           
+      Size | (141.9, 87.3)\r\n                                            \u2014\u2014\u2014\u2014Fills\r\n                                               
+      IsVisible | True\r\n                                                Type |
+      SOLID\r\n                                                Color | RGBA(0.847,
+      0.847, 0.847, 1.000)\r\n                                                BlendMode
+      | NORMAL\r\n                                            \u2014\u2014\u2014\u2014ArcData\r\n                                               
+      StartingAngle | 0\r\n                                                EndingAngle
+      | 0\r\n                                                InnerRadius | 0\r\n                                           
+      \u2014\u2014\u2014\u2014Polo/Polo_Sample/Group/Vector\r\n                                               
+      isVisible | True\r\n                                                Type |
+      VECTOR\r\n                                                GetFigmaRotationAngle
+      | 0\r\n                                                StrokeWeight | 30\r\n                                               
+      StrokeAlign | CENTER\r\n                                                BlendMode
+      | PASS_THROUGH\r\n                                                StrokeCap
+      | ROUND\r\n                                                StrokeJoin | ROUND\r\n                                               
+      Size | (304.4, 0.0)\r\n                                                isVisible
+      | True\r\n                                                Type | VECTOR\r\n                                               
+      GetFigmaRotationAngle | 0\r\n                                               
+      StrokeWeight | 30\r\n                                                StrokeAlign
+      | CENTER\r\n                                                BlendMode | PASS_THROUGH\r\n                                               
+      StrokeCap | ROUND\r\n                                                StrokeJoin
+      | ROUND\r\n                                                Size | (304.4, 0.0)\r\n                                               
+      \u2014\u2014\u2014\u2014Strokes\r\n                                                   
+      IsVisible | True\r\n                                                    Type
+      | SOLID\r\n                                                    Color | RGBA(0.000,
+      0.000, 0.000, 1.000)\r\n                                                   
+      BlendMode | NORMAL\r\n                                                \u2014\u2014\u2014\u2014ArcData\r\n                                                   
+      StartingAngle | 0\r\n                                                    EndingAngle
+      | 0\r\n                                                    InnerRadius | 0\r\n                                               
+      \u2014\u2014\u2014\u2014Polo/Polo_Sample/Group/Vector\r\n                                                   
+      isVisible | True\r\n                                                    Type
+      | VECTOR\r\n                                                    GetFigmaRotationAngle
+      | 0\r\n                                                    StrokeWeight | 30\r\n                                                   
+      StrokeAlign | CENTER\r\n                                                   
+      BlendMode | PASS_THROUGH\r\n                                                   
+      StrokeCap | ROUND\r\n                                                    StrokeJoin
+      | ROUND\r\n                                                    Size | (206.2,
+      226.7)\r\n                                                    isVisible | True\r\n                                                   
+      Type | VECTOR\r\n                                                    GetFigmaRotationAngle
+      | 0\r\n                                                    StrokeWeight | 30\r\n                                                   
+      StrokeAlign | CENTER\r\n                                                   
+      BlendMode | PASS_THROUGH\r\n                                                   
+      StrokeCap | ROUND\r\n                                                    StrokeJoin
+      | ROUND\r\n                                                    Size | (206.2,
+      226.7)\r\n                                                    \u2014\u2014\u2014\u2014Strokes\r\n                                                       
+      IsVisible | True\r\n                                                       
+      Type | SOLID\r\n                                                        Color
+      | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                       
+      BlendMode | NORMAL\r\n                                                    \u2014\u2014\u2014\u2014ArcData\r\n                                                       
+      StartingAngle | 0\r\n                                                       
+      EndingAngle | 0\r\n                                                       
+      InnerRadius | 0\r\n                                                    \u2014\u2014\u2014\u2014Polo/Polo_Sample/Group/Vector\r\n                                                       
+      isVisible | True\r\n                                                       
+      Type | VECTOR\r\n                                                        GetFigmaRotationAngle
+      | 0\r\n                                                        StrokeWeight
+      | 30\r\n                                                        StrokeAlign
+      | CENTER\r\n                                                        BlendMode
+      | PASS_THROUGH\r\n                                                        StrokeCap
+      | ROUND\r\n                                                        StrokeJoin
+      | ROUND\r\n                                                        Size | (206.2,
+      226.7)\r\n                                                        isVisible
+      | True\r\n                                                        Type | VECTOR\r\n                                                       
+      GetFigmaRotationAngle | 0\r\n                                                       
+      StrokeWeight | 30\r\n                                                       
+      StrokeAlign | CENTER\r\n                                                       
+      BlendMode | PASS_THROUGH\r\n                                                       
+      StrokeCap | ROUND\r\n                                                       
+      StrokeJoin | ROUND\r\n                                                       
+      Size | (206.2, 226.7)\r\n                                                       
+      \u2014\u2014\u2014\u2014Strokes\r\n                                                           
+      IsVisible | True\r\n                                                           
+      Type | SOLID\r\n                                                           
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                           
+      BlendMode | NORMAL\r\n                                                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                           
+      StartingAngle | 0\r\n                                                           
+      EndingAngle | 0\r\n                                                           
+      InnerRadius | 0\r\n                                                       
+      \u2014\u2014\u2014\u2014Polo/Polo_Sample/Group/Vector\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | VECTOR\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      StrokeWeight | 30\r\n                                                           
+      StrokeAlign | CENTER\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      StrokeCap | ROUND\r\n                                                           
+      StrokeJoin | ROUND\r\n                                                           
+      Size | (0.0, 99.5)\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | VECTOR\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      StrokeWeight | 30\r\n                                                           
+      StrokeAlign | CENTER\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      StrokeCap | ROUND\r\n                                                           
+      StrokeJoin | ROUND\r\n                                                           
+      Size | (0.0, 99.5)\r\n                                                           
+      \u2014\u2014\u2014\u2014Strokes\r\n                                                               
+      IsVisible | True\r\n                                                               
+      Type | SOLID\r\n                                                               
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                               
+      BlendMode | NORMAL\r\n                                                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                               
+      StartingAngle | 0\r\n                                                               
+      EndingAngle | 0\r\n                                                               
+      InnerRadius | 0\r\n                                                           
+      \u2014\u2014\u2014\u2014Polo/Polo_Sample/Group/Vector\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | VECTOR\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      StrokeWeight | 30\r\n                                                               
+      StrokeAlign | CENTER\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      StrokeCap | ROUND\r\n                                                               
+      StrokeJoin | ROUND\r\n                                                               
+      Size | (0.0, 99.5)\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | VECTOR\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      StrokeWeight | 30\r\n                                                               
+      StrokeAlign | CENTER\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      StrokeCap | ROUND\r\n                                                               
+      StrokeJoin | ROUND\r\n                                                               
+      Size | (0.0, 99.5)\r\n                                                               
+      \u2014\u2014\u2014\u2014Strokes\r\n                                                                   
+      IsVisible | True\r\n                                                                   
+      Type | SOLID\r\n                                                                   
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                   
+      BlendMode | NORMAL\r\n                                                               
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                   
+      StartingAngle | 0\r\n                                                                   
+      EndingAngle | 0\r\n                                                                   
+      InnerRadius | 0\r\n                                                               
+      \u2014\u2014\u2014\u2014Polo/Polo_Sample/Group/Vector\r\n                                                                   
+      isVisible | True\r\n                                                                   
+      Type | VECTOR\r\n                                                                   
+      GetFigmaRotationAngle | 0\r\n                                                                   
+      StrokeWeight | 30\r\n                                                                   
+      StrokeAlign | CENTER\r\n                                                                   
+      BlendMode | PASS_THROUGH\r\n                                                                   
+      StrokeCap | ROUND\r\n                                                                   
+      StrokeJoin | ROUND\r\n                                                                   
+      Size | (80.0, 211.1)\r\n                                                                   
+      isVisible | True\r\n                                                                   
+      Type | VECTOR\r\n                                                                   
+      GetFigmaRotationAngle | 0\r\n                                                                   
+      StrokeWeight | 30\r\n                                                                   
+      StrokeAlign | CENTER\r\n                                                                   
+      BlendMode | PASS_THROUGH\r\n                                                                   
+      StrokeCap | ROUND\r\n                                                                   
+      StrokeJoin | ROUND\r\n                                                                   
+      Size | (80.0, 211.1)\r\n                                                                   
+      \u2014\u2014\u2014\u2014Strokes\r\n                                                                       
+      IsVisible | True\r\n                                                                       
+      Type | SOLID\r\n                                                                       
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                       
+      BlendMode | NORMAL\r\n                                                                   
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                       
+      StartingAngle | 0\r\n                                                                       
+      EndingAngle | 0\r\n                                                                       
+      InnerRadius | 0\r\n                                                                   
+      \u2014\u2014\u2014\u2014Polo/Polo_Sample/Group/Vector\r\n                                                                       
+      isVisible | True\r\n                                                                       
+      Type | VECTOR\r\n                                                                       
+      GetFigmaRotationAngle | 0\r\n                                                                       
+      StrokeWeight | 30\r\n                                                                       
+      StrokeAlign | CENTER\r\n                                                                       
+      BlendMode | PASS_THROUGH\r\n                                                                       
+      StrokeCap | ROUND\r\n                                                                       
+      StrokeJoin | ROUND\r\n                                                                       
+      Size | (22.5, 1.6)\r\n                                                                       
+      isVisible | True\r\n                                                                       
+      Type | VECTOR\r\n                                                                       
+      GetFigmaRotationAngle | 0\r\n                                                                       
+      StrokeWeight | 30\r\n                                                                       
+      StrokeAlign | CENTER\r\n                                                                       
+      BlendMode | PASS_THROUGH\r\n                                                                       
+      StrokeCap | ROUND\r\n                                                                       
+      StrokeJoin | ROUND\r\n                                                                       
+      Size | (22.5, 1.6)\r\n                                                                       
+      \u2014\u2014\u2014\u2014Strokes\r\n                                                                           
+      IsVisible | True\r\n                                                                           
+      Type | SOLID\r\n                                                                           
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                           
+      BlendMode | NORMAL\r\n                                                                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                           
+      StartingAngle | 0\r\n                                                                           
+      EndingAngle | 0\r\n                                                                           
+      InnerRadius | 0\r\n                                                                       
+      \u2014\u2014\u2014\u2014Polo/Polo_Sample/Group/Vector\r\n                                                                           
+      isVisible | True\r\n                                                                           
+      Type | VECTOR\r\n                                                                           
+      GetFigmaRotationAngle | 0\r\n                                                                           
+      StrokeWeight | 30\r\n                                                                           
+      StrokeAlign | CENTER\r\n                                                                           
+      BlendMode | PASS_THROUGH\r\n                                                                           
+      StrokeCap | ROUND\r\n                                                                           
+      StrokeJoin | ROUND\r\n                                                                           
+      Size | (129.2, 71.3)\r\n                                                                           
+      isVisible | True\r\n                                                                           
+      Type | VECTOR\r\n                                                                           
+      GetFigmaRotationAngle | 0\r\n                                                                           
+      StrokeWeight | 30\r\n                                                                           
+      StrokeAlign | CENTER\r\n                                                                           
+      BlendMode | PASS_THROUGH\r\n                                                                           
+      StrokeCap | ROUND\r\n                                                                           
+      StrokeJoin | ROUND\r\n                                                                           
+      Size | (129.2, 71.3)\r\n                                                                           
+      \u2014\u2014\u2014\u2014Strokes\r\n                                                                               
+      IsVisible | True\r\n                                                                               
+      Type | SOLID\r\n                                                                               
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                               
+      BlendMode | NORMAL\r\n                                                                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                               
+      StartingAngle | 0\r\n                                                                               
+      EndingAngle | 0\r\n                                                                               
+      InnerRadius | 0\r\n"
+    parentIndex: -1
+    hierarchy: Polo
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: children not empty
+    downloadAttempsCount: 0
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 1
+    forceImage: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8383425258433596880
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425258433596879}
+  m_CullTransparentMesh: 1
+--- !u!114 &8383425258433596881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425258433596879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding: {x: 0, y: 0, z: 0, w: 0}
+  m_Softness: {x: 0, y: 0}
+--- !u!1 &8383425258554478637
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8383425258554478636}
+  - component: {fileID: 8383425258554478641}
+  - component: {fileID: 8383425258554478638}
+  - component: {fileID: 8383425258554478639}
+  m_Layer: 5
+  m_Name: Polo_Dot_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8383425258554478636
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425258554478637}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8383425258433596878}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 494.3407, y: 207.5}
+  m_SizeDelta: {x: -1811, y: -1735}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8383425258554478641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425258554478637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 249:5
+    formattedName: Polo_Dot_02
+    spriteName: Polo_Dot_02 0.5x -702215632.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8383425258554478637}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+    spriteSize: {x: 224, y: 201}
+    size: {x: 448, y: 402}
+    position: {x: 1061.8407, y: -23863}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -702215632
+    hashDataTree: "\u2014\u2014\u2014\u2014Polo/Polo_Dot_02\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 59447884\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (446.9, 401.3)\r\n    isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle
+      | 0\r\n    FillGeometry | 59447884\r\n    StrokeWeight | 1\r\n    StrokeAlign
+      | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size | (446.9, 401.3)\r\n   
+      \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n        Type |
+      SOLID\r\n        Color | RGBA(0.847, 0.847, 0.847, 1.000)\r\n        BlendMode
+      | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle |
+      0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 107
+    hierarchy: Polo/Polo_Dot_02
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8383425258554478638
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425258554478637}
+  m_CullTransparentMesh: 1
+--- !u!114 &8383425258554478639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383425258554478637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 8914cac7f97d36b44b2c76745e00e5d3, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1

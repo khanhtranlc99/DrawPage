@@ -1,0 +1,2863 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &995976825240139270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2252186787734337083}
+  - component: {fileID: 8370634294452468367}
+  - component: {fileID: 297749441884759387}
+  - component: {fileID: 1453838620652178509}
+  m_Layer: 5
+  m_Name: DragonFuit_Shape_01_#FF4755
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2252186787734337083
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995976825240139270}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2338898460435778527}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 517.7012, y: 2.1054688}
+  m_SizeDelta: {x: -1652, y: -1395}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8370634294452468367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995976825240139270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 49:104
+    formattedName: DragonFuit_Shape_01_#FF4755
+    spriteName: DragonFuit_Shape_01_#FF4755 0.5x 920558626.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 995976825240139270}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 1, g: 1, b: 1, a: 1}
+    spriteSize: {x: 303, y: 371}
+    size: {x: 606, y: 742}
+    position: {x: 11623.701, y: -26718.395}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 920558626
+    hashDataTree: "\u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Shape_01_#FF4755\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | -780748361\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (605.9, 740.1)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -780748361\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (605.9, 740.1)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 29
+    hierarchy: Dragon fruit/DragonFuit_Shape_01_#FF4755
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &297749441884759387
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995976825240139270}
+  m_CullTransparentMesh: 1
+--- !u!114 &1453838620652178509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995976825240139270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 2a2190e2f30164b4582454c3bbd81502, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &1301262088481005130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7599102023192676176}
+  - component: {fileID: 3073950186774209529}
+  - component: {fileID: 5306200047213581879}
+  - component: {fileID: 3890058843461602629}
+  m_Layer: 5
+  m_Name: DragonFuit_Sample
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7599102023192676176
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301262088481005130}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2338898460435778527}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -583.0254, y: -0.01953125}
+  m_SizeDelta: {x: -1494, y: -1373}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3073950186774209529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301262088481005130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 49:67
+    formattedName: DragonFuit_Sample
+    spriteName: DragonFuit_Sample 0.5x 926074548.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 1301262088481005130}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 0}
+    spriteSize: {x: 382, y: 382}
+    size: {x: 764, y: 764}
+    position: {x: 10443.975, y: -26709.52}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 926074548
+    hashDataTree: "\u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample\r\n   
+      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | False\r\n    Size | (764.0, 764.0)\r\n    isVisible | True\r\n   
+      Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
+      StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent |
+      False\r\n    Size | (764.0, 764.0)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Dragon
+      fruit/DragonFuit_Sample/Vector\r\n    isVisible | True\r\n    Type | VECTOR\r\n   
+      GetFigmaRotationAngle | 0\r\n    FillGeometry | 1229480471\r\n    StrokeWeight
+      | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size
+      | (606.0, 740.1)\r\n    isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle
+      | 0\r\n    FillGeometry | 1229480471\r\n    StrokeWeight | 1\r\n    StrokeAlign
+      | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size | (606.0, 740.1)\r\n   
+      \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n        Type |
+      SOLID\r\n        Color | RGBA(1.000, 0.278, 0.333, 1.000)\r\n        BlendMode
+      | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle |
+      0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n    \u2014\u2014\u2014\u2014Dragon
+      fruit/DragonFuit_Sample/Vector\r\n        isVisible | True\r\n        Type
+      | VECTOR\r\n        GetFigmaRotationAngle | 0\r\n        FillGeometry | 1718201778\r\n       
+      StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
+      Size | (465.0, 177.9)\r\n        isVisible | True\r\n        Type | VECTOR\r\n       
+      GetFigmaRotationAngle | 0\r\n        FillGeometry | 1718201778\r\n        StrokeWeight
+      | 1\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
+      Size | (465.0, 177.9)\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
+      IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(0.988,
+      0.169, 0.227, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n           
+      isVisible | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle
+      | 0\r\n            FillGeometry | -1851030277\r\n            StrokeWeight |
+      1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      Size | (472.1, 472.1)\r\n            isVisible | True\r\n            Type |
+      VECTOR\r\n            GetFigmaRotationAngle | 0\r\n            FillGeometry
+      | -1851030277\r\n            StrokeWeight | 1\r\n            StrokeAlign |
+      INSIDE\r\n            BlendMode | PASS_THROUGH\r\n            Size | (472.1,
+      472.1)\r\n            \u2014\u2014\u2014\u2014Fills\r\n                IsVisible
+      | True\r\n                Type | SOLID\r\n                Color | RGBA(1.000,
+      0.482, 0.545, 1.000)\r\n                BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n            \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | -1805779935\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (472.1, 297.6)\r\n                isVisible
+      | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | -1805779935\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (472.1, 297.6)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Color | RGBA(1.000, 0.392, 0.494, 1.000)\r\n                    BlendMode |
+      NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | 1141280846\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (400.2, 400.2)\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | 1141280846\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (400.2, 400.2)\r\n                   
+      \u2014\u2014\u2014\u2014Fills\r\n                        IsVisible | True\r\n                       
+      Type | SOLID\r\n                        Color | RGBA(0.957, 0.914, 0.827, 1.000)\r\n                       
+      BlendMode | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | 951741709\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (400.2, 274.6)\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | 951741709\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (400.2, 274.6)\r\n                       
+      \u2014\u2014\u2014\u2014Fills\r\n                            IsVisible | True\r\n                           
+      Type | SOLID\r\n                            Color | RGBA(0.898, 0.839, 0.745,
+      1.000)\r\n                            BlendMode | NORMAL\r\n                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                            StartingAngle
+      | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Group\r\n                           
+      isVisible | True\r\n                            Type | GROUP\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            StrokeWeight | 1\r\n                           
+      StrokeAlign | INSIDE\r\n                            BlendMode | PASS_THROUGH\r\n                           
+      ClipsContent | False\r\n                            Size | (606.0, 336.8)\r\n                           
+      isVisible | True\r\n                            Type | GROUP\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            StrokeWeight | 1\r\n                           
+      StrokeAlign | INSIDE\r\n                            BlendMode | PASS_THROUGH\r\n                           
+      ClipsContent | False\r\n                            Size | (606.0, 336.8)\r\n                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                StartingAngle
+      | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Group/Vector\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | 1785845041\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (112.5, 120.8)\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | 1785845041\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (112.5, 120.8)\r\n                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                IsVisible
+      | True\r\n                                Type | SOLID\r\n                               
+      Color | RGBA(0.596, 0.859, 0.486, 1.000)\r\n                               
+      BlendMode | NORMAL\r\n                            \u2014\u2014\u2014\u2014ArcData\r\n                               
+      StartingAngle | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                            \u2014\u2014\u2014\u2014Dragon
+      fruit/DragonFuit_Sample/Group/Vector\r\n                                isVisible
+      | True\r\n                                Type | VECTOR\r\n                               
+      GetFigmaRotationAngle | 0\r\n                                FillGeometry |
+      1600132257\r\n                                StrokeWeight | 1\r\n                               
+      StrokeAlign | INSIDE\r\n                                BlendMode | PASS_THROUGH\r\n                               
+      Size | (158.3, 132.7)\r\n                                isVisible | True\r\n                               
+      Type | VECTOR\r\n                                GetFigmaRotationAngle | 0\r\n                               
+      FillGeometry | 1600132257\r\n                                StrokeWeight |
+      1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                Size | (158.3,
+      132.7)\r\n                                \u2014\u2014\u2014\u2014Fills\r\n                                   
+      IsVisible | True\r\n                                    Type | SOLID\r\n                                   
+      Color | RGBA(0.596, 0.859, 0.486, 1.000)\r\n                                   
+      BlendMode | NORMAL\r\n                                \u2014\u2014\u2014\u2014ArcData\r\n                                   
+      StartingAngle | 0\r\n                                    EndingAngle | 0\r\n                                   
+      InnerRadius | 0\r\n                            \u2014\u2014\u2014\u2014Dragon
+      fruit/DragonFuit_Sample/Vector\r\n                                isVisible
+      | True\r\n                                Type | VECTOR\r\n                               
+      GetFigmaRotationAngle | 0\r\n                                FillGeometry |
+      -706171921\r\n                                StrokeWeight | 1\r\n                               
+      StrokeAlign | INSIDE\r\n                                BlendMode | PASS_THROUGH\r\n                               
+      Size | (121.0, 128.4)\r\n                                isVisible | True\r\n                               
+      Type | VECTOR\r\n                                GetFigmaRotationAngle | 0\r\n                               
+      FillGeometry | -706171921\r\n                                StrokeWeight |
+      1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                Size | (121.0,
+      128.4)\r\n                                \u2014\u2014\u2014\u2014Fills\r\n                                   
+      IsVisible | True\r\n                                    Type | SOLID\r\n                                   
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                   
+      BlendMode | NORMAL\r\n                                \u2014\u2014\u2014\u2014ArcData\r\n                                   
+      StartingAngle | 0\r\n                                    EndingAngle | 0\r\n                                   
+      InnerRadius | 0\r\n                                \u2014\u2014\u2014\u2014Dragon
+      fruit/DragonFuit_Sample/Group/Vector\r\n                                   
+      isVisible | True\r\n                                    Type | VECTOR\r\n                                   
+      GetFigmaRotationAngle | 0\r\n                                    FillGeometry
+      | 954207174\r\n                                    StrokeWeight | 1\r\n                                   
+      StrokeAlign | INSIDE\r\n                                    BlendMode | PASS_THROUGH\r\n                                   
+      Size | (158.4, 113.6)\r\n                                    isVisible | True\r\n                                   
+      Type | VECTOR\r\n                                    GetFigmaRotationAngle
+      | 0\r\n                                    FillGeometry | 954207174\r\n                                   
+      StrokeWeight | 1\r\n                                    StrokeAlign | INSIDE\r\n                                   
+      BlendMode | PASS_THROUGH\r\n                                    Size | (158.4,
+      113.6)\r\n                                    \u2014\u2014\u2014\u2014Fills\r\n                                       
+      IsVisible | True\r\n                                        Type | SOLID\r\n                                       
+      Color | RGBA(0.596, 0.859, 0.486, 1.000)\r\n                                       
+      BlendMode | NORMAL\r\n                                    \u2014\u2014\u2014\u2014ArcData\r\n                                       
+      StartingAngle | 0\r\n                                        EndingAngle |
+      0\r\n                                        InnerRadius | 0\r\n                               
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n                                   
+      isVisible | True\r\n                                    Type | VECTOR\r\n                                   
+      GetFigmaRotationAngle | 0\r\n                                    FillGeometry
+      | -191503466\r\n                                    StrokeWeight | 1\r\n                                   
+      StrokeAlign | INSIDE\r\n                                    BlendMode | PASS_THROUGH\r\n                                   
+      Size | (38.9, 38.8)\r\n                                    isVisible | True\r\n                                   
+      Type | VECTOR\r\n                                    GetFigmaRotationAngle
+      | 0\r\n                                    FillGeometry | -191503466\r\n                                   
+      StrokeWeight | 1\r\n                                    StrokeAlign | INSIDE\r\n                                   
+      BlendMode | PASS_THROUGH\r\n                                    Size | (38.9,
+      38.8)\r\n                                    \u2014\u2014\u2014\u2014Fills\r\n                                       
+      IsVisible | True\r\n                                        Type | SOLID\r\n                                       
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                       
+      BlendMode | NORMAL\r\n                                    \u2014\u2014\u2014\u2014ArcData\r\n                                       
+      StartingAngle | 0\r\n                                        EndingAngle |
+      0\r\n                                        InnerRadius | 0\r\n                                   
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Group/Vector\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | 1146744825\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (158.4, 113.6)\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | 1146744825\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (158.4, 113.6)\r\n                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                           
+      IsVisible | True\r\n                                            Type | SOLID\r\n                                           
+      Color | RGBA(0.596, 0.859, 0.486, 1.000)\r\n                                           
+      BlendMode | NORMAL\r\n                                        \u2014\u2014\u2014\u2014ArcData\r\n                                           
+      StartingAngle | 0\r\n                                            EndingAngle
+      | 0\r\n                                            InnerRadius | 0\r\n                                   
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | -191503466\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (38.9, 38.8)\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | -191503466\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (38.9, 38.8)\r\n                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                           
+      IsVisible | True\r\n                                            Type | SOLID\r\n                                           
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                           
+      BlendMode | NORMAL\r\n                                        \u2014\u2014\u2014\u2014ArcData\r\n                                           
+      StartingAngle | 0\r\n                                            EndingAngle
+      | 0\r\n                                            InnerRadius | 0\r\n                                       
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Group/Vector\r\n                                           
+      isVisible | True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            FillGeometry
+      | -766355476\r\n                                            StrokeWeight |
+      1\r\n                                            StrokeAlign | INSIDE\r\n                                           
+      BlendMode | PASS_THROUGH\r\n                                            Size
+      | (98.3, 105.8)\r\n                                            isVisible |
+      True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            FillGeometry
+      | -766355476\r\n                                            StrokeWeight |
+      1\r\n                                            StrokeAlign | INSIDE\r\n                                           
+      BlendMode | PASS_THROUGH\r\n                                            Size
+      | (98.3, 105.8)\r\n                                            \u2014\u2014\u2014\u2014Fills\r\n                                               
+      IsVisible | True\r\n                                                Type |
+      SOLID\r\n                                                Color | RGBA(0.596,
+      0.859, 0.486, 1.000)\r\n                                                BlendMode
+      | NORMAL\r\n                                            \u2014\u2014\u2014\u2014ArcData\r\n                                               
+      StartingAngle | 0\r\n                                                EndingAngle
+      | 0\r\n                                                InnerRadius | 0\r\n                                       
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n                                           
+      isVisible | True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            FillGeometry
+      | -191503466\r\n                                            StrokeWeight |
+      1\r\n                                            StrokeAlign | INSIDE\r\n                                           
+      BlendMode | PASS_THROUGH\r\n                                            Size
+      | (38.9, 38.8)\r\n                                            isVisible | True\r\n                                           
+      Type | VECTOR\r\n                                            GetFigmaRotationAngle
+      | 0\r\n                                            FillGeometry | -191503466\r\n                                           
+      StrokeWeight | 1\r\n                                            StrokeAlign
+      | INSIDE\r\n                                            BlendMode | PASS_THROUGH\r\n                                           
+      Size | (38.9, 38.8)\r\n                                            \u2014\u2014\u2014\u2014Fills\r\n                                               
+      IsVisible | True\r\n                                                Type |
+      SOLID\r\n                                                Color | RGBA(0.000,
+      0.000, 0.000, 1.000)\r\n                                                BlendMode
+      | NORMAL\r\n                                            \u2014\u2014\u2014\u2014ArcData\r\n                                               
+      StartingAngle | 0\r\n                                                EndingAngle
+      | 0\r\n                                                InnerRadius | 0\r\n                                           
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n                                               
+      isVisible | True\r\n                                                Type |
+      VECTOR\r\n                                                GetFigmaRotationAngle
+      | 0\r\n                                                FillGeometry | 854636630\r\n                                               
+      StrokeWeight | 1\r\n                                                StrokeAlign
+      | INSIDE\r\n                                                BlendMode | PASS_THROUGH\r\n                                               
+      Size | (38.9, 38.8)\r\n                                                isVisible
+      | True\r\n                                                Type | VECTOR\r\n                                               
+      GetFigmaRotationAngle | 0\r\n                                               
+      FillGeometry | 854636630\r\n                                               
+      StrokeWeight | 1\r\n                                                StrokeAlign
+      | INSIDE\r\n                                                BlendMode | PASS_THROUGH\r\n                                               
+      Size | (38.9, 38.8)\r\n                                                \u2014\u2014\u2014\u2014Fills\r\n                                                   
+      IsVisible | True\r\n                                                    Type
+      | SOLID\r\n                                                    Color | RGBA(0.000,
+      0.000, 0.000, 1.000)\r\n                                                   
+      BlendMode | NORMAL\r\n                                                \u2014\u2014\u2014\u2014ArcData\r\n                                                   
+      StartingAngle | 0\r\n                                                    EndingAngle
+      | 0\r\n                                                    InnerRadius | 0\r\n                                               
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n                                                   
+      isVisible | True\r\n                                                    Type
+      | VECTOR\r\n                                                    GetFigmaRotationAngle
+      | 0\r\n                                                    FillGeometry | -155553586\r\n                                                   
+      StrokeWeight | 1\r\n                                                    StrokeAlign
+      | INSIDE\r\n                                                    BlendMode |
+      PASS_THROUGH\r\n                                                    Size |
+      (38.9, 38.8)\r\n                                                    isVisible
+      | True\r\n                                                    Type | VECTOR\r\n                                                   
+      GetFigmaRotationAngle | 0\r\n                                                   
+      FillGeometry | -155553586\r\n                                                   
+      StrokeWeight | 1\r\n                                                    StrokeAlign
+      | INSIDE\r\n                                                    BlendMode |
+      PASS_THROUGH\r\n                                                    Size |
+      (38.9, 38.8)\r\n                                                    \u2014\u2014\u2014\u2014Fills\r\n                                                       
+      IsVisible | True\r\n                                                       
+      Type | SOLID\r\n                                                        Color
+      | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                       
+      BlendMode | NORMAL\r\n                                                    \u2014\u2014\u2014\u2014ArcData\r\n                                                       
+      StartingAngle | 0\r\n                                                       
+      EndingAngle | 0\r\n                                                       
+      InnerRadius | 0\r\n                                                    \u2014\u2014\u2014\u2014Dragon
+      fruit/DragonFuit_Sample/Vector\r\n                                                       
+      isVisible | True\r\n                                                       
+      Type | VECTOR\r\n                                                        GetFigmaRotationAngle
+      | 0\r\n                                                        FillGeometry
+      | -191503466\r\n                                                        StrokeWeight
+      | 1\r\n                                                        StrokeAlign
+      | INSIDE\r\n                                                        BlendMode
+      | PASS_THROUGH\r\n                                                        Size
+      | (38.9, 38.8)\r\n                                                        isVisible
+      | True\r\n                                                        Type | VECTOR\r\n                                                       
+      GetFigmaRotationAngle | 0\r\n                                                       
+      FillGeometry | -191503466\r\n                                                       
+      StrokeWeight | 1\r\n                                                       
+      StrokeAlign | INSIDE\r\n                                                       
+      BlendMode | PASS_THROUGH\r\n                                                       
+      Size | (38.9, 38.8)\r\n                                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                                           
+      IsVisible | True\r\n                                                           
+      Type | SOLID\r\n                                                           
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                           
+      BlendMode | NORMAL\r\n                                                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                           
+      StartingAngle | 0\r\n                                                           
+      EndingAngle | 0\r\n                                                           
+      InnerRadius | 0\r\n                                                       
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | VECTOR\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      FillGeometry | -1926833866\r\n                                                           
+      StrokeWeight | 1\r\n                                                           
+      StrokeAlign | INSIDE\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      Size | (38.9, 38.8)\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | VECTOR\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      FillGeometry | -1926833866\r\n                                                           
+      StrokeWeight | 1\r\n                                                           
+      StrokeAlign | INSIDE\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      Size | (38.9, 38.8)\r\n                                                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                                               
+      IsVisible | True\r\n                                                               
+      Type | SOLID\r\n                                                               
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                               
+      BlendMode | NORMAL\r\n                                                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                               
+      StartingAngle | 0\r\n                                                               
+      EndingAngle | 0\r\n                                                               
+      InnerRadius | 0\r\n                                                           
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | VECTOR\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      FillGeometry | -912874890\r\n                                                               
+      StrokeWeight | 1\r\n                                                               
+      StrokeAlign | INSIDE\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      Size | (38.9, 38.8)\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | VECTOR\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      FillGeometry | -912874890\r\n                                                               
+      StrokeWeight | 1\r\n                                                               
+      StrokeAlign | INSIDE\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      Size | (38.9, 38.8)\r\n                                                               
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                   
+      IsVisible | True\r\n                                                                   
+      Type | SOLID\r\n                                                                   
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                   
+      BlendMode | NORMAL\r\n                                                               
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                   
+      StartingAngle | 0\r\n                                                                   
+      EndingAngle | 0\r\n                                                                   
+      InnerRadius | 0\r\n                                                               
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n                                                                   
+      isVisible | True\r\n                                                                   
+      Type | VECTOR\r\n                                                                   
+      GetFigmaRotationAngle | 0\r\n                                                                   
+      FillGeometry | -912874890\r\n                                                                   
+      StrokeWeight | 1\r\n                                                                   
+      StrokeAlign | INSIDE\r\n                                                                   
+      BlendMode | PASS_THROUGH\r\n                                                                   
+      Size | (38.9, 38.8)\r\n                                                                   
+      isVisible | True\r\n                                                                   
+      Type | VECTOR\r\n                                                                   
+      GetFigmaRotationAngle | 0\r\n                                                                   
+      FillGeometry | -912874890\r\n                                                                   
+      StrokeWeight | 1\r\n                                                                   
+      StrokeAlign | INSIDE\r\n                                                                   
+      BlendMode | PASS_THROUGH\r\n                                                                   
+      Size | (38.9, 38.8)\r\n                                                                   
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                       
+      IsVisible | True\r\n                                                                       
+      Type | SOLID\r\n                                                                       
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                       
+      BlendMode | NORMAL\r\n                                                                   
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                       
+      StartingAngle | 0\r\n                                                                       
+      EndingAngle | 0\r\n                                                                       
+      InnerRadius | 0\r\n                                                                   
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n                                                                       
+      isVisible | True\r\n                                                                       
+      Type | VECTOR\r\n                                                                       
+      GetFigmaRotationAngle | 0\r\n                                                                       
+      FillGeometry | -912874890\r\n                                                                       
+      StrokeWeight | 1\r\n                                                                       
+      StrokeAlign | INSIDE\r\n                                                                       
+      BlendMode | PASS_THROUGH\r\n                                                                       
+      Size | (38.9, 38.8)\r\n                                                                       
+      isVisible | True\r\n                                                                       
+      Type | VECTOR\r\n                                                                       
+      GetFigmaRotationAngle | 0\r\n                                                                       
+      FillGeometry | -912874890\r\n                                                                       
+      StrokeWeight | 1\r\n                                                                       
+      StrokeAlign | INSIDE\r\n                                                                       
+      BlendMode | PASS_THROUGH\r\n                                                                       
+      Size | (38.9, 38.8)\r\n                                                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                           
+      IsVisible | True\r\n                                                                           
+      Type | SOLID\r\n                                                                           
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                           
+      BlendMode | NORMAL\r\n                                                                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                           
+      StartingAngle | 0\r\n                                                                           
+      EndingAngle | 0\r\n                                                                           
+      InnerRadius | 0\r\n                                                                       
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n                                                                           
+      isVisible | True\r\n                                                                           
+      Type | VECTOR\r\n                                                                           
+      GetFigmaRotationAngle | 0\r\n                                                                           
+      FillGeometry | 300246996\r\n                                                                           
+      StrokeWeight | 1\r\n                                                                           
+      StrokeAlign | INSIDE\r\n                                                                           
+      BlendMode | PASS_THROUGH\r\n                                                                           
+      Size | (764.0, 764.0)\r\n                                                                           
+      isVisible | True\r\n                                                                           
+      Type | VECTOR\r\n                                                                           
+      GetFigmaRotationAngle | 0\r\n                                                                           
+      FillGeometry | 300246996\r\n                                                                           
+      StrokeWeight | 1\r\n                                                                           
+      StrokeAlign | INSIDE\r\n                                                                           
+      BlendMode | PASS_THROUGH\r\n                                                                           
+      Size | (764.0, 764.0)\r\n                                                                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                               
+      IsVisible | True\r\n                                                                               
+      Type | SOLID\r\n                                                                               
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                               
+      BlendMode | NORMAL\r\n                                                                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                               
+      StartingAngle | 0\r\n                                                                               
+      EndingAngle | 0\r\n                                                                               
+      InnerRadius | 0\r\n"
+    parentIndex: 29
+    hierarchy: Dragon fruit/DragonFuit_Sample
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 0
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &5306200047213581879
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301262088481005130}
+  m_CullTransparentMesh: 1
+--- !u!114 &3890058843461602629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301262088481005130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 4423555d5ade25d40ae08662be57f1ac, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &2659492906695636607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2828666126594808016}
+  - component: {fileID: 578565616314144109}
+  - component: {fileID: 8882128582954923202}
+  - component: {fileID: 5708704571747718072}
+  m_Layer: 5
+  m_Name: DragonFuit_Stroke_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2828666126594808016
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2659492906695636607}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2338898460435778527}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 717.24414, y: -134.58594}
+  m_SizeDelta: {x: -1762, y: -1641}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &578565616314144109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2659492906695636607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 49:320
+    formattedName: DragonFuit_Stroke_02
+    spriteName: DragonFuit_Stroke_02 0.5x 947343395.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 2659492906695636607}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 1}
+    spriteSize: {x: 248, y: 248}
+    size: {x: 496, y: 496}
+    position: {x: 11878.244, y: -26978.086}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 947343395
+    hashDataTree: "\u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Stroke_02\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | -409320690\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (495.8, 495.3)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -409320690\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (495.8, 495.3)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.000, 0.000, 0.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 29
+    hierarchy: Dragon fruit/DragonFuit_Stroke_02
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &8882128582954923202
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2659492906695636607}
+  m_CullTransparentMesh: 1
+--- !u!114 &5708704571747718072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2659492906695636607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ea814f22b96777649a4d8df769f9c4a2, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &3252020792151431581
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 714428730848599851}
+  - component: {fileID: 1831429549636201465}
+  - component: {fileID: 127106817944186094}
+  - component: {fileID: 8172785787764743016}
+  m_Layer: 5
+  m_Name: DragonFuit_Shape_03_#F4E9D3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &714428730848599851
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3252020792151431581}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2338898460435778527}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 707.6133, y: -125.171875}
+  m_SizeDelta: {x: -1856, y: -1735}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1831429549636201465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3252020792151431581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 49:105
+    formattedName: DragonFuit_Shape_03_#F4E9D3
+    spriteName: DragonFuit_Shape_03_#F4E9D3 0.5x 1586502818.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 3252020792151431581}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 1, g: 1, b: 1, a: 1}
+    spriteSize: {x: 201, y: 201}
+    size: {x: 402, y: 402}
+    position: {x: 11915.613, y: -27015.672}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 1586502818
+    hashDataTree: "\u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Shape_03_#F4E9D3\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | -347684349\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (400.2, 400.2)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -347684349\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (400.2, 400.2)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 29
+    hierarchy: Dragon fruit/DragonFuit_Shape_03_#F4E9D3
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &127106817944186094
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3252020792151431581}
+  m_CullTransparentMesh: 1
+--- !u!114 &8172785787764743016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3252020792151431581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: c28128abf153079408c9d6caebb4566b, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &3255089686931830121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2338898460435778527}
+  - component: {fileID: 3868443115945059301}
+  - component: {fileID: 1492271155752949903}
+  - component: {fileID: 9048432269219861417}
+  - component: {fileID: 8457899229167920010}
+  m_Layer: 5
+  m_Name: Dragon fruit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2338898460435778527
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3255089686931830121}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7599102023192676176}
+  - {fileID: 2252186787734337083}
+  - {fileID: 8085623816812545962}
+  - {fileID: 714428730848599851}
+  - {fileID: 6548925212973656999}
+  - {fileID: 9105116525764423884}
+  - {fileID: 1798940476533961174}
+  - {fileID: 2828666126594808016}
+  - {fileID: 4119853564683786867}
+  - {fileID: 6019998806704466271}
+  - {fileID: 8581608008194168096}
+  - {fileID: 533951054950472172}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 11409, y: -29011.5}
+  m_SizeDelta: {x: 2258, y: 2137}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3868443115945059301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3255089686931830121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 49:28
+    formattedName: Dragon fruit
+    spriteName: Dragon fruit 0.5x -883597325.png
+    tags: 02000000f6010000c900000001000000
+    childIndexes: 1e0000001f00000020000000210000002200000023000000240000002500000026000000270000002800000029000000
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 3255089686931830121}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 0}
+    spriteSize: {x: 1128, y: 1068}
+    size: {x: 2258, y: 2137}
+    position: {x: 10280, y: -26023}
+    fcuImageType: 3
+    buttonComponent: 0
+    hash: -883597325
+    hashDataTree: "\u2014\u2014\u2014\u2014Dragon fruit\r\n    isVisible | True\r\n   
+      Type | FRAME\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 817778115\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | True\r\n    Size | (2258.0, 2137.0)\r\n    isVisible | True\r\n   
+      Type | FRAME\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 817778115\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | True\r\n    Size | (2258.0, 2137.0)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
+      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 0.728,
+      0.321, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Dragon
+      fruit/DragonFuit_Sample\r\n    isVisible | True\r\n    Type | GROUP\r\n   
+      GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n    Size | (764.0,
+      764.0)\r\n    isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle
+      | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode |
+      PASS_THROUGH\r\n    ClipsContent | False\r\n    Size | (764.0, 764.0)\r\n   
+      \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle | 0\r\n        EndingAngle
+      | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | 1229480471\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (606.0, 740.1)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 1229480471\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (606.0, 740.1)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 0.278, 0.333,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n        isVisible
+      | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle | 0\r\n       
+      FillGeometry | 1718201778\r\n        StrokeWeight | 1\r\n        StrokeAlign
+      | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size | (465.0, 177.9)\r\n       
+      isVisible | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle
+      | 0\r\n        FillGeometry | 1718201778\r\n        StrokeWeight | 1\r\n       
+      StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size |
+      (465.0, 177.9)\r\n        \u2014\u2014\u2014\u2014Fills\r\n            IsVisible
+      | True\r\n            Type | SOLID\r\n            Color | RGBA(0.988, 0.169,
+      0.227, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n    \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Shape_01_#FF4755\r\n       
+      isVisible | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle
+      | 0\r\n        FillGeometry | -780748361\r\n        StrokeWeight | 1\r\n       
+      StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size |
+      (605.9, 740.1)\r\n        isVisible | True\r\n        Type | VECTOR\r\n       
+      GetFigmaRotationAngle | 0\r\n        FillGeometry | -780748361\r\n        StrokeWeight
+      | 1\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
+      Size | (605.9, 740.1)\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
+      IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
+      1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n           
+      isVisible | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle
+      | 0\r\n            FillGeometry | -1851030277\r\n            StrokeWeight |
+      1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      Size | (472.1, 472.1)\r\n            isVisible | True\r\n            Type |
+      VECTOR\r\n            GetFigmaRotationAngle | 0\r\n            FillGeometry
+      | -1851030277\r\n            StrokeWeight | 1\r\n            StrokeAlign |
+      INSIDE\r\n            BlendMode | PASS_THROUGH\r\n            Size | (472.1,
+      472.1)\r\n            \u2014\u2014\u2014\u2014Fills\r\n                IsVisible
+      | True\r\n                Type | SOLID\r\n                Color | RGBA(1.000,
+      0.482, 0.545, 1.000)\r\n                BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Shape_02_#98DB7C\r\n           
+      isVisible | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle
+      | 0\r\n            FillGeometry | 2037041018\r\n            StrokeWeight |
+      1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      Size | (606.0, 336.8)\r\n            isVisible | True\r\n            Type |
+      VECTOR\r\n            GetFigmaRotationAngle | 0\r\n            FillGeometry
+      | 2037041018\r\n            StrokeWeight | 1\r\n            StrokeAlign | INSIDE\r\n           
+      BlendMode | PASS_THROUGH\r\n            Size | (606.0, 336.8)\r\n           
+      \u2014\u2014\u2014\u2014Fills\r\n                IsVisible | True\r\n               
+      Type | SOLID\r\n                Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n               
+      BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n            \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | -1805779935\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (472.1, 297.6)\r\n                isVisible
+      | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | -1805779935\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (472.1, 297.6)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Color | RGBA(1.000, 0.392, 0.494, 1.000)\r\n                    BlendMode |
+      NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Shape_03_#F4E9D3\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | -347684349\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (400.2, 400.2)\r\n                isVisible
+      | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | -347684349\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (400.2, 400.2)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                    BlendMode |
+      NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | 1141280846\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (400.2, 400.2)\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | 1141280846\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (400.2, 400.2)\r\n                   
+      \u2014\u2014\u2014\u2014Fills\r\n                        IsVisible | True\r\n                       
+      Type | SOLID\r\n                        Color | RGBA(0.957, 0.914, 0.827, 1.000)\r\n                       
+      BlendMode | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Shape_04_#FF7B8B\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | 374554444\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (472.1, 472.1)\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | 374554444\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (472.1, 472.1)\r\n                   
+      \u2014\u2014\u2014\u2014Fills\r\n                        IsVisible | True\r\n                       
+      Type | SOLID\r\n                        Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                       
+      BlendMode | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | 951741709\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (400.2, 274.6)\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | 951741709\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (400.2, 274.6)\r\n                       
+      \u2014\u2014\u2014\u2014Fills\r\n                            IsVisible | True\r\n                           
+      Type | SOLID\r\n                            Color | RGBA(0.898, 0.839, 0.745,
+      1.000)\r\n                            BlendMode | NORMAL\r\n                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                            StartingAngle
+      | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Plus\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | 1108012782\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (645.8, 381.8)\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | 1108012782\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (645.8, 381.8)\r\n                       
+      \u2014\u2014\u2014\u2014Fills\r\n                            IsVisible | True\r\n                           
+      Type | SOLID\r\n                            Color | RGBA(0.000, 0.000, 0.000,
+      1.000)\r\n                            BlendMode | NORMAL\r\n                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                            StartingAngle
+      | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Group\r\n                           
+      isVisible | True\r\n                            Type | GROUP\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            StrokeWeight | 1\r\n                           
+      StrokeAlign | INSIDE\r\n                            BlendMode | PASS_THROUGH\r\n                           
+      ClipsContent | False\r\n                            Size | (606.0, 336.8)\r\n                           
+      isVisible | True\r\n                            Type | GROUP\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            StrokeWeight | 1\r\n                           
+      StrokeAlign | INSIDE\r\n                            BlendMode | PASS_THROUGH\r\n                           
+      ClipsContent | False\r\n                            Size | (606.0, 336.8)\r\n                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                StartingAngle
+      | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Group/Vector\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | 1785845041\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (112.5, 120.8)\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | 1785845041\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (112.5, 120.8)\r\n                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                IsVisible
+      | True\r\n                                Type | SOLID\r\n                               
+      Color | RGBA(0.596, 0.859, 0.486, 1.000)\r\n                               
+      BlendMode | NORMAL\r\n                            \u2014\u2014\u2014\u2014ArcData\r\n                               
+      StartingAngle | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Stroke_01\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | -1537077333\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (630.2, 763.9)\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | -1537077333\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (630.2, 763.9)\r\n                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                IsVisible
+      | True\r\n                                Type | SOLID\r\n                               
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                               
+      BlendMode | NORMAL\r\n                            \u2014\u2014\u2014\u2014ArcData\r\n                               
+      StartingAngle | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                            \u2014\u2014\u2014\u2014Dragon
+      fruit/DragonFuit_Sample/Group/Vector\r\n                                isVisible
+      | True\r\n                                Type | VECTOR\r\n                               
+      GetFigmaRotationAngle | 0\r\n                                FillGeometry |
+      1600132257\r\n                                StrokeWeight | 1\r\n                               
+      StrokeAlign | INSIDE\r\n                                BlendMode | PASS_THROUGH\r\n                               
+      Size | (158.3, 132.7)\r\n                                isVisible | True\r\n                               
+      Type | VECTOR\r\n                                GetFigmaRotationAngle | 0\r\n                               
+      FillGeometry | 1600132257\r\n                                StrokeWeight |
+      1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                Size | (158.3,
+      132.7)\r\n                                \u2014\u2014\u2014\u2014Fills\r\n                                   
+      IsVisible | True\r\n                                    Type | SOLID\r\n                                   
+      Color | RGBA(0.596, 0.859, 0.486, 1.000)\r\n                                   
+      BlendMode | NORMAL\r\n                                \u2014\u2014\u2014\u2014ArcData\r\n                                   
+      StartingAngle | 0\r\n                                    EndingAngle | 0\r\n                                   
+      InnerRadius | 0\r\n                            \u2014\u2014\u2014\u2014Dragon
+      fruit/DragonFuit_Sample/Vector\r\n                                isVisible
+      | True\r\n                                Type | VECTOR\r\n                               
+      GetFigmaRotationAngle | 0\r\n                                FillGeometry |
+      -706171921\r\n                                StrokeWeight | 1\r\n                               
+      StrokeAlign | INSIDE\r\n                                BlendMode | PASS_THROUGH\r\n                               
+      Size | (121.0, 128.4)\r\n                                isVisible | True\r\n                               
+      Type | VECTOR\r\n                                GetFigmaRotationAngle | 0\r\n                               
+      FillGeometry | -706171921\r\n                                StrokeWeight |
+      1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                Size | (121.0,
+      128.4)\r\n                                \u2014\u2014\u2014\u2014Fills\r\n                                   
+      IsVisible | True\r\n                                    Type | SOLID\r\n                                   
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                   
+      BlendMode | NORMAL\r\n                                \u2014\u2014\u2014\u2014ArcData\r\n                                   
+      StartingAngle | 0\r\n                                    EndingAngle | 0\r\n                                   
+      InnerRadius | 0\r\n                            \u2014\u2014\u2014\u2014Dragon
+      fruit/DragonFuit_Stroke_02\r\n                                isVisible | True\r\n                               
+      Type | VECTOR\r\n                                GetFigmaRotationAngle | 0\r\n                               
+      FillGeometry | -409320690\r\n                                StrokeWeight |
+      1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                Size | (495.8,
+      495.3)\r\n                                isVisible | True\r\n                               
+      Type | VECTOR\r\n                                GetFigmaRotationAngle | 0\r\n                               
+      FillGeometry | -409320690\r\n                                StrokeWeight |
+      1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                Size | (495.8,
+      495.3)\r\n                                \u2014\u2014\u2014\u2014Fills\r\n                                   
+      IsVisible | True\r\n                                    Type | SOLID\r\n                                   
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                   
+      BlendMode | NORMAL\r\n                                \u2014\u2014\u2014\u2014ArcData\r\n                                   
+      StartingAngle | 0\r\n                                    EndingAngle | 0\r\n                                   
+      InnerRadius | 0\r\n                                \u2014\u2014\u2014\u2014Dragon
+      fruit/DragonFuit_Sample/Group/Vector\r\n                                   
+      isVisible | True\r\n                                    Type | VECTOR\r\n                                   
+      GetFigmaRotationAngle | 0\r\n                                    FillGeometry
+      | 954207174\r\n                                    StrokeWeight | 1\r\n                                   
+      StrokeAlign | INSIDE\r\n                                    BlendMode | PASS_THROUGH\r\n                                   
+      Size | (158.4, 113.6)\r\n                                    isVisible | True\r\n                                   
+      Type | VECTOR\r\n                                    GetFigmaRotationAngle
+      | 0\r\n                                    FillGeometry | 954207174\r\n                                   
+      StrokeWeight | 1\r\n                                    StrokeAlign | INSIDE\r\n                                   
+      BlendMode | PASS_THROUGH\r\n                                    Size | (158.4,
+      113.6)\r\n                                    \u2014\u2014\u2014\u2014Fills\r\n                                       
+      IsVisible | True\r\n                                        Type | SOLID\r\n                                       
+      Color | RGBA(0.596, 0.859, 0.486, 1.000)\r\n                                       
+      BlendMode | NORMAL\r\n                                    \u2014\u2014\u2014\u2014ArcData\r\n                                       
+      StartingAngle | 0\r\n                                        EndingAngle |
+      0\r\n                                        InnerRadius | 0\r\n                               
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n                                   
+      isVisible | True\r\n                                    Type | VECTOR\r\n                                   
+      GetFigmaRotationAngle | 0\r\n                                    FillGeometry
+      | -191503466\r\n                                    StrokeWeight | 1\r\n                                   
+      StrokeAlign | INSIDE\r\n                                    BlendMode | PASS_THROUGH\r\n                                   
+      Size | (38.9, 38.8)\r\n                                    isVisible | True\r\n                                   
+      Type | VECTOR\r\n                                    GetFigmaRotationAngle
+      | 0\r\n                                    FillGeometry | -191503466\r\n                                   
+      StrokeWeight | 1\r\n                                    StrokeAlign | INSIDE\r\n                                   
+      BlendMode | PASS_THROUGH\r\n                                    Size | (38.9,
+      38.8)\r\n                                    \u2014\u2014\u2014\u2014Fills\r\n                                       
+      IsVisible | True\r\n                                        Type | SOLID\r\n                                       
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                       
+      BlendMode | NORMAL\r\n                                    \u2014\u2014\u2014\u2014ArcData\r\n                                       
+      StartingAngle | 0\r\n                                        EndingAngle |
+      0\r\n                                        InnerRadius | 0\r\n                               
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Stroke_03\r\n                                   
+      isVisible | True\r\n                                    Type | VECTOR\r\n                                   
+      GetFigmaRotationAngle | 0\r\n                                    FillGeometry
+      | -1739132403\r\n                                    StrokeWeight | 1\r\n                                   
+      StrokeAlign | INSIDE\r\n                                    BlendMode | PASS_THROUGH\r\n                                   
+      Size | (426.5, 426.0)\r\n                                    isVisible | True\r\n                                   
+      Type | VECTOR\r\n                                    GetFigmaRotationAngle
+      | 0\r\n                                    FillGeometry | -1739132403\r\n                                   
+      StrokeWeight | 1\r\n                                    StrokeAlign | INSIDE\r\n                                   
+      BlendMode | PASS_THROUGH\r\n                                    Size | (426.5,
+      426.0)\r\n                                    \u2014\u2014\u2014\u2014Fills\r\n                                       
+      IsVisible | True\r\n                                        Type | SOLID\r\n                                       
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                       
+      BlendMode | NORMAL\r\n                                    \u2014\u2014\u2014\u2014ArcData\r\n                                       
+      StartingAngle | 0\r\n                                        EndingAngle |
+      0\r\n                                        InnerRadius | 0\r\n                                   
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Group/Vector\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | 1146744825\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (158.4, 113.6)\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | 1146744825\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (158.4, 113.6)\r\n                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                           
+      IsVisible | True\r\n                                            Type | SOLID\r\n                                           
+      Color | RGBA(0.596, 0.859, 0.486, 1.000)\r\n                                           
+      BlendMode | NORMAL\r\n                                        \u2014\u2014\u2014\u2014ArcData\r\n                                           
+      StartingAngle | 0\r\n                                            EndingAngle
+      | 0\r\n                                            InnerRadius | 0\r\n                                   
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | -191503466\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (38.9, 38.8)\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | -191503466\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (38.9, 38.8)\r\n                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                           
+      IsVisible | True\r\n                                            Type | SOLID\r\n                                           
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                           
+      BlendMode | NORMAL\r\n                                        \u2014\u2014\u2014\u2014ArcData\r\n                                           
+      StartingAngle | 0\r\n                                            EndingAngle
+      | 0\r\n                                            InnerRadius | 0\r\n                                   
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Dot_01\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | -874915576\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (624.2, 756.5)\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | -874915576\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (624.2, 756.5)\r\n                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                           
+      IsVisible | True\r\n                                            Type | SOLID\r\n                                           
+      Color | RGBA(0.847, 0.847, 0.847, 1.000)\r\n                                           
+      BlendMode | NORMAL\r\n                                        \u2014\u2014\u2014\u2014ArcData\r\n                                           
+      StartingAngle | 0\r\n                                            EndingAngle
+      | 0\r\n                                            InnerRadius | 0\r\n                                       
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Group/Vector\r\n                                           
+      isVisible | True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            FillGeometry
+      | -766355476\r\n                                            StrokeWeight |
+      1\r\n                                            StrokeAlign | INSIDE\r\n                                           
+      BlendMode | PASS_THROUGH\r\n                                            Size
+      | (98.3, 105.8)\r\n                                            isVisible |
+      True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            FillGeometry
+      | -766355476\r\n                                            StrokeWeight |
+      1\r\n                                            StrokeAlign | INSIDE\r\n                                           
+      BlendMode | PASS_THROUGH\r\n                                            Size
+      | (98.3, 105.8)\r\n                                            \u2014\u2014\u2014\u2014Fills\r\n                                               
+      IsVisible | True\r\n                                                Type |
+      SOLID\r\n                                                Color | RGBA(0.596,
+      0.859, 0.486, 1.000)\r\n                                                BlendMode
+      | NORMAL\r\n                                            \u2014\u2014\u2014\u2014ArcData\r\n                                               
+      StartingAngle | 0\r\n                                                EndingAngle
+      | 0\r\n                                                InnerRadius | 0\r\n                                       
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n                                           
+      isVisible | True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            FillGeometry
+      | -191503466\r\n                                            StrokeWeight |
+      1\r\n                                            StrokeAlign | INSIDE\r\n                                           
+      BlendMode | PASS_THROUGH\r\n                                            Size
+      | (38.9, 38.8)\r\n                                            isVisible | True\r\n                                           
+      Type | VECTOR\r\n                                            GetFigmaRotationAngle
+      | 0\r\n                                            FillGeometry | -191503466\r\n                                           
+      StrokeWeight | 1\r\n                                            StrokeAlign
+      | INSIDE\r\n                                            BlendMode | PASS_THROUGH\r\n                                           
+      Size | (38.9, 38.8)\r\n                                            \u2014\u2014\u2014\u2014Fills\r\n                                               
+      IsVisible | True\r\n                                                Type |
+      SOLID\r\n                                                Color | RGBA(0.000,
+      0.000, 0.000, 1.000)\r\n                                                BlendMode
+      | NORMAL\r\n                                            \u2014\u2014\u2014\u2014ArcData\r\n                                               
+      StartingAngle | 0\r\n                                                EndingAngle
+      | 0\r\n                                                InnerRadius | 0\r\n                                       
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Dot_02\r\n                                           
+      isVisible | True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            FillGeometry
+      | 3718258\r\n                                            StrokeWeight | 1\r\n                                           
+      StrokeAlign | INSIDE\r\n                                            BlendMode
+      | PASS_THROUGH\r\n                                            Size | (484.2,
+      486.8)\r\n                                            isVisible | True\r\n                                           
+      Type | VECTOR\r\n                                            GetFigmaRotationAngle
+      | 0\r\n                                            FillGeometry | 3718258\r\n                                           
+      StrokeWeight | 1\r\n                                            StrokeAlign
+      | INSIDE\r\n                                            BlendMode | PASS_THROUGH\r\n                                           
+      Size | (484.2, 486.8)\r\n                                            \u2014\u2014\u2014\u2014Fills\r\n                                               
+      IsVisible | True\r\n                                                Type |
+      SOLID\r\n                                                Color | RGBA(0.847,
+      0.847, 0.847, 1.000)\r\n                                                BlendMode
+      | NORMAL\r\n                                            \u2014\u2014\u2014\u2014ArcData\r\n                                               
+      StartingAngle | 0\r\n                                                EndingAngle
+      | 0\r\n                                                InnerRadius | 0\r\n                                           
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n                                               
+      isVisible | True\r\n                                                Type |
+      VECTOR\r\n                                                GetFigmaRotationAngle
+      | 0\r\n                                                FillGeometry | 854636630\r\n                                               
+      StrokeWeight | 1\r\n                                                StrokeAlign
+      | INSIDE\r\n                                                BlendMode | PASS_THROUGH\r\n                                               
+      Size | (38.9, 38.8)\r\n                                                isVisible
+      | True\r\n                                                Type | VECTOR\r\n                                               
+      GetFigmaRotationAngle | 0\r\n                                               
+      FillGeometry | 854636630\r\n                                               
+      StrokeWeight | 1\r\n                                                StrokeAlign
+      | INSIDE\r\n                                                BlendMode | PASS_THROUGH\r\n                                               
+      Size | (38.9, 38.8)\r\n                                                \u2014\u2014\u2014\u2014Fills\r\n                                                   
+      IsVisible | True\r\n                                                    Type
+      | SOLID\r\n                                                    Color | RGBA(0.000,
+      0.000, 0.000, 1.000)\r\n                                                   
+      BlendMode | NORMAL\r\n                                                \u2014\u2014\u2014\u2014ArcData\r\n                                                   
+      StartingAngle | 0\r\n                                                    EndingAngle
+      | 0\r\n                                                    InnerRadius | 0\r\n                                           
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Dot_03\r\n                                               
+      isVisible | True\r\n                                                Type |
+      VECTOR\r\n                                                GetFigmaRotationAngle
+      | 0\r\n                                                FillGeometry | 1804840804\r\n                                               
+      StrokeWeight | 1\r\n                                                StrokeAlign
+      | INSIDE\r\n                                                BlendMode | PASS_THROUGH\r\n                                               
+      Size | (415.8, 416.1)\r\n                                                isVisible
+      | True\r\n                                                Type | VECTOR\r\n                                               
+      GetFigmaRotationAngle | 0\r\n                                               
+      FillGeometry | 1804840804\r\n                                               
+      StrokeWeight | 1\r\n                                                StrokeAlign
+      | INSIDE\r\n                                                BlendMode | PASS_THROUGH\r\n                                               
+      Size | (415.8, 416.1)\r\n                                                \u2014\u2014\u2014\u2014Fills\r\n                                                   
+      IsVisible | True\r\n                                                    Type
+      | SOLID\r\n                                                    Color | RGBA(0.847,
+      0.847, 0.847, 1.000)\r\n                                                   
+      BlendMode | NORMAL\r\n                                                \u2014\u2014\u2014\u2014ArcData\r\n                                                   
+      StartingAngle | 0\r\n                                                    EndingAngle
+      | 0\r\n                                                    InnerRadius | 0\r\n                                               
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n                                                   
+      isVisible | True\r\n                                                    Type
+      | VECTOR\r\n                                                    GetFigmaRotationAngle
+      | 0\r\n                                                    FillGeometry | -155553586\r\n                                                   
+      StrokeWeight | 1\r\n                                                    StrokeAlign
+      | INSIDE\r\n                                                    BlendMode |
+      PASS_THROUGH\r\n                                                    Size |
+      (38.9, 38.8)\r\n                                                    isVisible
+      | True\r\n                                                    Type | VECTOR\r\n                                                   
+      GetFigmaRotationAngle | 0\r\n                                                   
+      FillGeometry | -155553586\r\n                                                   
+      StrokeWeight | 1\r\n                                                    StrokeAlign
+      | INSIDE\r\n                                                    BlendMode |
+      PASS_THROUGH\r\n                                                    Size |
+      (38.9, 38.8)\r\n                                                    \u2014\u2014\u2014\u2014Fills\r\n                                                       
+      IsVisible | True\r\n                                                       
+      Type | SOLID\r\n                                                        Color
+      | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                       
+      BlendMode | NORMAL\r\n                                                    \u2014\u2014\u2014\u2014ArcData\r\n                                                       
+      StartingAngle | 0\r\n                                                       
+      EndingAngle | 0\r\n                                                       
+      InnerRadius | 0\r\n                                                    \u2014\u2014\u2014\u2014Dragon
+      fruit/DragonFuit_Sample/Vector\r\n                                                       
+      isVisible | True\r\n                                                       
+      Type | VECTOR\r\n                                                        GetFigmaRotationAngle
+      | 0\r\n                                                        FillGeometry
+      | -191503466\r\n                                                        StrokeWeight
+      | 1\r\n                                                        StrokeAlign
+      | INSIDE\r\n                                                        BlendMode
+      | PASS_THROUGH\r\n                                                        Size
+      | (38.9, 38.8)\r\n                                                        isVisible
+      | True\r\n                                                        Type | VECTOR\r\n                                                       
+      GetFigmaRotationAngle | 0\r\n                                                       
+      FillGeometry | -191503466\r\n                                                       
+      StrokeWeight | 1\r\n                                                       
+      StrokeAlign | INSIDE\r\n                                                       
+      BlendMode | PASS_THROUGH\r\n                                                       
+      Size | (38.9, 38.8)\r\n                                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                                           
+      IsVisible | True\r\n                                                           
+      Type | SOLID\r\n                                                           
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                           
+      BlendMode | NORMAL\r\n                                                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                           
+      StartingAngle | 0\r\n                                                           
+      EndingAngle | 0\r\n                                                           
+      InnerRadius | 0\r\n                                                       
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | VECTOR\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      FillGeometry | -1926833866\r\n                                                           
+      StrokeWeight | 1\r\n                                                           
+      StrokeAlign | INSIDE\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      Size | (38.9, 38.8)\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | VECTOR\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      FillGeometry | -1926833866\r\n                                                           
+      StrokeWeight | 1\r\n                                                           
+      StrokeAlign | INSIDE\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      Size | (38.9, 38.8)\r\n                                                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                                               
+      IsVisible | True\r\n                                                               
+      Type | SOLID\r\n                                                               
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                               
+      BlendMode | NORMAL\r\n                                                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                               
+      StartingAngle | 0\r\n                                                               
+      EndingAngle | 0\r\n                                                               
+      InnerRadius | 0\r\n                                                           
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | VECTOR\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      FillGeometry | -912874890\r\n                                                               
+      StrokeWeight | 1\r\n                                                               
+      StrokeAlign | INSIDE\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      Size | (38.9, 38.8)\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | VECTOR\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      FillGeometry | -912874890\r\n                                                               
+      StrokeWeight | 1\r\n                                                               
+      StrokeAlign | INSIDE\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      Size | (38.9, 38.8)\r\n                                                               
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                   
+      IsVisible | True\r\n                                                                   
+      Type | SOLID\r\n                                                                   
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                   
+      BlendMode | NORMAL\r\n                                                               
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                   
+      StartingAngle | 0\r\n                                                                   
+      EndingAngle | 0\r\n                                                                   
+      InnerRadius | 0\r\n                                                               
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n                                                                   
+      isVisible | True\r\n                                                                   
+      Type | VECTOR\r\n                                                                   
+      GetFigmaRotationAngle | 0\r\n                                                                   
+      FillGeometry | -912874890\r\n                                                                   
+      StrokeWeight | 1\r\n                                                                   
+      StrokeAlign | INSIDE\r\n                                                                   
+      BlendMode | PASS_THROUGH\r\n                                                                   
+      Size | (38.9, 38.8)\r\n                                                                   
+      isVisible | True\r\n                                                                   
+      Type | VECTOR\r\n                                                                   
+      GetFigmaRotationAngle | 0\r\n                                                                   
+      FillGeometry | -912874890\r\n                                                                   
+      StrokeWeight | 1\r\n                                                                   
+      StrokeAlign | INSIDE\r\n                                                                   
+      BlendMode | PASS_THROUGH\r\n                                                                   
+      Size | (38.9, 38.8)\r\n                                                                   
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                       
+      IsVisible | True\r\n                                                                       
+      Type | SOLID\r\n                                                                       
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                       
+      BlendMode | NORMAL\r\n                                                                   
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                       
+      StartingAngle | 0\r\n                                                                       
+      EndingAngle | 0\r\n                                                                       
+      InnerRadius | 0\r\n                                                                   
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n                                                                       
+      isVisible | True\r\n                                                                       
+      Type | VECTOR\r\n                                                                       
+      GetFigmaRotationAngle | 0\r\n                                                                       
+      FillGeometry | -912874890\r\n                                                                       
+      StrokeWeight | 1\r\n                                                                       
+      StrokeAlign | INSIDE\r\n                                                                       
+      BlendMode | PASS_THROUGH\r\n                                                                       
+      Size | (38.9, 38.8)\r\n                                                                       
+      isVisible | True\r\n                                                                       
+      Type | VECTOR\r\n                                                                       
+      GetFigmaRotationAngle | 0\r\n                                                                       
+      FillGeometry | -912874890\r\n                                                                       
+      StrokeWeight | 1\r\n                                                                       
+      StrokeAlign | INSIDE\r\n                                                                       
+      BlendMode | PASS_THROUGH\r\n                                                                       
+      Size | (38.9, 38.8)\r\n                                                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                           
+      IsVisible | True\r\n                                                                           
+      Type | SOLID\r\n                                                                           
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                           
+      BlendMode | NORMAL\r\n                                                                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                           
+      StartingAngle | 0\r\n                                                                           
+      EndingAngle | 0\r\n                                                                           
+      InnerRadius | 0\r\n                                                                       
+      \u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Sample/Vector\r\n                                                                           
+      isVisible | True\r\n                                                                           
+      Type | VECTOR\r\n                                                                           
+      GetFigmaRotationAngle | 0\r\n                                                                           
+      FillGeometry | 300246996\r\n                                                                           
+      StrokeWeight | 1\r\n                                                                           
+      StrokeAlign | INSIDE\r\n                                                                           
+      BlendMode | PASS_THROUGH\r\n                                                                           
+      Size | (764.0, 764.0)\r\n                                                                           
+      isVisible | True\r\n                                                                           
+      Type | VECTOR\r\n                                                                           
+      GetFigmaRotationAngle | 0\r\n                                                                           
+      FillGeometry | 300246996\r\n                                                                           
+      StrokeWeight | 1\r\n                                                                           
+      StrokeAlign | INSIDE\r\n                                                                           
+      BlendMode | PASS_THROUGH\r\n                                                                           
+      Size | (764.0, 764.0)\r\n                                                                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                               
+      IsVisible | True\r\n                                                                               
+      Type | SOLID\r\n                                                                               
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                               
+      BlendMode | NORMAL\r\n                                                                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                               
+      StartingAngle | 0\r\n                                                                               
+      EndingAngle | 0\r\n                                                                               
+      InnerRadius | 0\r\n"
+    parentIndex: -1
+    hierarchy: Dragon fruit
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: children not empty
+    downloadAttempsCount: 0
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 1
+    forceImage: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &1492271155752949903
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3255089686931830121}
+  m_CullTransparentMesh: 1
+--- !u!114 &9048432269219861417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3255089686931830121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.72833335, b: 0.32083333, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 640081f5e6e53c74d817c3eda5e6b08c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8457899229167920010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3255089686931830121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding: {x: 0, y: 0, z: 0, w: 0}
+  m_Softness: {x: 0, y: 0}
+--- !u!1 &3838823007939610763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1798940476533961174}
+  - component: {fileID: 1102003947681651122}
+  - component: {fileID: 5946194640207545666}
+  - component: {fileID: 661335647039187162}
+  m_Layer: 5
+  m_Name: DragonFuit_Stroke_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1798940476533961174
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3838823007939610763}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2338898460435778527}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 517.04297, y: -0.033203125}
+  m_SizeDelta: {x: -1626, y: -1373}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1102003947681651122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3838823007939610763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 249:560
+    formattedName: DragonFuit_Stroke_01
+    spriteName: DragonFuit_Stroke_01 0.5x 1628195307.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 3838823007939610763}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 1}
+    spriteSize: {x: 316, y: 382}
+    size: {x: 632, y: 764}
+    position: {x: 11610.043, y: -26709.533}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 1628195307
+    hashDataTree: "\u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Stroke_01\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | -1537077333\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (630.2, 763.9)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -1537077333\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (630.2, 763.9)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.000, 0.000, 0.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 29
+    hierarchy: Dragon fruit/DragonFuit_Stroke_01
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &5946194640207545666
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3838823007939610763}
+  m_CullTransparentMesh: 1
+--- !u!114 &661335647039187162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3838823007939610763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 1012ebad35a195846983adc130fc6961, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &4055900720031182552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4119853564683786867}
+  - component: {fileID: 5332747650256215373}
+  - component: {fileID: 496853614728406551}
+  - component: {fileID: 3227628090984762884}
+  m_Layer: 5
+  m_Name: DragonFuit_Stroke_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4119853564683786867
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4055900720031182552}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2338898460435778527}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 705.5449, y: -123.03516}
+  m_SizeDelta: {x: -1830, y: -1709}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5332747650256215373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4055900720031182552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 49:321
+    formattedName: DragonFuit_Stroke_03
+    spriteName: DragonFuit_Stroke_03 0.5x -786624881.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 4055900720031182552}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 1}
+    spriteSize: {x: 214, y: 214}
+    size: {x: 428, y: 428}
+    position: {x: 11900.545, y: -27000.535}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -786624881
+    hashDataTree: "\u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Stroke_03\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | -1739132403\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (426.5, 426.0)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -1739132403\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (426.5, 426.0)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.000, 0.000, 0.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 29
+    hierarchy: Dragon fruit/DragonFuit_Stroke_03
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &496853614728406551
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4055900720031182552}
+  m_CullTransparentMesh: 1
+--- !u!114 &3227628090984762884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4055900720031182552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 6b63e8bbb992b0341b06efcebf7e8575, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &5305072703387914622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6019998806704466271}
+  - component: {fileID: 5148972410945302417}
+  - component: {fileID: 1226152233754121819}
+  - component: {fileID: 3241308628610863599}
+  m_Layer: 5
+  m_Name: DragonFuit_Dot_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6019998806704466271
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5305072703387914622}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2338898460435778527}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 516.62305, y: -1.015625}
+  m_SizeDelta: {x: -1632, y: -1379}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5148972410945302417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5305072703387914622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 249:561
+    formattedName: DragonFuit_Dot_01
+    spriteName: DragonFuit_Dot_01 0.5x 1279996848.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 5305072703387914622}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+    spriteSize: {x: 313, y: 379}
+    size: {x: 626, y: 758}
+    position: {x: 11612.623, y: -26713.516}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 1279996848
+    hashDataTree: "\u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Dot_01\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | -874915576\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (624.2, 756.5)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -874915576\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (624.2, 756.5)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.847, 0.847, 0.847,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 29
+    hierarchy: Dragon fruit/DragonFuit_Dot_01
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &1226152233754121819
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5305072703387914622}
+  m_CullTransparentMesh: 1
+--- !u!114 &3241308628610863599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5305072703387914622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 440ed1439bac6e646bf6538eecdb4174, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &5377014875291605009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9105116525764423884}
+  - component: {fileID: 139034893025893507}
+  - component: {fileID: 158714297040679189}
+  - component: {fileID: 142656813291491429}
+  m_Layer: 5
+  m_Name: DragonFuit_Plus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &9105116525764423884
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5377014875291605009}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2338898460435778527}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 629.96484, y: -179.21289}
+  m_SizeDelta: {x: -1612, y: -1755}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &139034893025893507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5377014875291605009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 249:559
+    formattedName: DragonFuit_Plus
+    spriteName: DragonFuit_Plus 0.5x -1513700061.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 5377014875291605009}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 1}
+    spriteSize: {x: 323, y: 191}
+    size: {x: 646, y: 382}
+    position: {x: 11715.965, y: -27079.713}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -1513700061
+    hashDataTree: "\u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Plus\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | 1108012782\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (645.8, 381.8)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 1108012782\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (645.8, 381.8)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.000, 0.000, 0.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 29
+    hierarchy: Dragon fruit/DragonFuit_Plus
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &158714297040679189
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5377014875291605009}
+  m_CullTransparentMesh: 1
+--- !u!114 &142656813291491429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5377014875291605009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 22e16c4480b732849a91fb159025b16c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &5664765564059558204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 533951054950472172}
+  - component: {fileID: 7615346701116424754}
+  - component: {fileID: 5843882840633855053}
+  - component: {fileID: 2913612208551559344}
+  m_Layer: 5
+  m_Name: DragonFuit_Dot_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &533951054950472172
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5664765564059558204}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2338898460435778527}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 706.7754, y: -124.171875}
+  m_SizeDelta: {x: -1842, y: -1719}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &7615346701116424754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5664765564059558204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 49:369
+    formattedName: DragonFuit_Dot_03
+    spriteName: DragonFuit_Dot_03 0.5x -1763833616.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 5664765564059558204}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+    spriteSize: {x: 208, y: 209}
+    size: {x: 416, y: 418}
+    position: {x: 11907.775, y: -27006.672}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -1763833616
+    hashDataTree: "\u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Dot_03\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | 1804840804\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (415.8, 416.1)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 1804840804\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (415.8, 416.1)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.847, 0.847, 0.847,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 29
+    hierarchy: Dragon fruit/DragonFuit_Dot_03
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &5843882840633855053
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5664765564059558204}
+  m_CullTransparentMesh: 1
+--- !u!114 &2913612208551559344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5664765564059558204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 8a3d498515d803d498fb84275461237f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &6525920715184568868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8085623816812545962}
+  - component: {fileID: 4832833340316835661}
+  - component: {fileID: 1375114181222483792}
+  - component: {fileID: 2874155343482747656}
+  m_Layer: 5
+  m_Name: DragonFuit_Shape_02_#98DB7C
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8085623816812545962
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6525920715184568868}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2338898460435778527}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 514.6953, y: -6.5625}
+  m_SizeDelta: {x: -1652, y: -1799}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &4832833340316835661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6525920715184568868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 49:360
+    formattedName: DragonFuit_Shape_02_#98DB7C
+    spriteName: DragonFuit_Shape_02_#98DB7C 0.5x -164332510.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 6525920715184568868}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 1, g: 1, b: 1, a: 1}
+    spriteSize: {x: 303, y: 169}
+    size: {x: 606, y: 338}
+    position: {x: 11620.695, y: -26929.062}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -164332510
+    hashDataTree: "\u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Shape_02_#98DB7C\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | 2037041018\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (606.0, 336.8)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 2037041018\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (606.0, 336.8)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 29
+    hierarchy: Dragon fruit/DragonFuit_Shape_02_#98DB7C
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &1375114181222483792
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6525920715184568868}
+  m_CullTransparentMesh: 1
+--- !u!114 &2874155343482747656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6525920715184568868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ffc779347ad630549a2d37829e67b98f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8420887919634346523
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6548925212973656999}
+  - component: {fileID: 1090631669336782444}
+  - component: {fileID: 5084941538914215365}
+  - component: {fileID: 7546325796956703609}
+  m_Layer: 5
+  m_Name: DragonFuit_Shape_04_#FF7B8B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6548925212973656999
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8420887919634346523}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2338898460435778527}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 719.08984, y: -136.85547}
+  m_SizeDelta: {x: -1784, y: -1663}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1090631669336782444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8420887919634346523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 49:106
+    formattedName: DragonFuit_Shape_04_#FF7B8B
+    spriteName: DragonFuit_Shape_04_#FF7B8B 0.5x 1602062258.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8420887919634346523}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 1, g: 1, b: 1, a: 1}
+    spriteSize: {x: 237, y: 237}
+    size: {x: 474, y: 474}
+    position: {x: 11891.09, y: -26991.355}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 1602062258
+    hashDataTree: "\u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Shape_04_#FF7B8B\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | 374554444\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (472.1, 472.1)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 374554444\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (472.1, 472.1)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 29
+    hierarchy: Dragon fruit/DragonFuit_Shape_04_#FF7B8B
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &5084941538914215365
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8420887919634346523}
+  m_CullTransparentMesh: 1
+--- !u!114 &7546325796956703609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8420887919634346523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: d0d1a611a25c6e94eb190bb48bb03f59, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8620321107663375681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8581608008194168096}
+  - component: {fileID: 6455623685057367103}
+  - component: {fileID: 1105180754048865877}
+  - component: {fileID: 4542624984187999792}
+  m_Layer: 5
+  m_Name: DragonFuit_Dot_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8581608008194168096
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8620321107663375681}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2338898460435778527}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 721.4043, y: -136.11719}
+  m_SizeDelta: {x: -1772, y: -1649}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &6455623685057367103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8620321107663375681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 49:368
+    formattedName: DragonFuit_Dot_02
+    spriteName: DragonFuit_Dot_02 0.5x -2029249288.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 8620321107663375681}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+    spriteSize: {x: 243, y: 244}
+    size: {x: 486, y: 488}
+    position: {x: 11887.404, y: -26983.617}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -2029249288
+    hashDataTree: "\u2014\u2014\u2014\u2014Dragon fruit/DragonFuit_Dot_02\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | 3718258\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (484.2, 486.8)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 3718258\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (484.2, 486.8)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.847, 0.847, 0.847,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 29
+    hierarchy: Dragon fruit/DragonFuit_Dot_02
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &1105180754048865877
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8620321107663375681}
+  m_CullTransparentMesh: 1
+--- !u!114 &4542624984187999792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8620321107663375681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 0f3089ac66a69e84b9df13ce70955f2c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1

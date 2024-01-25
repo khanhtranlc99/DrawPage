@@ -1,0 +1,2913 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5530716811200373198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5530716811200373199}
+  - component: {fileID: 5530716811200373194}
+  - component: {fileID: 5530716811200373193}
+  - component: {fileID: 5530716811200373192}
+  m_Layer: 5
+  m_Name: Snake
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5530716811200373199
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716811200373198}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5530716812621877992}
+  - {fileID: 5530716812886343035}
+  - {fileID: 5530716811370258346}
+  - {fileID: 5530716811216093598}
+  - {fileID: 5530716812761984860}
+  - {fileID: 5530716812585578178}
+  - {fileID: 5530716811946070546}
+  - {fileID: 5530716812474342357}
+  - {fileID: 5530716812692473239}
+  - {fileID: 5530716811888410196}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -1869, y: -23394.5}
+  m_SizeDelta: {x: 2258, y: 2137}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5530716811200373194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716811200373198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 194:2167
+    formattedName: Snake
+    spriteName: Snake 0.5x -763653009.png
+    tags: 02000000f6010000c900000001000000
+    childIndexes: 0401000005010000060100000701000008010000090100000a0100000b0100000c0100000d010000
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 5530716811200373198}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 0}
+    spriteSize: {x: 1128, y: 1068}
+    size: {x: 2258, y: 2137}
+    position: {x: -2998, y: -20406}
+    fcuImageType: 3
+    buttonComponent: 0
+    hash: -763653009
+    hashDataTree: "\u2014\u2014\u2014\u2014Snake\r\n    isVisible | True\r\n    Type
+      | FRAME\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 817778115\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | True\r\n    Size | (2258.0, 2137.0)\r\n    isVisible | True\r\n   
+      Type | FRAME\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 817778115\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | True\r\n    Size | (2258.0, 2137.0)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
+      IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(0.497, 0.321,
+      1.000, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Snake/Snake_Sample\r\n   
+      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      ClipsContent | False\r\n    Size | (792.4, 852.9)\r\n    isVisible | True\r\n   
+      Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
+      StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent |
+      False\r\n    Size | (792.4, 852.9)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Snake/Snake_Sample/Vector\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | -1736590236\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (652.3, 166.5)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -1736590236\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (652.3, 166.5)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.482, 0.816, 0.655,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Vector\r\n        isVisible | True\r\n       
+      Type | VECTOR\r\n        GetFigmaRotationAngle | 0\r\n        FillGeometry
+      | 559705586\r\n        StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n       
+      BlendMode | PASS_THROUGH\r\n        Size | (530.5, 491.0)\r\n        isVisible
+      | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle | 0\r\n       
+      FillGeometry | 559705586\r\n        StrokeWeight | 1\r\n        StrokeAlign
+      | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size | (530.5, 491.0)\r\n       
+      \u2014\u2014\u2014\u2014Fills\r\n            IsVisible | True\r\n           
+      Type | SOLID\r\n            Color | RGBA(0.482, 0.816, 0.655, 1.000)\r\n           
+      BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n    \u2014\u2014\u2014\u2014Snake/Snake_Shape_01_#7BD0A7\r\n       
+      isVisible | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle
+      | 0\r\n        FillGeometry | -2039917921\r\n        StrokeWeight | 1\r\n       
+      StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size |
+      (762.4, 803.9)\r\n        isVisible | True\r\n        Type | VECTOR\r\n       
+      GetFigmaRotationAngle | 0\r\n        FillGeometry | -2039917921\r\n       
+      StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
+      Size | (762.4, 803.9)\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
+      IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
+      1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014Snake/Snake_Sample/Vector\r\n           
+      isVisible | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle
+      | 0\r\n            FillGeometry | -198755647\r\n            StrokeWeight |
+      1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      Size | (530.5, 491.0)\r\n            isVisible | True\r\n            Type |
+      VECTOR\r\n            GetFigmaRotationAngle | 0\r\n            FillGeometry
+      | -198755647\r\n            StrokeWeight | 1\r\n            StrokeAlign | INSIDE\r\n           
+      BlendMode | PASS_THROUGH\r\n            Size | (530.5, 491.0)\r\n           
+      \u2014\u2014\u2014\u2014Fills\r\n                IsVisible | True\r\n               
+      Type | SOLID\r\n                Color | RGBA(0.482, 0.816, 0.655, 1.000)\r\n               
+      BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014Snake/Snake_Shape_02_#F3E5B7\r\n           
+      isVisible | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle
+      | 0\r\n            FillGeometry | -1983804511\r\n            StrokeWeight |
+      1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      Size | (750.5, 453.7)\r\n            isVisible | True\r\n            Type |
+      VECTOR\r\n            GetFigmaRotationAngle | 0\r\n            FillGeometry
+      | -1983804511\r\n            StrokeWeight | 1\r\n            StrokeAlign |
+      INSIDE\r\n            BlendMode | PASS_THROUGH\r\n            Size | (750.5,
+      453.7)\r\n            \u2014\u2014\u2014\u2014Fills\r\n                IsVisible
+      | True\r\n                Type | SOLID\r\n                Color | RGBA(1.000,
+      1.000, 1.000, 1.000)\r\n                BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n            \u2014\u2014\u2014\u2014Snake/Snake_Sample/Vector\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | -591434467\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (400.0, 168.2)\r\n                isVisible
+      | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | -591434467\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (400.0, 168.2)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Color | RGBA(0.408, 0.749, 0.592, 1.000)\r\n                    BlendMode |
+      NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014Snake/Snake_Plus\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 121059889\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (740.8, 776.4)\r\n                isVisible
+      | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | 121059889\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (740.8, 776.4)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Opacity | 0.2\r\n                    Color | RGBA(0.400, 0.400, 0.400, 1.000)\r\n                   
+      BlendMode | NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014Snake/Snake_Sample/Vector\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | 2007890170\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (527.4, 453.7)\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | 2007890170\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (527.4, 453.7)\r\n                   
+      \u2014\u2014\u2014\u2014Fills\r\n                        IsVisible | True\r\n                       
+      Type | SOLID\r\n                        Color | RGBA(0.953, 0.898, 0.718, 1.000)\r\n                       
+      BlendMode | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014Snake/Snake_Stroke_01\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | 951398221\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (523.1, 404.1)\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | 951398221\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (523.1, 404.1)\r\n                   
+      \u2014\u2014\u2014\u2014Fills\r\n                        IsVisible | True\r\n                       
+      Type | SOLID\r\n                        Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                       
+      BlendMode | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014Snake/Snake_Sample/Vector\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | 1034755557\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (248.0, 220.4)\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | 1034755557\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (248.0, 220.4)\r\n                       
+      \u2014\u2014\u2014\u2014Fills\r\n                            IsVisible | True\r\n                           
+      Type | SOLID\r\n                            Color | RGBA(0.408, 0.749, 0.592,
+      1.000)\r\n                            BlendMode | NORMAL\r\n                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                            StartingAngle
+      | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014Snake/Snake_Stroke_02\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | 1242139536\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (560.5, 521.1)\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | 1242139536\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (560.5, 521.1)\r\n                       
+      \u2014\u2014\u2014\u2014Fills\r\n                            IsVisible | True\r\n                           
+      Type | SOLID\r\n                            Color | RGBA(0.000, 0.000, 0.000,
+      1.000)\r\n                            BlendMode | NORMAL\r\n                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                            StartingAngle
+      | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014Snake/Snake_Sample/Vector\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | 616362766\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (245.0, 88.0)\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | 616362766\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (245.0, 88.0)\r\n                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                IsVisible
+      | True\r\n                                Type | SOLID\r\n                               
+      Color | RGBA(0.910, 0.847, 0.647, 1.000)\r\n                               
+      BlendMode | NORMAL\r\n                            \u2014\u2014\u2014\u2014ArcData\r\n                               
+      StartingAngle | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014Snake/Snake_Stroke_03\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | -356860582\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (682.3, 196.5)\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | -356860582\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (682.3, 196.5)\r\n                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                IsVisible
+      | True\r\n                                Type | SOLID\r\n                               
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                               
+      BlendMode | NORMAL\r\n                            \u2014\u2014\u2014\u2014ArcData\r\n                               
+      StartingAngle | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                            \u2014\u2014\u2014\u2014Snake/Snake_Sample/Vector\r\n                               
+      isVisible | True\r\n                                Type | VECTOR\r\n                               
+      GetFigmaRotationAngle | 0\r\n                                StrokeWeight |
+      1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                Size | (0.5, 0.8)\r\n                               
+      isVisible | True\r\n                                Type | VECTOR\r\n                               
+      GetFigmaRotationAngle | 0\r\n                                StrokeWeight |
+      1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                Size | (0.5, 0.8)\r\n                               
+      \u2014\u2014\u2014\u2014ArcData\r\n                                    StartingAngle
+      | 0\r\n                                    EndingAngle | 0\r\n                                   
+      InnerRadius | 0\r\n                            \u2014\u2014\u2014\u2014Snake/Snake_Dot_01\r\n                               
+      isVisible | True\r\n                                Type | VECTOR\r\n                               
+      GetFigmaRotationAngle | 0\r\n                                FillGeometry |
+      1186826698\r\n                                StrokeWeight | 1\r\n                               
+      StrokeAlign | INSIDE\r\n                                BlendMode | PASS_THROUGH\r\n                               
+      Size | (507.7, 389.0)\r\n                                isVisible | True\r\n                               
+      Type | VECTOR\r\n                                GetFigmaRotationAngle | 0\r\n                               
+      FillGeometry | 1186826698\r\n                                StrokeWeight |
+      1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                Size | (507.7,
+      389.0)\r\n                                \u2014\u2014\u2014\u2014Fills\r\n                                   
+      IsVisible | True\r\n                                    Type | SOLID\r\n                                   
+      Color | RGBA(0.847, 0.847, 0.847, 1.000)\r\n                                   
+      BlendMode | NORMAL\r\n                                \u2014\u2014\u2014\u2014ArcData\r\n                                   
+      StartingAngle | 0\r\n                                    EndingAngle | 0\r\n                                   
+      InnerRadius | 0\r\n                                \u2014\u2014\u2014\u2014Snake/Snake_Sample/Vector\r\n                                   
+      isVisible | True\r\n                                    Type | VECTOR\r\n                                   
+      GetFigmaRotationAngle | 0\r\n                                    StrokeWeight
+      | 1\r\n                                    StrokeAlign | INSIDE\r\n                                   
+      BlendMode | PASS_THROUGH\r\n                                    Size | (2.5,
+      4.3)\r\n                                    isVisible | True\r\n                                   
+      Type | VECTOR\r\n                                    GetFigmaRotationAngle
+      | 0\r\n                                    StrokeWeight | 1\r\n                                   
+      StrokeAlign | INSIDE\r\n                                    BlendMode | PASS_THROUGH\r\n                                   
+      Size | (2.5, 4.3)\r\n                                    \u2014\u2014\u2014\u2014ArcData\r\n                                       
+      StartingAngle | 0\r\n                                        EndingAngle |
+      0\r\n                                        InnerRadius | 0\r\n                               
+      \u2014\u2014\u2014\u2014Snake/Snake_Dot_02\r\n                                   
+      isVisible | True\r\n                                    Type | VECTOR\r\n                                   
+      GetFigmaRotationAngle | 0\r\n                                    FillGeometry
+      | 2136223809\r\n                                    StrokeWeight | 1\r\n                                   
+      StrokeAlign | INSIDE\r\n                                    BlendMode | PASS_THROUGH\r\n                                   
+      Size | (543.8, 473.9)\r\n                                    isVisible | True\r\n                                   
+      Type | VECTOR\r\n                                    GetFigmaRotationAngle
+      | 0\r\n                                    FillGeometry | 2136223809\r\n                                   
+      StrokeWeight | 1\r\n                                    StrokeAlign | INSIDE\r\n                                   
+      BlendMode | PASS_THROUGH\r\n                                    Size | (543.8,
+      473.9)\r\n                                    \u2014\u2014\u2014\u2014Fills\r\n                                       
+      IsVisible | True\r\n                                        Type | SOLID\r\n                                       
+      Color | RGBA(0.847, 0.847, 0.847, 1.000)\r\n                                       
+      BlendMode | NORMAL\r\n                                    \u2014\u2014\u2014\u2014ArcData\r\n                                       
+      StartingAngle | 0\r\n                                        EndingAngle |
+      0\r\n                                        InnerRadius | 0\r\n                                   
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Vector\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | -1365320715\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (643.4, 67.2)\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | -1365320715\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (643.4, 67.2)\r\n                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                           
+      IsVisible | True\r\n                                            Type | SOLID\r\n                                           
+      Color | RGBA(0.953, 0.898, 0.718, 1.000)\r\n                                           
+      BlendMode | NORMAL\r\n                                        \u2014\u2014\u2014\u2014ArcData\r\n                                           
+      StartingAngle | 0\r\n                                            EndingAngle
+      | 0\r\n                                            InnerRadius | 0\r\n                                   
+      \u2014\u2014\u2014\u2014Snake/Snake_Dot_03\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | -267247090\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (505.4, 174.2)\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | -267247090\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (505.4, 174.2)\r\n                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                           
+      IsVisible | True\r\n                                            Type | SOLID\r\n                                           
+      Color | RGBA(0.847, 0.847, 0.847, 1.000)\r\n                                           
+      BlendMode | NORMAL\r\n                                        \u2014\u2014\u2014\u2014ArcData\r\n                                           
+      StartingAngle | 0\r\n                                            EndingAngle
+      | 0\r\n                                            InnerRadius | 0\r\n                                       
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Vector\r\n                                           
+      isVisible | True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            FillGeometry
+      | -657837894\r\n                                            StrokeWeight |
+      1\r\n                                            StrokeAlign | INSIDE\r\n                                           
+      BlendMode | PASS_THROUGH\r\n                                            Size
+      | (330.5, 67.2)\r\n                                            isVisible |
+      True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            FillGeometry
+      | -657837894\r\n                                            StrokeWeight |
+      1\r\n                                            StrokeAlign | INSIDE\r\n                                           
+      BlendMode | PASS_THROUGH\r\n                                            Size
+      | (330.5, 67.2)\r\n                                            \u2014\u2014\u2014\u2014Fills\r\n                                               
+      IsVisible | True\r\n                                                Type |
+      SOLID\r\n                                                Color | RGBA(0.910,
+      0.847, 0.647, 1.000)\r\n                                                BlendMode
+      | NORMAL\r\n                                            \u2014\u2014\u2014\u2014ArcData\r\n                                               
+      StartingAngle | 0\r\n                                                EndingAngle
+      | 0\r\n                                                InnerRadius | 0\r\n                                           
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Vector\r\n                                               
+      isVisible | True\r\n                                                Type |
+      VECTOR\r\n                                                GetFigmaRotationAngle
+      | 0\r\n                                                FillGeometry | 753634915\r\n                                               
+      StrokeWeight | 1\r\n                                                StrokeAlign
+      | INSIDE\r\n                                                BlendMode | PASS_THROUGH\r\n                                               
+      Size | (493.1, 374.1)\r\n                                                isVisible
+      | True\r\n                                                Type | VECTOR\r\n                                               
+      GetFigmaRotationAngle | 0\r\n                                               
+      FillGeometry | 753634915\r\n                                               
+      StrokeWeight | 1\r\n                                                StrokeAlign
+      | INSIDE\r\n                                                BlendMode | PASS_THROUGH\r\n                                               
+      Size | (493.1, 374.1)\r\n                                                \u2014\u2014\u2014\u2014Fills\r\n                                                   
+      IsVisible | True\r\n                                                    Type
+      | SOLID\r\n                                                    Color | RGBA(0.482,
+      0.816, 0.655, 1.000)\r\n                                                   
+      BlendMode | NORMAL\r\n                                                \u2014\u2014\u2014\u2014ArcData\r\n                                                   
+      StartingAngle | 0\r\n                                                    EndingAngle
+      | 0\r\n                                                    InnerRadius | 0\r\n                                               
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Vector\r\n                                                   
+      isVisible | True\r\n                                                    Type
+      | VECTOR\r\n                                                    GetFigmaRotationAngle
+      | 0\r\n                                                    FillGeometry | 1076311094\r\n                                                   
+      StrokeWeight | 1\r\n                                                    StrokeAlign
+      | INSIDE\r\n                                                    BlendMode |
+      PASS_THROUGH\r\n                                                    Size |
+      (395.7, 327.6)\r\n                                                    isVisible
+      | True\r\n                                                    Type | VECTOR\r\n                                                   
+      GetFigmaRotationAngle | 0\r\n                                                   
+      FillGeometry | 1076311094\r\n                                                   
+      StrokeWeight | 1\r\n                                                    StrokeAlign
+      | INSIDE\r\n                                                    BlendMode |
+      PASS_THROUGH\r\n                                                    Size |
+      (395.7, 327.6)\r\n                                                    \u2014\u2014\u2014\u2014Fills\r\n                                                       
+      IsVisible | True\r\n                                                       
+      Type | SOLID\r\n                                                        Color
+      | RGBA(0.408, 0.749, 0.592, 1.000)\r\n                                                       
+      BlendMode | NORMAL\r\n                                                    \u2014\u2014\u2014\u2014ArcData\r\n                                                       
+      StartingAngle | 0\r\n                                                       
+      EndingAngle | 0\r\n                                                       
+      InnerRadius | 0\r\n                                                    \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group\r\n                                                       
+      isVisible | True\r\n                                                       
+      Type | GROUP\r\n                                                        GetFigmaRotationAngle
+      | 0\r\n                                                        StrokeWeight
+      | 1\r\n                                                        StrokeAlign
+      | INSIDE\r\n                                                        BlendMode
+      | PASS_THROUGH\r\n                                                        ClipsContent
+      | False\r\n                                                        Size | (369.2,
+      336.1)\r\n                                                        isVisible
+      | True\r\n                                                        Type | GROUP\r\n                                                       
+      GetFigmaRotationAngle | 0\r\n                                                       
+      StrokeWeight | 1\r\n                                                       
+      StrokeAlign | INSIDE\r\n                                                       
+      BlendMode | PASS_THROUGH\r\n                                                       
+      ClipsContent | False\r\n                                                       
+      Size | (369.2, 336.1)\r\n                                                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                           
+      StartingAngle | 0\r\n                                                           
+      EndingAngle | 0\r\n                                                           
+      InnerRadius | 0\r\n                                                    \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Group\r\n                                                       
+      isVisible | True\r\n                                                       
+      Type | GROUP\r\n                                                        GetFigmaRotationAngle
+      | 0\r\n                                                        StrokeWeight
+      | 1\r\n                                                        StrokeAlign
+      | INSIDE\r\n                                                        BlendMode
+      | PASS_THROUGH\r\n                                                        ClipsContent
+      | False\r\n                                                        Size | (369.2,
+      333.1)\r\n                                                        isVisible
+      | True\r\n                                                        Type | GROUP\r\n                                                       
+      GetFigmaRotationAngle | 0\r\n                                                       
+      StrokeWeight | 1\r\n                                                       
+      StrokeAlign | INSIDE\r\n                                                       
+      BlendMode | PASS_THROUGH\r\n                                                       
+      ClipsContent | False\r\n                                                       
+      Size | (369.2, 333.1)\r\n                                                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                           
+      StartingAngle | 0\r\n                                                           
+      EndingAngle | 0\r\n                                                           
+      InnerRadius | 0\r\n                                                    \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Group/Vector\r\n                                                       
+      isVisible | True\r\n                                                       
+      Type | VECTOR\r\n                                                        GetFigmaRotationAngle
+      | 0\r\n                                                        FillGeometry
+      | 524884275\r\n                                                        StrokeWeight
+      | 1\r\n                                                        StrokeAlign
+      | INSIDE\r\n                                                        BlendMode
+      | PASS_THROUGH\r\n                                                        Size
+      | (122.9, 66.6)\r\n                                                       
+      isVisible | True\r\n                                                       
+      Type | VECTOR\r\n                                                        GetFigmaRotationAngle
+      | 0\r\n                                                        FillGeometry
+      | 524884275\r\n                                                        StrokeWeight
+      | 1\r\n                                                        StrokeAlign
+      | INSIDE\r\n                                                        BlendMode
+      | PASS_THROUGH\r\n                                                        Size
+      | (122.9, 66.6)\r\n                                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                                           
+      IsVisible | True\r\n                                                           
+      Type | SOLID\r\n                                                           
+      Color | RGBA(0.867, 0.686, 0.537, 1.000)\r\n                                                           
+      BlendMode | NORMAL\r\n                                                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                           
+      StartingAngle | 0\r\n                                                           
+      EndingAngle | 0\r\n                                                           
+      InnerRadius | 0\r\n                                                       
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Group/Vector\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | VECTOR\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      FillGeometry | 1602201942\r\n                                                           
+      StrokeWeight | 1\r\n                                                           
+      StrokeAlign | INSIDE\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      Size | (120.6, 30.4)\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | VECTOR\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      FillGeometry | 1602201942\r\n                                                           
+      StrokeWeight | 1\r\n                                                           
+      StrokeAlign | INSIDE\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      Size | (120.6, 30.4)\r\n                                                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                                               
+      IsVisible | True\r\n                                                               
+      Type | SOLID\r\n                                                               
+      Color | RGBA(0.867, 0.686, 0.537, 1.000)\r\n                                                               
+      BlendMode | NORMAL\r\n                                                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                               
+      StartingAngle | 0\r\n                                                               
+      EndingAngle | 0\r\n                                                               
+      InnerRadius | 0\r\n                                                       
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Vector\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | VECTOR\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      FillGeometry | -215695707\r\n                                                           
+      StrokeWeight | 1\r\n                                                           
+      StrokeAlign | INSIDE\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      Size | (24.1, 59.5)\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | VECTOR\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      FillGeometry | -215695707\r\n                                                           
+      StrokeWeight | 1\r\n                                                           
+      StrokeAlign | INSIDE\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      Size | (24.1, 59.5)\r\n                                                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                                               
+      IsVisible | True\r\n                                                               
+      Type | SOLID\r\n                                                               
+      Color | RGBA(0.867, 0.686, 0.537, 1.000)\r\n                                                               
+      BlendMode | NORMAL\r\n                                                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                               
+      StartingAngle | 0\r\n                                                               
+      EndingAngle | 0\r\n                                                               
+      InnerRadius | 0\r\n                                                       
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | GROUP\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      StrokeWeight | 1\r\n                                                           
+      StrokeAlign | INSIDE\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      ClipsContent | False\r\n                                                           
+      Size | (420.8, 154.6)\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | GROUP\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      StrokeWeight | 1\r\n                                                           
+      StrokeAlign | INSIDE\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      ClipsContent | False\r\n                                                           
+      Size | (420.8, 154.6)\r\n                                                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                               
+      StartingAngle | 0\r\n                                                               
+      EndingAngle | 0\r\n                                                               
+      InnerRadius | 0\r\n                                                       
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Vector\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | VECTOR\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      FillGeometry | -816441019\r\n                                                           
+      StrokeWeight | 1\r\n                                                           
+      StrokeAlign | INSIDE\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      Size | (57.4, 96.5)\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | VECTOR\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      FillGeometry | -816441019\r\n                                                           
+      StrokeWeight | 1\r\n                                                           
+      StrokeAlign | INSIDE\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      Size | (57.4, 96.5)\r\n                                                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                                               
+      IsVisible | True\r\n                                                               
+      Type | SOLID\r\n                                                               
+      Color | RGBA(0.859, 0.506, 0.553, 1.000)\r\n                                                               
+      BlendMode | NORMAL\r\n                                                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                               
+      StartingAngle | 0\r\n                                                               
+      EndingAngle | 0\r\n                                                               
+      InnerRadius | 0\r\n                                                           
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Group/Vector\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | VECTOR\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      FillGeometry | -2100615934\r\n                                                               
+      StrokeWeight | 1\r\n                                                               
+      StrokeAlign | INSIDE\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      Size | (64.3, 90.8)\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | VECTOR\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      FillGeometry | -2100615934\r\n                                                               
+      StrokeWeight | 1\r\n                                                               
+      StrokeAlign | INSIDE\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      Size | (64.3, 90.8)\r\n                                                               
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                   
+      IsVisible | True\r\n                                                                   
+      Type | SOLID\r\n                                                                   
+      Color | RGBA(0.867, 0.686, 0.537, 1.000)\r\n                                                                   
+      BlendMode | NORMAL\r\n                                                               
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                   
+      StartingAngle | 0\r\n                                                                   
+      EndingAngle | 0\r\n                                                                   
+      InnerRadius | 0\r\n                                                           
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Vector\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | VECTOR\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      FillGeometry | 1380552472\r\n                                                               
+      StrokeWeight | 1\r\n                                                               
+      StrokeAlign | INSIDE\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      Size | (113.4, 90.3)\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | VECTOR\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      FillGeometry | 1380552472\r\n                                                               
+      StrokeWeight | 1\r\n                                                               
+      StrokeAlign | INSIDE\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      Size | (113.4, 90.3)\r\n                                                               
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                   
+      IsVisible | True\r\n                                                                   
+      Type | SOLID\r\n                                                                   
+      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                                                                   
+      BlendMode | NORMAL\r\n                                                               
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                   
+      StartingAngle | 0\r\n                                                                   
+      EndingAngle | 0\r\n                                                                   
+      InnerRadius | 0\r\n                                                           
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | GROUP\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      StrokeWeight | 1\r\n                                                               
+      StrokeAlign | INSIDE\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      ClipsContent | False\r\n                                                               
+      Size | (792.4, 852.9)\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | GROUP\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      StrokeWeight | 1\r\n                                                               
+      StrokeAlign | INSIDE\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      ClipsContent | False\r\n                                                               
+      Size | (792.4, 852.9)\r\n                                                               
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                   
+      StartingAngle | 0\r\n                                                                   
+      EndingAngle | 0\r\n                                                                   
+      InnerRadius | 0\r\n                                                           
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Vector\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | VECTOR\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      FillGeometry | 232306125\r\n                                                               
+      StrokeWeight | 1\r\n                                                               
+      StrokeAlign | INSIDE\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      Size | (682.3, 196.5)\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | VECTOR\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      FillGeometry | 232306125\r\n                                                               
+      StrokeWeight | 1\r\n                                                               
+      StrokeAlign | INSIDE\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      Size | (682.3, 196.5)\r\n                                                               
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                   
+      IsVisible | True\r\n                                                                   
+      Type | SOLID\r\n                                                                   
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                   
+      BlendMode | NORMAL\r\n                                                               
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                   
+      StartingAngle | 0\r\n                                                                   
+      EndingAngle | 0\r\n                                                                   
+      InnerRadius | 0\r\n                                                               
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Vector\r\n                                                                   
+      isVisible | True\r\n                                                                   
+      Type | VECTOR\r\n                                                                   
+      GetFigmaRotationAngle | 0\r\n                                                                   
+      FillGeometry | 1380552472\r\n                                                                   
+      StrokeWeight | 1\r\n                                                                   
+      StrokeAlign | INSIDE\r\n                                                                   
+      BlendMode | PASS_THROUGH\r\n                                                                   
+      Size | (113.4, 90.3)\r\n                                                                   
+      isVisible | True\r\n                                                                   
+      Type | VECTOR\r\n                                                                   
+      GetFigmaRotationAngle | 0\r\n                                                                   
+      FillGeometry | 1380552472\r\n                                                                   
+      StrokeWeight | 1\r\n                                                                   
+      StrokeAlign | INSIDE\r\n                                                                   
+      BlendMode | PASS_THROUGH\r\n                                                                   
+      Size | (113.4, 90.3)\r\n                                                                   
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                       
+      IsVisible | True\r\n                                                                       
+      Type | SOLID\r\n                                                                       
+      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                                                                       
+      BlendMode | NORMAL\r\n                                                                   
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                       
+      StartingAngle | 0\r\n                                                                       
+      EndingAngle | 0\r\n                                                                       
+      InnerRadius | 0\r\n                                                               
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Vector\r\n                                                                   
+      isVisible | True\r\n                                                                   
+      Type | VECTOR\r\n                                                                   
+      GetFigmaRotationAngle | 0\r\n                                                                   
+      FillGeometry | 1574108339\r\n                                                                   
+      StrokeWeight | 1\r\n                                                                   
+      StrokeAlign | INSIDE\r\n                                                                   
+      BlendMode | PASS_THROUGH\r\n                                                                   
+      Size | (560.5, 521.1)\r\n                                                                   
+      isVisible | True\r\n                                                                   
+      Type | VECTOR\r\n                                                                   
+      GetFigmaRotationAngle | 0\r\n                                                                   
+      FillGeometry | 1574108339\r\n                                                                   
+      StrokeWeight | 1\r\n                                                                   
+      StrokeAlign | INSIDE\r\n                                                                   
+      BlendMode | PASS_THROUGH\r\n                                                                   
+      Size | (560.5, 521.1)\r\n                                                                   
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                       
+      IsVisible | True\r\n                                                                       
+      Type | SOLID\r\n                                                                       
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                       
+      BlendMode | NORMAL\r\n                                                                   
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                       
+      StartingAngle | 0\r\n                                                                       
+      EndingAngle | 0\r\n                                                                       
+      InnerRadius | 0\r\n                                                                   
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Vector\r\n                                                                       
+      isVisible | True\r\n                                                                       
+      Type | VECTOR\r\n                                                                       
+      GetFigmaRotationAngle | 0\r\n                                                                       
+      FillGeometry | 510650654\r\n                                                                       
+      StrokeWeight | 1\r\n                                                                       
+      StrokeAlign | INSIDE\r\n                                                                       
+      BlendMode | PASS_THROUGH\r\n                                                                       
+      Size | (24.8, 44.9)\r\n                                                                       
+      isVisible | True\r\n                                                                       
+      Type | VECTOR\r\n                                                                       
+      GetFigmaRotationAngle | 0\r\n                                                                       
+      FillGeometry | 510650654\r\n                                                                       
+      StrokeWeight | 1\r\n                                                                       
+      StrokeAlign | INSIDE\r\n                                                                       
+      BlendMode | PASS_THROUGH\r\n                                                                       
+      Size | (24.8, 44.9)\r\n                                                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                           
+      IsVisible | True\r\n                                                                           
+      Type | SOLID\r\n                                                                           
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                           
+      BlendMode | NORMAL\r\n                                                                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                           
+      StartingAngle | 0\r\n                                                                           
+      EndingAngle | 0\r\n                                                                           
+      InnerRadius | 0\r\n                                                                   
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Vector\r\n                                                                       
+      isVisible | True\r\n                                                                       
+      Type | VECTOR\r\n                                                                       
+      GetFigmaRotationAngle | 0\r\n                                                                       
+      FillGeometry | 2005501610\r\n                                                                       
+      StrokeWeight | 1\r\n                                                                       
+      StrokeAlign | INSIDE\r\n                                                                       
+      BlendMode | PASS_THROUGH\r\n                                                                       
+      Size | (523.1, 404.1)\r\n                                                                       
+      isVisible | True\r\n                                                                       
+      Type | VECTOR\r\n                                                                       
+      GetFigmaRotationAngle | 0\r\n                                                                       
+      FillGeometry | 2005501610\r\n                                                                       
+      StrokeWeight | 1\r\n                                                                       
+      StrokeAlign | INSIDE\r\n                                                                       
+      BlendMode | PASS_THROUGH\r\n                                                                       
+      Size | (523.1, 404.1)\r\n                                                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                           
+      IsVisible | True\r\n                                                                           
+      Type | SOLID\r\n                                                                           
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                           
+      BlendMode | NORMAL\r\n                                                                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                           
+      StartingAngle | 0\r\n                                                                           
+      EndingAngle | 0\r\n                                                                           
+      InnerRadius | 0\r\n                                                                       
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Vector\r\n                                                                           
+      isVisible | True\r\n                                                                           
+      Type | VECTOR\r\n                                                                           
+      GetFigmaRotationAngle | 0\r\n                                                                           
+      FillGeometry | 1903787486\r\n                                                                           
+      StrokeWeight | 1\r\n                                                                           
+      StrokeAlign | INSIDE\r\n                                                                           
+      BlendMode | PASS_THROUGH\r\n                                                                           
+      Size | (24.8, 44.9)\r\n                                                                           
+      isVisible | True\r\n                                                                           
+      Type | VECTOR\r\n                                                                           
+      GetFigmaRotationAngle | 0\r\n                                                                           
+      FillGeometry | 1903787486\r\n                                                                           
+      StrokeWeight | 1\r\n                                                                           
+      StrokeAlign | INSIDE\r\n                                                                           
+      BlendMode | PASS_THROUGH\r\n                                                                           
+      Size | (24.8, 44.9)\r\n                                                                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                               
+      IsVisible | True\r\n                                                                               
+      Type | SOLID\r\n                                                                               
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                               
+      BlendMode | NORMAL\r\n                                                                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                               
+      StartingAngle | 0\r\n                                                                               
+      EndingAngle | 0\r\n                                                                               
+      InnerRadius | 0\r\n                                                                       
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Vector\r\n                                                                           
+      isVisible | True\r\n                                                                           
+      Type | VECTOR\r\n                                                                           
+      GetFigmaRotationAngle | 0\r\n                                                                           
+      FillGeometry | 1084223374\r\n                                                                           
+      StrokeWeight | 1\r\n                                                                           
+      StrokeAlign | INSIDE\r\n                                                                           
+      BlendMode | PASS_THROUGH\r\n                                                                           
+      Size | (439.9, 394.2)\r\n                                                                           
+      isVisible | True\r\n                                                                           
+      Type | VECTOR\r\n                                                                           
+      GetFigmaRotationAngle | 0\r\n                                                                           
+      FillGeometry | 1084223374\r\n                                                                           
+      StrokeWeight | 1\r\n                                                                           
+      StrokeAlign | INSIDE\r\n                                                                           
+      BlendMode | PASS_THROUGH\r\n                                                                           
+      Size | (439.9, 394.2)\r\n                                                                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                               
+      IsVisible | True\r\n                                                                               
+      Type | SOLID\r\n                                                                               
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                               
+      BlendMode | NORMAL\r\n                                                                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                               
+      StartingAngle | 0\r\n                                                                               
+      EndingAngle | 0\r\n                                                                               
+      InnerRadius | 0\r\n                                                                           
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Vector\r\n                                                                               
+      isVisible | True\r\n                                                                               
+      Type | VECTOR\r\n                                                                               
+      GetFigmaRotationAngle | 0\r\n                                                                               
+      FillGeometry | -972053095\r\n                                                                               
+      StrokeWeight | 1\r\n                                                                               
+      StrokeAlign | INSIDE\r\n                                                                               
+      BlendMode | PASS_THROUGH\r\n                                                                               
+      Size | (115.1, 134.5)\r\n                                                                               
+      isVisible | True\r\n                                                                               
+      Type | VECTOR\r\n                                                                               
+      GetFigmaRotationAngle | 0\r\n                                                                               
+      FillGeometry | -972053095\r\n                                                                               
+      StrokeWeight | 1\r\n                                                                               
+      StrokeAlign | INSIDE\r\n                                                                               
+      BlendMode | PASS_THROUGH\r\n                                                                               
+      Size | (115.1, 134.5)\r\n                                                                               
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                                   
+      IsVisible | True\r\n                                                                                   
+      Type | SOLID\r\n                                                                                   
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                                   
+      BlendMode | NORMAL\r\n                                                                               
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                                   
+      StartingAngle | 0\r\n                                                                                   
+      EndingAngle | 0\r\n                                                                                   
+      InnerRadius | 0\r\n"
+    parentIndex: -1
+    hierarchy: Snake
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: children not empty
+    downloadAttempsCount: 0
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 1
+    forceImage: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &5530716811200373193
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716811200373198}
+  m_CullTransparentMesh: 1
+--- !u!114 &5530716811200373192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716811200373198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding: {x: 0, y: 0, z: 0, w: 0}
+  m_Softness: {x: 0, y: 0}
+--- !u!1 &5530716811216093597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5530716811216093598}
+  - component: {fileID: 5530716811216093593}
+  - component: {fileID: 5530716811216093592}
+  - component: {fileID: 5530716811216093599}
+  m_Layer: 5
+  m_Name: Snake_Plus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5530716811216093598
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716811216093597}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5530716811200373199}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 386.00024, y: 50.097656}
+  m_SizeDelta: {x: -1516, y: -1359}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5530716811216093593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716811216093597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 194:2314
+    formattedName: Snake_Plus
+    spriteName: Snake_Plus 0.5x 20558769.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 5530716811216093597}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.4, g: 0.4, b: 0.4, a: 0.2}
+    spriteSize: {x: 371, y: 389}
+    size: {x: 742, y: 778}
+    position: {x: -1853.9998, y: -21035.402}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 20558769
+    hashDataTree: "\u2014\u2014\u2014\u2014Snake/Snake_Plus\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 121059889\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (740.8, 776.4)\r\n    isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle
+      | 0\r\n    FillGeometry | 121059889\r\n    StrokeWeight | 1\r\n    StrokeAlign
+      | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    Size | (740.8, 776.4)\r\n   
+      \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n        Type |
+      SOLID\r\n        Opacity | 0.2\r\n        Color | RGBA(0.400, 0.400, 0.400,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 259
+    hierarchy: Snake/Snake_Plus
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &5530716811216093592
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716811216093597}
+  m_CullTransparentMesh: 1
+--- !u!114 &5530716811216093599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716811216093597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.4, g: 0.4, b: 0.4, a: 0.2}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 9684209fab2245d40a05e57a6e8ceaf8, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &5530716811370258345
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5530716811370258346}
+  - component: {fileID: 5530716811370258325}
+  - component: {fileID: 5530716811370258324}
+  - component: {fileID: 5530716811370258347}
+  m_Layer: 5
+  m_Name: Snake_Shape_02_#F3E5B7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5530716811370258346
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716811370258345}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5530716811200373199}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 394.00024, y: -110.640625}
+  m_SizeDelta: {x: -1506, y: -1683}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5530716811370258325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716811370258345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 249:310
+    formattedName: Snake_Shape_02_#F3E5B7
+    spriteName: Snake_Shape_02_#F3E5B7 0.5x 800883232.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 5530716811370258345}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 1, g: 1, b: 1, a: 1}
+    spriteSize: {x: 376, y: 227}
+    size: {x: 752, y: 454}
+    position: {x: -1850.9998, y: -21358.14}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 800883232
+    hashDataTree: "\u2014\u2014\u2014\u2014Snake/Snake_Shape_02_#F3E5B7\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | -1983804511\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (750.5, 453.7)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -1983804511\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (750.5, 453.7)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 259
+    hierarchy: Snake/Snake_Shape_02_#F3E5B7
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &5530716811370258324
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716811370258345}
+  m_CullTransparentMesh: 1
+--- !u!114 &5530716811370258347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716811370258345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: c9b9e9d91f677e341ae5c5f874678071, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &5530716811888410219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5530716811888410196}
+  - component: {fileID: 5530716811888410199}
+  - component: {fileID: 5530716811888410198}
+  - component: {fileID: 5530716811888410197}
+  m_Layer: 5
+  m_Name: Snake_Dot_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5530716811888410196
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716811888410219}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5530716811200373199}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 532.51025, y: -258.6211}
+  m_SizeDelta: {x: -1752, y: -1961}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5530716811888410199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716811888410219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 194:2317
+    formattedName: Snake_Dot_03
+    spriteName: Snake_Dot_03 0.5x -470144592.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 5530716811888410219}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+    spriteSize: {x: 253, y: 88}
+    size: {x: 506, y: 176}
+    position: {x: -1589.4899, y: -21645.121}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -470144592
+    hashDataTree: "\u2014\u2014\u2014\u2014Snake/Snake_Dot_03\r\n    isVisible |
+      True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | -267247090\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (505.4, 174.2)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -267247090\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (505.4, 174.2)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.847, 0.847, 0.847,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 259
+    hierarchy: Snake/Snake_Dot_03
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &5530716811888410198
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716811888410219}
+  m_CullTransparentMesh: 1
+--- !u!114 &5530716811888410197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716811888410219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: b03dc06d405fbc64d81038391a029e1f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &5530716811946070545
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5530716811946070546}
+  - component: {fileID: 5530716811946070557}
+  - component: {fileID: 5530716811946070556}
+  - component: {fileID: 5530716811946070547}
+  m_Layer: 5
+  m_Name: Snake_Stroke_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5530716811946070546
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716811946070545}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5530716811200373199}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 452.12012, y: -254.82422}
+  m_SizeDelta: {x: -1574, y: -1939}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5530716811946070557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716811946070545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 194:2250
+    formattedName: Snake_Stroke_03
+    spriteName: Snake_Stroke_03 0.5x -1572220445.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 5530716811946070545}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 1}
+    spriteSize: {x: 342, y: 99}
+    size: {x: 684, y: 198}
+    position: {x: -1758.8798, y: -21630.324}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -1572220445
+    hashDataTree: "\u2014\u2014\u2014\u2014Snake/Snake_Stroke_03\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | -356860582\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (682.3, 196.5)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -356860582\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (682.3, 196.5)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.000, 0.000, 0.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 259
+    hierarchy: Snake/Snake_Stroke_03
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &5530716811946070556
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716811946070545}
+  m_CullTransparentMesh: 1
+--- !u!114 &5530716811946070547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716811946070545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ea1d2560f84f66549bf7fd40078ae233, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &5530716812474342356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5530716812474342357}
+  - component: {fileID: 5530716812474342352}
+  - component: {fileID: 5530716812474342359}
+  - component: {fileID: 5530716812474342358}
+  m_Layer: 5
+  m_Name: Snake_Dot_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5530716812474342357
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716812474342356}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5530716811200373199}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 503.42578, y: 298.03125}
+  m_SizeDelta: {x: -1750, y: -1747}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5530716812474342352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716812474342356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 194:2263
+    formattedName: Snake_Dot_01
+    spriteName: Snake_Dot_01 0.5x -932460432.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 5530716812474342356}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+    spriteSize: {x: 254, y: 195}
+    size: {x: 508, y: 390}
+    position: {x: -1619.5742, y: -20981.469}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -932460432
+    hashDataTree: "\u2014\u2014\u2014\u2014Snake/Snake_Dot_01\r\n    isVisible |
+      True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | 1186826698\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (507.7, 389.0)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 1186826698\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (507.7, 389.0)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.847, 0.847, 0.847,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 259
+    hierarchy: Snake/Snake_Dot_01
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &5530716812474342359
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716812474342356}
+  m_CullTransparentMesh: 1
+--- !u!114 &5530716812474342358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716812474342356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 03353af3f6449e5499aa95a9da899029, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &5530716812585578177
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5530716812585578178}
+  - component: {fileID: 5530716812585578189}
+  - component: {fileID: 5530716812585578188}
+  - component: {fileID: 5530716812585578179}
+  m_Layer: 5
+  m_Name: Snake_Stroke_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5530716812585578178
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716812585578177}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5530716811200373199}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 281.00024, y: -92.25}
+  m_SizeDelta: {x: -1696, y: -1615}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5530716812585578189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716812585578177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 249:311
+    formattedName: Snake_Stroke_02
+    spriteName: Snake_Stroke_02 0.5x -1375460893.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 5530716812585578177}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 1}
+    spriteSize: {x: 281, y: 261}
+    size: {x: 562, y: 522}
+    position: {x: -1868.9998, y: -21305.75}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -1375460893
+    hashDataTree: "\u2014\u2014\u2014\u2014Snake/Snake_Stroke_02\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | 1242139536\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (560.5, 521.1)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 1242139536\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (560.5, 521.1)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.000, 0.000, 0.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 259
+    hierarchy: Snake/Snake_Stroke_02
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &5530716812585578188
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716812585578177}
+  m_CullTransparentMesh: 1
+--- !u!114 &5530716812585578179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716812585578177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3365778247cd46b40af118e429fec2aa, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &5530716812621877999
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5530716812621877992}
+  - component: {fileID: 5530716812621877995}
+  - component: {fileID: 5530716812621877994}
+  - component: {fileID: 5530716812621877993}
+  m_Layer: 5
+  m_Name: Snake_Sample
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5530716812621877992
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716812621877999}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5530716811200373199}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 571.23267, y: -933.38086}
+  m_SizeDelta: {x: 794, y: 854}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5530716812621877995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716812621877999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 194:2299
+    formattedName: Snake_Sample
+    spriteName: Snake_Sample 0.5x -1523455831.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 5530716812621877999}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 0}
+    spriteSize: {x: 397, y: 427}
+    size: {x: 794, y: 854}
+    position: {x: -2823.7673, y: -20912.38}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -1523455831
+    hashDataTree: "\u2014\u2014\u2014\u2014Snake/Snake_Sample\r\n    isVisible |
+      True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight
+      | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent
+      | False\r\n    Size | (792.4, 852.9)\r\n    isVisible | True\r\n    Type |
+      GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign
+      | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n   
+      Size | (792.4, 852.9)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle
+      | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Snake/Snake_Sample/Vector\r\n   
+      isVisible | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
+      FillGeometry | -1736590236\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
+      BlendMode | PASS_THROUGH\r\n    Size | (652.3, 166.5)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -1736590236\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (652.3, 166.5)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.482, 0.816, 0.655,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Vector\r\n        isVisible | True\r\n       
+      Type | VECTOR\r\n        GetFigmaRotationAngle | 0\r\n        FillGeometry
+      | 559705586\r\n        StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n       
+      BlendMode | PASS_THROUGH\r\n        Size | (530.5, 491.0)\r\n        isVisible
+      | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle | 0\r\n       
+      FillGeometry | 559705586\r\n        StrokeWeight | 1\r\n        StrokeAlign
+      | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        Size | (530.5, 491.0)\r\n       
+      \u2014\u2014\u2014\u2014Fills\r\n            IsVisible | True\r\n           
+      Type | SOLID\r\n            Color | RGBA(0.482, 0.816, 0.655, 1.000)\r\n           
+      BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
+      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
+      | 0\r\n        \u2014\u2014\u2014\u2014Snake/Snake_Sample/Vector\r\n           
+      isVisible | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle
+      | 0\r\n            FillGeometry | -198755647\r\n            StrokeWeight |
+      1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
+      Size | (530.5, 491.0)\r\n            isVisible | True\r\n            Type |
+      VECTOR\r\n            GetFigmaRotationAngle | 0\r\n            FillGeometry
+      | -198755647\r\n            StrokeWeight | 1\r\n            StrokeAlign | INSIDE\r\n           
+      BlendMode | PASS_THROUGH\r\n            Size | (530.5, 491.0)\r\n           
+      \u2014\u2014\u2014\u2014Fills\r\n                IsVisible | True\r\n               
+      Type | SOLID\r\n                Color | RGBA(0.482, 0.816, 0.655, 1.000)\r\n               
+      BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
+      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
+      | 0\r\n            \u2014\u2014\u2014\u2014Snake/Snake_Sample/Vector\r\n               
+      isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | -591434467\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (400.0, 168.2)\r\n                isVisible
+      | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
+      | 0\r\n                FillGeometry | -591434467\r\n                StrokeWeight
+      | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode |
+      PASS_THROUGH\r\n                Size | (400.0, 168.2)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
+      IsVisible | True\r\n                    Type | SOLID\r\n                   
+      Color | RGBA(0.408, 0.749, 0.592, 1.000)\r\n                    BlendMode |
+      NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
+      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
+      InnerRadius | 0\r\n                \u2014\u2014\u2014\u2014Snake/Snake_Sample/Vector\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | 2007890170\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (527.4, 453.7)\r\n                   
+      isVisible | True\r\n                    Type | VECTOR\r\n                   
+      GetFigmaRotationAngle | 0\r\n                    FillGeometry | 2007890170\r\n                   
+      StrokeWeight | 1\r\n                    StrokeAlign | INSIDE\r\n                   
+      BlendMode | PASS_THROUGH\r\n                    Size | (527.4, 453.7)\r\n                   
+      \u2014\u2014\u2014\u2014Fills\r\n                        IsVisible | True\r\n                       
+      Type | SOLID\r\n                        Color | RGBA(0.953, 0.898, 0.718, 1.000)\r\n                       
+      BlendMode | NORMAL\r\n                    \u2014\u2014\u2014\u2014ArcData\r\n                       
+      StartingAngle | 0\r\n                        EndingAngle | 0\r\n                       
+      InnerRadius | 0\r\n                    \u2014\u2014\u2014\u2014Snake/Snake_Sample/Vector\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | 1034755557\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (248.0, 220.4)\r\n                       
+      isVisible | True\r\n                        Type | VECTOR\r\n                       
+      GetFigmaRotationAngle | 0\r\n                        FillGeometry | 1034755557\r\n                       
+      StrokeWeight | 1\r\n                        StrokeAlign | INSIDE\r\n                       
+      BlendMode | PASS_THROUGH\r\n                        Size | (248.0, 220.4)\r\n                       
+      \u2014\u2014\u2014\u2014Fills\r\n                            IsVisible | True\r\n                           
+      Type | SOLID\r\n                            Color | RGBA(0.408, 0.749, 0.592,
+      1.000)\r\n                            BlendMode | NORMAL\r\n                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                            StartingAngle
+      | 0\r\n                            EndingAngle | 0\r\n                           
+      InnerRadius | 0\r\n                        \u2014\u2014\u2014\u2014Snake/Snake_Sample/Vector\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | 616362766\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (245.0, 88.0)\r\n                           
+      isVisible | True\r\n                            Type | VECTOR\r\n                           
+      GetFigmaRotationAngle | 0\r\n                            FillGeometry | 616362766\r\n                           
+      StrokeWeight | 1\r\n                            StrokeAlign | INSIDE\r\n                           
+      BlendMode | PASS_THROUGH\r\n                            Size | (245.0, 88.0)\r\n                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                IsVisible
+      | True\r\n                                Type | SOLID\r\n                               
+      Color | RGBA(0.910, 0.847, 0.647, 1.000)\r\n                               
+      BlendMode | NORMAL\r\n                            \u2014\u2014\u2014\u2014ArcData\r\n                               
+      StartingAngle | 0\r\n                                EndingAngle | 0\r\n                               
+      InnerRadius | 0\r\n                            \u2014\u2014\u2014\u2014Snake/Snake_Sample/Vector\r\n                               
+      isVisible | True\r\n                                Type | VECTOR\r\n                               
+      GetFigmaRotationAngle | 0\r\n                                StrokeWeight |
+      1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                Size | (0.5, 0.8)\r\n                               
+      isVisible | True\r\n                                Type | VECTOR\r\n                               
+      GetFigmaRotationAngle | 0\r\n                                StrokeWeight |
+      1\r\n                                StrokeAlign | INSIDE\r\n                               
+      BlendMode | PASS_THROUGH\r\n                                Size | (0.5, 0.8)\r\n                               
+      \u2014\u2014\u2014\u2014ArcData\r\n                                    StartingAngle
+      | 0\r\n                                    EndingAngle | 0\r\n                                   
+      InnerRadius | 0\r\n                                \u2014\u2014\u2014\u2014Snake/Snake_Sample/Vector\r\n                                   
+      isVisible | True\r\n                                    Type | VECTOR\r\n                                   
+      GetFigmaRotationAngle | 0\r\n                                    StrokeWeight
+      | 1\r\n                                    StrokeAlign | INSIDE\r\n                                   
+      BlendMode | PASS_THROUGH\r\n                                    Size | (2.5,
+      4.3)\r\n                                    isVisible | True\r\n                                   
+      Type | VECTOR\r\n                                    GetFigmaRotationAngle
+      | 0\r\n                                    StrokeWeight | 1\r\n                                   
+      StrokeAlign | INSIDE\r\n                                    BlendMode | PASS_THROUGH\r\n                                   
+      Size | (2.5, 4.3)\r\n                                    \u2014\u2014\u2014\u2014ArcData\r\n                                       
+      StartingAngle | 0\r\n                                        EndingAngle |
+      0\r\n                                        InnerRadius | 0\r\n                                   
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Vector\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | -1365320715\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (643.4, 67.2)\r\n                                       
+      isVisible | True\r\n                                        Type | VECTOR\r\n                                       
+      GetFigmaRotationAngle | 0\r\n                                        FillGeometry
+      | -1365320715\r\n                                        StrokeWeight | 1\r\n                                       
+      StrokeAlign | INSIDE\r\n                                        BlendMode |
+      PASS_THROUGH\r\n                                        Size | (643.4, 67.2)\r\n                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                           
+      IsVisible | True\r\n                                            Type | SOLID\r\n                                           
+      Color | RGBA(0.953, 0.898, 0.718, 1.000)\r\n                                           
+      BlendMode | NORMAL\r\n                                        \u2014\u2014\u2014\u2014ArcData\r\n                                           
+      StartingAngle | 0\r\n                                            EndingAngle
+      | 0\r\n                                            InnerRadius | 0\r\n                                       
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Vector\r\n                                           
+      isVisible | True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            FillGeometry
+      | -657837894\r\n                                            StrokeWeight |
+      1\r\n                                            StrokeAlign | INSIDE\r\n                                           
+      BlendMode | PASS_THROUGH\r\n                                            Size
+      | (330.5, 67.2)\r\n                                            isVisible |
+      True\r\n                                            Type | VECTOR\r\n                                           
+      GetFigmaRotationAngle | 0\r\n                                            FillGeometry
+      | -657837894\r\n                                            StrokeWeight |
+      1\r\n                                            StrokeAlign | INSIDE\r\n                                           
+      BlendMode | PASS_THROUGH\r\n                                            Size
+      | (330.5, 67.2)\r\n                                            \u2014\u2014\u2014\u2014Fills\r\n                                               
+      IsVisible | True\r\n                                                Type |
+      SOLID\r\n                                                Color | RGBA(0.910,
+      0.847, 0.647, 1.000)\r\n                                                BlendMode
+      | NORMAL\r\n                                            \u2014\u2014\u2014\u2014ArcData\r\n                                               
+      StartingAngle | 0\r\n                                                EndingAngle
+      | 0\r\n                                                InnerRadius | 0\r\n                                           
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Vector\r\n                                               
+      isVisible | True\r\n                                                Type |
+      VECTOR\r\n                                                GetFigmaRotationAngle
+      | 0\r\n                                                FillGeometry | 753634915\r\n                                               
+      StrokeWeight | 1\r\n                                                StrokeAlign
+      | INSIDE\r\n                                                BlendMode | PASS_THROUGH\r\n                                               
+      Size | (493.1, 374.1)\r\n                                                isVisible
+      | True\r\n                                                Type | VECTOR\r\n                                               
+      GetFigmaRotationAngle | 0\r\n                                               
+      FillGeometry | 753634915\r\n                                               
+      StrokeWeight | 1\r\n                                                StrokeAlign
+      | INSIDE\r\n                                                BlendMode | PASS_THROUGH\r\n                                               
+      Size | (493.1, 374.1)\r\n                                                \u2014\u2014\u2014\u2014Fills\r\n                                                   
+      IsVisible | True\r\n                                                    Type
+      | SOLID\r\n                                                    Color | RGBA(0.482,
+      0.816, 0.655, 1.000)\r\n                                                   
+      BlendMode | NORMAL\r\n                                                \u2014\u2014\u2014\u2014ArcData\r\n                                                   
+      StartingAngle | 0\r\n                                                    EndingAngle
+      | 0\r\n                                                    InnerRadius | 0\r\n                                               
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Vector\r\n                                                   
+      isVisible | True\r\n                                                    Type
+      | VECTOR\r\n                                                    GetFigmaRotationAngle
+      | 0\r\n                                                    FillGeometry | 1076311094\r\n                                                   
+      StrokeWeight | 1\r\n                                                    StrokeAlign
+      | INSIDE\r\n                                                    BlendMode |
+      PASS_THROUGH\r\n                                                    Size |
+      (395.7, 327.6)\r\n                                                    isVisible
+      | True\r\n                                                    Type | VECTOR\r\n                                                   
+      GetFigmaRotationAngle | 0\r\n                                                   
+      FillGeometry | 1076311094\r\n                                                   
+      StrokeWeight | 1\r\n                                                    StrokeAlign
+      | INSIDE\r\n                                                    BlendMode |
+      PASS_THROUGH\r\n                                                    Size |
+      (395.7, 327.6)\r\n                                                    \u2014\u2014\u2014\u2014Fills\r\n                                                       
+      IsVisible | True\r\n                                                       
+      Type | SOLID\r\n                                                        Color
+      | RGBA(0.408, 0.749, 0.592, 1.000)\r\n                                                       
+      BlendMode | NORMAL\r\n                                                    \u2014\u2014\u2014\u2014ArcData\r\n                                                       
+      StartingAngle | 0\r\n                                                       
+      EndingAngle | 0\r\n                                                       
+      InnerRadius | 0\r\n                                                    \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group\r\n                                                       
+      isVisible | True\r\n                                                       
+      Type | GROUP\r\n                                                        GetFigmaRotationAngle
+      | 0\r\n                                                        StrokeWeight
+      | 1\r\n                                                        StrokeAlign
+      | INSIDE\r\n                                                        BlendMode
+      | PASS_THROUGH\r\n                                                        ClipsContent
+      | False\r\n                                                        Size | (369.2,
+      336.1)\r\n                                                        isVisible
+      | True\r\n                                                        Type | GROUP\r\n                                                       
+      GetFigmaRotationAngle | 0\r\n                                                       
+      StrokeWeight | 1\r\n                                                       
+      StrokeAlign | INSIDE\r\n                                                       
+      BlendMode | PASS_THROUGH\r\n                                                       
+      ClipsContent | False\r\n                                                       
+      Size | (369.2, 336.1)\r\n                                                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                           
+      StartingAngle | 0\r\n                                                           
+      EndingAngle | 0\r\n                                                           
+      InnerRadius | 0\r\n                                                    \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Group\r\n                                                       
+      isVisible | True\r\n                                                       
+      Type | GROUP\r\n                                                        GetFigmaRotationAngle
+      | 0\r\n                                                        StrokeWeight
+      | 1\r\n                                                        StrokeAlign
+      | INSIDE\r\n                                                        BlendMode
+      | PASS_THROUGH\r\n                                                        ClipsContent
+      | False\r\n                                                        Size | (369.2,
+      333.1)\r\n                                                        isVisible
+      | True\r\n                                                        Type | GROUP\r\n                                                       
+      GetFigmaRotationAngle | 0\r\n                                                       
+      StrokeWeight | 1\r\n                                                       
+      StrokeAlign | INSIDE\r\n                                                       
+      BlendMode | PASS_THROUGH\r\n                                                       
+      ClipsContent | False\r\n                                                       
+      Size | (369.2, 333.1)\r\n                                                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                           
+      StartingAngle | 0\r\n                                                           
+      EndingAngle | 0\r\n                                                           
+      InnerRadius | 0\r\n                                                    \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Group/Vector\r\n                                                       
+      isVisible | True\r\n                                                       
+      Type | VECTOR\r\n                                                        GetFigmaRotationAngle
+      | 0\r\n                                                        FillGeometry
+      | 524884275\r\n                                                        StrokeWeight
+      | 1\r\n                                                        StrokeAlign
+      | INSIDE\r\n                                                        BlendMode
+      | PASS_THROUGH\r\n                                                        Size
+      | (122.9, 66.6)\r\n                                                       
+      isVisible | True\r\n                                                       
+      Type | VECTOR\r\n                                                        GetFigmaRotationAngle
+      | 0\r\n                                                        FillGeometry
+      | 524884275\r\n                                                        StrokeWeight
+      | 1\r\n                                                        StrokeAlign
+      | INSIDE\r\n                                                        BlendMode
+      | PASS_THROUGH\r\n                                                        Size
+      | (122.9, 66.6)\r\n                                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                                           
+      IsVisible | True\r\n                                                           
+      Type | SOLID\r\n                                                           
+      Color | RGBA(0.867, 0.686, 0.537, 1.000)\r\n                                                           
+      BlendMode | NORMAL\r\n                                                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                           
+      StartingAngle | 0\r\n                                                           
+      EndingAngle | 0\r\n                                                           
+      InnerRadius | 0\r\n                                                       
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Group/Vector\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | VECTOR\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      FillGeometry | 1602201942\r\n                                                           
+      StrokeWeight | 1\r\n                                                           
+      StrokeAlign | INSIDE\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      Size | (120.6, 30.4)\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | VECTOR\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      FillGeometry | 1602201942\r\n                                                           
+      StrokeWeight | 1\r\n                                                           
+      StrokeAlign | INSIDE\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      Size | (120.6, 30.4)\r\n                                                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                                               
+      IsVisible | True\r\n                                                               
+      Type | SOLID\r\n                                                               
+      Color | RGBA(0.867, 0.686, 0.537, 1.000)\r\n                                                               
+      BlendMode | NORMAL\r\n                                                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                               
+      StartingAngle | 0\r\n                                                               
+      EndingAngle | 0\r\n                                                               
+      InnerRadius | 0\r\n                                                       
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Vector\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | VECTOR\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      FillGeometry | -215695707\r\n                                                           
+      StrokeWeight | 1\r\n                                                           
+      StrokeAlign | INSIDE\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      Size | (24.1, 59.5)\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | VECTOR\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      FillGeometry | -215695707\r\n                                                           
+      StrokeWeight | 1\r\n                                                           
+      StrokeAlign | INSIDE\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      Size | (24.1, 59.5)\r\n                                                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                                               
+      IsVisible | True\r\n                                                               
+      Type | SOLID\r\n                                                               
+      Color | RGBA(0.867, 0.686, 0.537, 1.000)\r\n                                                               
+      BlendMode | NORMAL\r\n                                                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                               
+      StartingAngle | 0\r\n                                                               
+      EndingAngle | 0\r\n                                                               
+      InnerRadius | 0\r\n                                                       
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | GROUP\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      StrokeWeight | 1\r\n                                                           
+      StrokeAlign | INSIDE\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      ClipsContent | False\r\n                                                           
+      Size | (420.8, 154.6)\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | GROUP\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      StrokeWeight | 1\r\n                                                           
+      StrokeAlign | INSIDE\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      ClipsContent | False\r\n                                                           
+      Size | (420.8, 154.6)\r\n                                                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                               
+      StartingAngle | 0\r\n                                                               
+      EndingAngle | 0\r\n                                                               
+      InnerRadius | 0\r\n                                                       
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Vector\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | VECTOR\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      FillGeometry | -816441019\r\n                                                           
+      StrokeWeight | 1\r\n                                                           
+      StrokeAlign | INSIDE\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      Size | (57.4, 96.5)\r\n                                                           
+      isVisible | True\r\n                                                           
+      Type | VECTOR\r\n                                                           
+      GetFigmaRotationAngle | 0\r\n                                                           
+      FillGeometry | -816441019\r\n                                                           
+      StrokeWeight | 1\r\n                                                           
+      StrokeAlign | INSIDE\r\n                                                           
+      BlendMode | PASS_THROUGH\r\n                                                           
+      Size | (57.4, 96.5)\r\n                                                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                                               
+      IsVisible | True\r\n                                                               
+      Type | SOLID\r\n                                                               
+      Color | RGBA(0.859, 0.506, 0.553, 1.000)\r\n                                                               
+      BlendMode | NORMAL\r\n                                                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                               
+      StartingAngle | 0\r\n                                                               
+      EndingAngle | 0\r\n                                                               
+      InnerRadius | 0\r\n                                                           
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Group/Vector\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | VECTOR\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      FillGeometry | -2100615934\r\n                                                               
+      StrokeWeight | 1\r\n                                                               
+      StrokeAlign | INSIDE\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      Size | (64.3, 90.8)\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | VECTOR\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      FillGeometry | -2100615934\r\n                                                               
+      StrokeWeight | 1\r\n                                                               
+      StrokeAlign | INSIDE\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      Size | (64.3, 90.8)\r\n                                                               
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                   
+      IsVisible | True\r\n                                                                   
+      Type | SOLID\r\n                                                                   
+      Color | RGBA(0.867, 0.686, 0.537, 1.000)\r\n                                                                   
+      BlendMode | NORMAL\r\n                                                               
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                   
+      StartingAngle | 0\r\n                                                                   
+      EndingAngle | 0\r\n                                                                   
+      InnerRadius | 0\r\n                                                           
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Vector\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | VECTOR\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      FillGeometry | 1380552472\r\n                                                               
+      StrokeWeight | 1\r\n                                                               
+      StrokeAlign | INSIDE\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      Size | (113.4, 90.3)\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | VECTOR\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      FillGeometry | 1380552472\r\n                                                               
+      StrokeWeight | 1\r\n                                                               
+      StrokeAlign | INSIDE\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      Size | (113.4, 90.3)\r\n                                                               
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                   
+      IsVisible | True\r\n                                                                   
+      Type | SOLID\r\n                                                                   
+      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                                                                   
+      BlendMode | NORMAL\r\n                                                               
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                   
+      StartingAngle | 0\r\n                                                                   
+      EndingAngle | 0\r\n                                                                   
+      InnerRadius | 0\r\n                                                           
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | GROUP\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      StrokeWeight | 1\r\n                                                               
+      StrokeAlign | INSIDE\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      ClipsContent | False\r\n                                                               
+      Size | (792.4, 852.9)\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | GROUP\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      StrokeWeight | 1\r\n                                                               
+      StrokeAlign | INSIDE\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      ClipsContent | False\r\n                                                               
+      Size | (792.4, 852.9)\r\n                                                               
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                   
+      StartingAngle | 0\r\n                                                                   
+      EndingAngle | 0\r\n                                                                   
+      InnerRadius | 0\r\n                                                           
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Vector\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | VECTOR\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      FillGeometry | 232306125\r\n                                                               
+      StrokeWeight | 1\r\n                                                               
+      StrokeAlign | INSIDE\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      Size | (682.3, 196.5)\r\n                                                               
+      isVisible | True\r\n                                                               
+      Type | VECTOR\r\n                                                               
+      GetFigmaRotationAngle | 0\r\n                                                               
+      FillGeometry | 232306125\r\n                                                               
+      StrokeWeight | 1\r\n                                                               
+      StrokeAlign | INSIDE\r\n                                                               
+      BlendMode | PASS_THROUGH\r\n                                                               
+      Size | (682.3, 196.5)\r\n                                                               
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                   
+      IsVisible | True\r\n                                                                   
+      Type | SOLID\r\n                                                                   
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                   
+      BlendMode | NORMAL\r\n                                                               
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                   
+      StartingAngle | 0\r\n                                                                   
+      EndingAngle | 0\r\n                                                                   
+      InnerRadius | 0\r\n                                                               
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Vector\r\n                                                                   
+      isVisible | True\r\n                                                                   
+      Type | VECTOR\r\n                                                                   
+      GetFigmaRotationAngle | 0\r\n                                                                   
+      FillGeometry | 1380552472\r\n                                                                   
+      StrokeWeight | 1\r\n                                                                   
+      StrokeAlign | INSIDE\r\n                                                                   
+      BlendMode | PASS_THROUGH\r\n                                                                   
+      Size | (113.4, 90.3)\r\n                                                                   
+      isVisible | True\r\n                                                                   
+      Type | VECTOR\r\n                                                                   
+      GetFigmaRotationAngle | 0\r\n                                                                   
+      FillGeometry | 1380552472\r\n                                                                   
+      StrokeWeight | 1\r\n                                                                   
+      StrokeAlign | INSIDE\r\n                                                                   
+      BlendMode | PASS_THROUGH\r\n                                                                   
+      Size | (113.4, 90.3)\r\n                                                                   
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                       
+      IsVisible | True\r\n                                                                       
+      Type | SOLID\r\n                                                                       
+      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                                                                       
+      BlendMode | NORMAL\r\n                                                                   
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                       
+      StartingAngle | 0\r\n                                                                       
+      EndingAngle | 0\r\n                                                                       
+      InnerRadius | 0\r\n                                                               
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Vector\r\n                                                                   
+      isVisible | True\r\n                                                                   
+      Type | VECTOR\r\n                                                                   
+      GetFigmaRotationAngle | 0\r\n                                                                   
+      FillGeometry | 1574108339\r\n                                                                   
+      StrokeWeight | 1\r\n                                                                   
+      StrokeAlign | INSIDE\r\n                                                                   
+      BlendMode | PASS_THROUGH\r\n                                                                   
+      Size | (560.5, 521.1)\r\n                                                                   
+      isVisible | True\r\n                                                                   
+      Type | VECTOR\r\n                                                                   
+      GetFigmaRotationAngle | 0\r\n                                                                   
+      FillGeometry | 1574108339\r\n                                                                   
+      StrokeWeight | 1\r\n                                                                   
+      StrokeAlign | INSIDE\r\n                                                                   
+      BlendMode | PASS_THROUGH\r\n                                                                   
+      Size | (560.5, 521.1)\r\n                                                                   
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                       
+      IsVisible | True\r\n                                                                       
+      Type | SOLID\r\n                                                                       
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                       
+      BlendMode | NORMAL\r\n                                                                   
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                       
+      StartingAngle | 0\r\n                                                                       
+      EndingAngle | 0\r\n                                                                       
+      InnerRadius | 0\r\n                                                                   
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Vector\r\n                                                                       
+      isVisible | True\r\n                                                                       
+      Type | VECTOR\r\n                                                                       
+      GetFigmaRotationAngle | 0\r\n                                                                       
+      FillGeometry | 510650654\r\n                                                                       
+      StrokeWeight | 1\r\n                                                                       
+      StrokeAlign | INSIDE\r\n                                                                       
+      BlendMode | PASS_THROUGH\r\n                                                                       
+      Size | (24.8, 44.9)\r\n                                                                       
+      isVisible | True\r\n                                                                       
+      Type | VECTOR\r\n                                                                       
+      GetFigmaRotationAngle | 0\r\n                                                                       
+      FillGeometry | 510650654\r\n                                                                       
+      StrokeWeight | 1\r\n                                                                       
+      StrokeAlign | INSIDE\r\n                                                                       
+      BlendMode | PASS_THROUGH\r\n                                                                       
+      Size | (24.8, 44.9)\r\n                                                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                           
+      IsVisible | True\r\n                                                                           
+      Type | SOLID\r\n                                                                           
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                           
+      BlendMode | NORMAL\r\n                                                                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                           
+      StartingAngle | 0\r\n                                                                           
+      EndingAngle | 0\r\n                                                                           
+      InnerRadius | 0\r\n                                                                   
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Vector\r\n                                                                       
+      isVisible | True\r\n                                                                       
+      Type | VECTOR\r\n                                                                       
+      GetFigmaRotationAngle | 0\r\n                                                                       
+      FillGeometry | 2005501610\r\n                                                                       
+      StrokeWeight | 1\r\n                                                                       
+      StrokeAlign | INSIDE\r\n                                                                       
+      BlendMode | PASS_THROUGH\r\n                                                                       
+      Size | (523.1, 404.1)\r\n                                                                       
+      isVisible | True\r\n                                                                       
+      Type | VECTOR\r\n                                                                       
+      GetFigmaRotationAngle | 0\r\n                                                                       
+      FillGeometry | 2005501610\r\n                                                                       
+      StrokeWeight | 1\r\n                                                                       
+      StrokeAlign | INSIDE\r\n                                                                       
+      BlendMode | PASS_THROUGH\r\n                                                                       
+      Size | (523.1, 404.1)\r\n                                                                       
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                           
+      IsVisible | True\r\n                                                                           
+      Type | SOLID\r\n                                                                           
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                           
+      BlendMode | NORMAL\r\n                                                                       
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                           
+      StartingAngle | 0\r\n                                                                           
+      EndingAngle | 0\r\n                                                                           
+      InnerRadius | 0\r\n                                                                       
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Vector\r\n                                                                           
+      isVisible | True\r\n                                                                           
+      Type | VECTOR\r\n                                                                           
+      GetFigmaRotationAngle | 0\r\n                                                                           
+      FillGeometry | 1903787486\r\n                                                                           
+      StrokeWeight | 1\r\n                                                                           
+      StrokeAlign | INSIDE\r\n                                                                           
+      BlendMode | PASS_THROUGH\r\n                                                                           
+      Size | (24.8, 44.9)\r\n                                                                           
+      isVisible | True\r\n                                                                           
+      Type | VECTOR\r\n                                                                           
+      GetFigmaRotationAngle | 0\r\n                                                                           
+      FillGeometry | 1903787486\r\n                                                                           
+      StrokeWeight | 1\r\n                                                                           
+      StrokeAlign | INSIDE\r\n                                                                           
+      BlendMode | PASS_THROUGH\r\n                                                                           
+      Size | (24.8, 44.9)\r\n                                                                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                               
+      IsVisible | True\r\n                                                                               
+      Type | SOLID\r\n                                                                               
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                               
+      BlendMode | NORMAL\r\n                                                                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                               
+      StartingAngle | 0\r\n                                                                               
+      EndingAngle | 0\r\n                                                                               
+      InnerRadius | 0\r\n                                                                       
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Vector\r\n                                                                           
+      isVisible | True\r\n                                                                           
+      Type | VECTOR\r\n                                                                           
+      GetFigmaRotationAngle | 0\r\n                                                                           
+      FillGeometry | 1084223374\r\n                                                                           
+      StrokeWeight | 1\r\n                                                                           
+      StrokeAlign | INSIDE\r\n                                                                           
+      BlendMode | PASS_THROUGH\r\n                                                                           
+      Size | (439.9, 394.2)\r\n                                                                           
+      isVisible | True\r\n                                                                           
+      Type | VECTOR\r\n                                                                           
+      GetFigmaRotationAngle | 0\r\n                                                                           
+      FillGeometry | 1084223374\r\n                                                                           
+      StrokeWeight | 1\r\n                                                                           
+      StrokeAlign | INSIDE\r\n                                                                           
+      BlendMode | PASS_THROUGH\r\n                                                                           
+      Size | (439.9, 394.2)\r\n                                                                           
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                               
+      IsVisible | True\r\n                                                                               
+      Type | SOLID\r\n                                                                               
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                               
+      BlendMode | NORMAL\r\n                                                                           
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                               
+      StartingAngle | 0\r\n                                                                               
+      EndingAngle | 0\r\n                                                                               
+      InnerRadius | 0\r\n                                                                           
+      \u2014\u2014\u2014\u2014Snake/Snake_Sample/Group/Vector\r\n                                                                               
+      isVisible | True\r\n                                                                               
+      Type | VECTOR\r\n                                                                               
+      GetFigmaRotationAngle | 0\r\n                                                                               
+      FillGeometry | -972053095\r\n                                                                               
+      StrokeWeight | 1\r\n                                                                               
+      StrokeAlign | INSIDE\r\n                                                                               
+      BlendMode | PASS_THROUGH\r\n                                                                               
+      Size | (115.1, 134.5)\r\n                                                                               
+      isVisible | True\r\n                                                                               
+      Type | VECTOR\r\n                                                                               
+      GetFigmaRotationAngle | 0\r\n                                                                               
+      FillGeometry | -972053095\r\n                                                                               
+      StrokeWeight | 1\r\n                                                                               
+      StrokeAlign | INSIDE\r\n                                                                               
+      BlendMode | PASS_THROUGH\r\n                                                                               
+      Size | (115.1, 134.5)\r\n                                                                               
+      \u2014\u2014\u2014\u2014Fills\r\n                                                                                   
+      IsVisible | True\r\n                                                                                   
+      Type | SOLID\r\n                                                                                   
+      Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n                                                                                   
+      BlendMode | NORMAL\r\n                                                                               
+      \u2014\u2014\u2014\u2014ArcData\r\n                                                                                   
+      StartingAngle | 0\r\n                                                                                   
+      EndingAngle | 0\r\n                                                                                   
+      InnerRadius | 0\r\n"
+    parentIndex: 259
+    hierarchy: Snake/Snake_Sample
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &5530716812621877994
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716812621877999}
+  m_CullTransparentMesh: 1
+--- !u!114 &5530716812621877993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716812621877999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: c70bfa4e81d610e4fbaaf0ade7856f2c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &5530716812692473238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5530716812692473239}
+  - component: {fileID: 5530716812692473234}
+  - component: {fileID: 5530716812692473233}
+  - component: {fileID: 5530716812692473232}
+  m_Layer: 5
+  m_Name: Snake_Dot_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5530716812692473239
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716812692473238}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5530716811200373199}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 279.80005, y: -107.85547}
+  m_SizeDelta: {x: -1714, y: -1663}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5530716812692473234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716812692473238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 249:312
+    formattedName: Snake_Dot_02
+    spriteName: Snake_Dot_02 0.5x 995103344.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 5530716812692473238}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+    spriteSize: {x: 272, y: 237}
+    size: {x: 544, y: 474}
+    position: {x: -1861.2, y: -21345.355}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 995103344
+    hashDataTree: "\u2014\u2014\u2014\u2014Snake/Snake_Dot_02\r\n    isVisible |
+      True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | 2136223809\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (543.8, 473.9)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 2136223809\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (543.8, 473.9)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.847, 0.847, 0.847,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 259
+    hierarchy: Snake/Snake_Dot_02
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &5530716812692473233
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716812692473238}
+  m_CullTransparentMesh: 1
+--- !u!114 &5530716812692473232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716812692473238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.84705883, g: 0.84705883, b: 0.84705883, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 7b4c0624bdabf9d488d0398c0a149ce8, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &5530716812761984851
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5530716812761984860}
+  - component: {fileID: 5530716812761984863}
+  - component: {fileID: 5530716812761984862}
+  - component: {fileID: 5530716812761984861}
+  m_Layer: 5
+  m_Name: Snake_Stroke_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5530716812761984860
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716812761984851}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5530716811200373199}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 503.78027, y: 297.60938}
+  m_SizeDelta: {x: -1734, y: -1731}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5530716812761984863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716812761984851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 194:2252
+    formattedName: Snake_Stroke_01
+    spriteName: Snake_Stroke_01 0.5x 1285520571.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 5530716812761984851}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 0, g: 0, b: 0, a: 1}
+    spriteSize: {x: 262, y: 203}
+    size: {x: 524, y: 406}
+    position: {x: -1627.2197, y: -20973.89}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: 1285520571
+    hashDataTree: "\u2014\u2014\u2014\u2014Snake/Snake_Stroke_01\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | 951398221\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (523.1, 404.1)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | 951398221\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (523.1, 404.1)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.000, 0.000, 0.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 259
+    hierarchy: Snake/Snake_Stroke_01
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &5530716812761984862
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716812761984851}
+  m_CullTransparentMesh: 1
+--- !u!114 &5530716812761984861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716812761984851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: b2cd5098b3c2f1c4283444c839848c10, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &5530716812886343034
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5530716812886343035}
+  - component: {fileID: 5530716812886343014}
+  - component: {fileID: 5530716812886343013}
+  - component: {fileID: 5530716812886343012}
+  m_Layer: 5
+  m_Name: Snake_Shape_01_#7BD0A7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5530716812886343035
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716812886343034}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5530716811200373199}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1526.0002, y: -984.8906}
+  m_SizeDelta: {x: 764, y: 804}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5530716812886343014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716812886343034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    id: 249:309
+    formattedName: Snake_Shape_01_#7BD0A7
+    spriteName: Snake_Shape_01_#7BD0A7 0.5x -940163072.png
+    tags: c9000000
+    childIndexes: 
+    fcuInstance: {fileID: 0}
+    gameObject: {fileID: 5530716812886343034}
+    transformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    singleColor: {r: 1, g: 1, b: 1, a: 1}
+    spriteSize: {x: 382, y: 402}
+    size: {x: 764, y: 804}
+    position: {x: -1853.9998, y: -20988.89}
+    fcuImageType: 1
+    buttonComponent: 0
+    hash: -940163072
+    hashDataTree: "\u2014\u2014\u2014\u2014Snake/Snake_Shape_01_#7BD0A7\r\n    isVisible
+      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
+      | -2039917921\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
+      | PASS_THROUGH\r\n    Size | (762.4, 803.9)\r\n    isVisible | True\r\n   
+      Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -2039917921\r\n   
+      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
+      Size | (762.4, 803.9)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
+      | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000,
+      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
+      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
+    parentIndex: 259
+    hierarchy: Snake/Snake_Shape_01_#7BD0A7
+    spritePath: 
+    link: 
+    humanizedTextPrefabName: 
+    tagReason: SingleImage
+    downloadAttempsCount: 1
+    isDownloadable: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmptyMask: 0
+    isEmpty: 0
+    needDownload: 1
+    needGenerate: 0
+    forceImage: 1
+    forceContainer: 0
+    isInsideDownloadable: 0
+    insideForceImage: 0
+    hasFontAsset: 0
+--- !u!222 &5530716812886343013
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716812886343034}
+  m_CullTransparentMesh: 1
+--- !u!114 &5530716812886343012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530716812886343034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 5344615e5bbf43a449085207464d84a0, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
