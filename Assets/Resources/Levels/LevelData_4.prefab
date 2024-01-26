@@ -2098,7 +2098,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4946634210605304279}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.002, y: 0.82, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4946634210186781592}
@@ -2135,6 +2135,7 @@ MonoBehaviour:
   - {fileID: 7727608412624417633}
   layerDot: {fileID: 4946634210186781593}
   layerLine: {fileID: 4946634211358880381}
+  parentColliderCheck: {fileID: 0}
 --- !u!1 &4946634210606986990
 GameObject:
   m_ObjectHideFlags: 0
@@ -2507,6 +2508,7 @@ MonoBehaviour:
   - {fileID: 4946634211121180640}
   layerDot: {fileID: 4946634211425790269}
   layerLine: {fileID: 4946634211750213867}
+  parentColliderCheck: {fileID: 0}
 --- !u!1 &4946634210836636661
 GameObject:
   m_ObjectHideFlags: 0
@@ -3617,6 +3619,11 @@ MonoBehaviour:
   color_1: {r: 0.24705884, g: 0.31764707, b: 0.70980394, a: 1}
   color_2: {r: 0.020272732, g: 1, b: 0, a: 1}
   color_3: {r: 1, g: 0.89338535, b: 0, a: 1}
+  layerPlus: {fileID: 0}
+  isMoveAfterChooseColor: 0
+  postAfterChooseColor: {fileID: 0}
+  isZoomAfterChooseColor: 0
+  zoomValueAfterChooseColor: 0
 --- !u!1 &4946634211358880379
 GameObject:
   m_ObjectHideFlags: 0
@@ -5995,6 +6002,7 @@ MonoBehaviour:
   - {fileID: 7727608413060787137}
   layerDot: {fileID: 4946634211835207321}
   layerLine: {fileID: 4946634210554160238}
+  parentColliderCheck: {fileID: 0}
 --- !u!1 &7727608412132649119
 GameObject:
   m_ObjectHideFlags: 0
@@ -6270,6 +6278,7 @@ MonoBehaviour:
   - {fileID: 7727608412711247117}
   layerDot: {fileID: 7727608412272801938}
   layerLine: {fileID: 7727608414116736337}
+  parentColliderCheck: {fileID: 0}
 --- !u!1 &7727608412205670966
 GameObject:
   m_ObjectHideFlags: 0
@@ -6342,6 +6351,11 @@ MonoBehaviour:
   color_1: {r: 0.24705884, g: 0.31764707, b: 0.70980394, a: 1}
   color_2: {r: 0.020272732, g: 1, b: 0, a: 1}
   color_3: {r: 0.15686275, g: 0.20784315, b: 0.5764706, a: 1}
+  layerPlus: {fileID: 0}
+  isMoveAfterChooseColor: 0
+  postAfterChooseColor: {fileID: 0}
+  isZoomAfterChooseColor: 0
+  zoomValueAfterChooseColor: 0
 --- !u!1 &7727608412211811058
 GameObject:
   m_ObjectHideFlags: 0
@@ -7174,7 +7188,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 6043514d4aec8774c90d33a1ae371594, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7966,6 +7980,11 @@ MonoBehaviour:
   color_1: {r: 0.9528302, g: 0.4719206, b: 0.4719206, a: 1}
   color_2: {r: 0, g: 0.5411765, b: 0, a: 1}
   color_3: {r: 1, g: 0.89338535, b: 0, a: 1}
+  layerPlus: {fileID: 0}
+  isMoveAfterChooseColor: 0
+  postAfterChooseColor: {fileID: 0}
+  isZoomAfterChooseColor: 0
+  zoomValueAfterChooseColor: 0
 --- !u!1 &7727608412614550674
 GameObject:
   m_ObjectHideFlags: 0
@@ -8038,6 +8057,11 @@ MonoBehaviour:
   color_1: {r: 0.24705884, g: 0.31764707, b: 0.70980394, a: 1}
   color_2: {r: 0.020272732, g: 1, b: 0, a: 1}
   color_3: {r: 1, g: 0.89338535, b: 0, a: 1}
+  layerPlus: {fileID: 0}
+  isMoveAfterChooseColor: 0
+  postAfterChooseColor: {fileID: 0}
+  isZoomAfterChooseColor: 0
+  zoomValueAfterChooseColor: 0
 --- !u!1 &7727608412624417634
 GameObject:
   m_ObjectHideFlags: 0
@@ -12385,6 +12409,11 @@ MonoBehaviour:
   color_1: {r: 0.007843138, g: 0.6627451, b: 0.9568628, a: 1}
   color_2: {r: 0.020272732, g: 1, b: 0, a: 1}
   color_3: {r: 1, g: 0.89338535, b: 0, a: 1}
+  layerPlus: {fileID: 0}
+  isMoveAfterChooseColor: 0
+  postAfterChooseColor: {fileID: 0}
+  isZoomAfterChooseColor: 0
+  zoomValueAfterChooseColor: 0
 --- !u!1 &7727608413273882801
 GameObject:
   m_ObjectHideFlags: 0
@@ -13614,6 +13643,7 @@ MonoBehaviour:
   - {fileID: 7727608413069506338}
   layerDot: {fileID: 7727608412412692820}
   layerLine: {fileID: 7727608413549179401}
+  parentColliderCheck: {fileID: 0}
 --- !u!1 &7727608413464348202
 GameObject:
   m_ObjectHideFlags: 0
@@ -14984,6 +15014,11 @@ MonoBehaviour:
   color_1: {r: 0.9528302, g: 0.4719206, b: 0.4719206, a: 1}
   color_2: {r: 0.6431373, g: 0.7686275, b: 0, a: 1}
   color_3: {r: 1, g: 0.89338535, b: 0, a: 1}
+  layerPlus: {fileID: 0}
+  isMoveAfterChooseColor: 0
+  postAfterChooseColor: {fileID: 0}
+  isZoomAfterChooseColor: 0
+  zoomValueAfterChooseColor: 0
 --- !u!1 &7727608413725275345
 GameObject:
   m_ObjectHideFlags: 0
@@ -15409,6 +15444,7 @@ MonoBehaviour:
   - {fileID: 7727608413577095667}
   layerDot: {fileID: 7727608412921216600}
   layerLine: {fileID: 7727608413830404957}
+  parentColliderCheck: {fileID: 0}
 --- !u!1 &7727608413812991172
 GameObject:
   m_ObjectHideFlags: 0

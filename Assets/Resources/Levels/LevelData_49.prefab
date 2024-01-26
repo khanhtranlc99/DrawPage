@@ -2107,7 +2107,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 427237292887806784}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6481108421020488176}
@@ -2170,7 +2170,7 @@ MonoBehaviour:
   color_1: {r: 1, g: 0.92156863, b: 0.6, a: 1}
   color_2: {r: 1, g: 0, b: 0, a: 1}
   color_3: {r: 0.9622642, g: 0.51290494, b: 0.88648975, a: 1}
-  layerPlus: {fileID: 0}
+  layerPlus: {fileID: 2501628472031739270}
   isMoveAfterChooseColor: 0
   postAfterChooseColor: {fileID: 0}
   isZoomAfterChooseColor: 0
@@ -34441,9 +34441,9 @@ MonoBehaviour:
   isComplete: 0
   isMove: 1
   postMove: {fileID: 2392075342879316809}
-  isZoom: 0
-  zoomValue: 0
-  countTarget: 3
+  isZoom: 1
+  zoomValue: 3
+  countTarget: 0
   lsTarget:
   - {fileID: 1541725901298033691}
   - {fileID: 7731119041325368896}

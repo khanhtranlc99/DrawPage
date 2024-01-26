@@ -17623,7 +17623,7 @@ MonoBehaviour:
   color_1: {r: 0.83137256, g: 0.41960785, b: 0.36078432, a: 1}
   color_2: {r: 1, g: 0, b: 0, a: 1}
   color_3: {r: 0, g: 1, b: 0.00427413, a: 1}
-  layerPlus: {fileID: 0}
+  layerPlus: {fileID: 5355605559231867781}
   isMoveAfterChooseColor: 0
   postAfterChooseColor: {fileID: 0}
   isZoomAfterChooseColor: 0

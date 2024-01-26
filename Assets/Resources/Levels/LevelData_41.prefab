@@ -4405,7 +4405,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 656954892452033023}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8702996224234199924}
@@ -30856,7 +30856,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5345909984266861576}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6534936098793170097}
@@ -30919,7 +30919,7 @@ MonoBehaviour:
   color_1: {r: 1, g: 0.48235294, b: 0.54509807, a: 1}
   color_2: {r: 0, g: 1, b: 0.00427413, a: 1}
   color_3: {r: 0.5149195, g: 1, b: 0, a: 1}
-  layerPlus: {fileID: 0}
+  layerPlus: {fileID: 2735685993360080641}
   isMoveAfterChooseColor: 0
   postAfterChooseColor: {fileID: 0}
   isZoomAfterChooseColor: 0
@@ -33191,7 +33191,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5628490819020279565}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.6322851, y: 1.21, z: -1}
+  m_LocalPosition: {x: -0.6322851, y: 1.21, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5933287888519035190}
@@ -35130,7 +35130,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5811678179098884710}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7864572879676496205}
